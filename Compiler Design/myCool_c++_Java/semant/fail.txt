@@ -1,0 +1,31 @@
+    -1 (anattributenamedself)    An attribute named self
+    -1 (attroverride)    Attempt to override parent's attribute
+    -1 (badargs1)    Non-conforming parameter type in dispatch
+    -1 (baddispatch)     Method only in child class, attempted dispatch from parent class
+    -1 (badequalitytest)     Int compared to String
+    -1 (badequalitytest2)    Int compared to Bool
+    -1 (badstaticdispatch)   Bad static dispatch
+    -1 (badwhilebody)    While body has error
+    -1 (basic)   Simple program with a sequence of expressions
+    -1 (caseidenticalbranch)     Duplicate branch in a case expr
+    -1 (cells)   Complex program
+    -1 (classes)     Various classes with inheritance and overriding (legal)
+    -1 (dispatch)    Simple dispatches
+    -1 (dupformals)  Duplicate name in formal param list
+    -1 (hairyscary)  Messy legal Cool program
+    -1 (io)  IO methods
+    -1 (letself)     Let with self in binding (illegal)
+    -1 (letselftype)     Let with SELF_TYPE variables (legal)
+    -1 (list)    List program
+    -1 (lubtest)     LUB test using if statements
+    -1 (methodnameclash)     Two children define a function differently (allowed)
+    -1 (newselftype)     Using a new SELF_TYPE expression (legal)
+    -1 (overridingmethod3)   Method override example with SELF_TYPE
+    -1 (overridingmethod4)   Illegal method override - different param types
+    -1 (signaturechange)     Method override with different number of params
+    -1 (self-assignment)     Assignment to self (illegal)
+    -1 (selfinformalparameter)   Self as name of a formal parameter (illegal)
+    -1 (selftyperedeclared)  SELF_TYPE redeclared (used a class name)
+    -1 (simplecase)  A simple case expr
+    -1 (trickyatdispatch)    Tricky (legal) static dispatch
+

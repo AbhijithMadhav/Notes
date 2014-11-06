@@ -1,0 +1,2 @@
+#!/bin/sh
+java -classpath ../class/cs143/cool/lib:.:/usr/java/lib/rt.jar:stdlib.jar Semant $*

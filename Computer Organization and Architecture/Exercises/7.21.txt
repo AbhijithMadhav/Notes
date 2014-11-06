@@ -1,0 +1,17 @@
+l1 data cache - 32KB
+l1 instruction cache - 32KB
+block size - 4
+
+associativity = 32KB/4 = 8KB i.e direct mapped
+miss rate = 0.0508 - i, 0.0394 - d
+
+associativity = 1 i.e fully associative
+miss rate = 0.0813 - i, 00443 - d
+
+assiocaotivity = 4
+miss rate = 0.0540i, 0.0407d
+
+associativity = 8
+miss rate = 0.0518 - i, 0.0403 - d
+
+

@@ -1,0 +1,20 @@
+Grading .....
+make: Entering directory `/home/kempa/share/cgen'
+make: Nothing to be done for `source'.
+make: Leaving directory `/home/kempa/share/cgen'
+make: Entering directory `/home/kempa/share/cgen'
+make: `cgen' is up to date.
+make: Leaving directory `/home/kempa/share/cgen'
+=====================================================================
+submission: ..
+
+[GC Test Case: lam-gc.cl]
+Timed out waiting for assignment.  infinite loop?
+	-5 (lam-gc)	 Lambda example with garbage collection [submission looped infinitely on this input]
+[GC Test Case: simple-gc.cl]
+=====================================================================
+You got a score of 58 out of 63.
+
+Submit code: 
+PA4-58:ac6dfe6fa329635cdae12cc1e7491b0f
+

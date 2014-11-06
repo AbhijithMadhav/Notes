@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project Distance Vector Routing ****
+
+make all 
+Building file: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"node0.d" -MT"node0.d" -o"node0.o" "/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node0.c"
+/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node0.c:8:3: warning: useless storage class specifier in empty declaration
+Finished building: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node0.c
+/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node1.c:8:3: warning: useless storage class specifier in empty declaration
+ 
+Building file: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node1.c
+/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node2.c:8:3: warning: useless storage class specifier in empty declaration
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"node1.d" -MT"node1.d" -o"node1.o" "/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node1.c"
+Finished building: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node1.c
+/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node3.c:8:3: warning: useless storage class specifier in empty declaration
+ 
+Building file: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"node2.d" -MT"node2.d" -o"node2.o" "/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node2.c"
+Finished building: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node2.c
+ 
+Building file: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"node3.d" -MT"node3.d" -o"node3.o" "/home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node3.c"
+Finished building: /home/kempa/Academic/Computer Networks/Computer Networking, A Top Down Approach Featuring The Internet -  Preliminary Edition - Kurose, Ross/Exercises/Distance Vector Routing/node3.c
+ 
+Building target: DistanceVectorRouting
+Invoking: GCC C Linker
+gcc  -o"DistanceVectorRouting"  ./node0.o ./node1.o ./node2.o ./node3.o ./prog3.o   
+Finished building target: DistanceVectorRouting
+ 

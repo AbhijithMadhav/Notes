@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ProducerConsumer2/producerConsumer.c&apos; to &apos;producerConsumer2.c&apos;" description="Rename resource &apos;producerConsumer.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="producerConsumer.c" name="producerConsumer2.c" stamp="1318337657054" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Bounded Buffer using monitors/producerConsumer2.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;producerConsumer2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="producerConsumer2.c" name="main.c" stamp="1318341165143" updateReferences="true"/>
+</session>

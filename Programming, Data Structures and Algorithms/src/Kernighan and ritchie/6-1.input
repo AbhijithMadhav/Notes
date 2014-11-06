@@ -1,0 +1,9 @@
+int main()
+{
+return;
+printf("\n");
+int a_b, b;
+char* a = "char";
+int;
+return 0;
+}

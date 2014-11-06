@@ -1,0 +1,56 @@
+%META:TOPICINFO{author="AbhijithMadhav" date="1302853587" format="1.1" reprev="1.5" version="1.5"}%
+%META:TOPICPARENT{name="ProgrammingDataStructuresAndAlgorithms"}%
+---++ Iterative solution using stacks
+   * push operands into the stack
+   * When an operator is encountered, 
+      * pop the stack twice to get the two operands
+      * evaluate using the operator
+      * push the result into the stack
+*Illustration* <br /> Input string : 23+46+*
+<verbatim>
+Current token scanned                   Stack
+------------------------------------------------------
+                2                         2
+                3                         2  3
+                +                         5
+                4                         5  4
+                6                         5  4  6
+                +                         5  10
+                *                         50
+</verbatim>
+
+---++ Recursive solution
+
+*Note about the structure of the postfix expression*
+<verbatim>
+EXP = token:1 token:2 ... token:m ... token:n
+    = S-EXP token:(m+1) ... token:(m+n)
+where S-EXP = token:1 token:2 ... token:m, the first subexpression of EXP
+and token:1, token:2, ..., token:m, ..., token:n are all operands or operators
+</verbatim>
+
+*Before the actual algorithm*
+   * Convert the postfix expression such that the first operand is not a sub-expression but a simple operand 
+      * Make '0' as the first operand of every user specified postfix expression
+      * Make '#' as the corresponding operator, where
+      * a '#' b = b
+      * Hence a postfix expression with a sub-expression as the first operand, say exp = "2 3 + 4 5 + *", becomes exp = "0 2 3 + 4 5 + * #"
+      * In general terms, 
+         * Evaluating EXP = Evaluating "0 EXP #"
+
+*Actual algorithm*
+
+*Evaluate S-EXP of EXP*
+   * operand-1 = token:1. This is the first operand of S-EXP
+   * Get operand2 and operator corresponding to operand-1 in the remaining expression, EXP = token:2 token:3 ... token:n. These are operand2 and operator of S-EXP
+   * result = operand1 'operator' operand2. This is the result of S-EXP and not that of EXP necessarily(though it may be if operand1 of EXP is a simple operand, i.e EXP = S-EXP)
+   * Replace S-EXP with 'result'. 
+      * EXP = result token:(m+1) ... token:n
+*Getting operand-2 and operator corresponding to operand-1 from EXP which will enable the calculation S-EXP*
+   * If the first two tokens of the expression are an operand and an operator respectively, we have the required (trivial or base case) 
+      * operand-2 = token:1 of EXP
+      * operator = token:2 of EXP
+   * Else, operand-2 is a subexpression which needs to be solved. So, 
+      * Evaluate first sub-expression EXP, S-EXP, and replace it in EXP in the place of the first subexpression <br /> EXP = S-EXP token:(m+1) ... token:(m+n) = result token:(m+1) ... token:(m+n) <br /> = S-EXP1 token:(r+1) ... token:(r+x) = EXP1
+      * Get operand2 and operator of EXP1
+-- Main.AbhijithMadhav - 2011-04-06

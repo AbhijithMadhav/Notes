@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Dining Philosophers using semaphores ****
+
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -std=c99 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘philosopher’:
+../main.c:22:7: warning: unused variable ‘p’
+Finished building: ../main.c
+ 
+Building target: Dining Philosophers using semaphores
+Invoking: GCC C Linker
+gcc  -o "Dining Philosophers using semaphores"  ./main.o   -lpthread
+Finished building target: Dining Philosophers using semaphores
+ 
+
+**** Build Finished ****

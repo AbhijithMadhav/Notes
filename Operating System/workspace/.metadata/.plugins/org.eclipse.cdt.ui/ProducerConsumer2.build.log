@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project ProducerConsumer2 ****
+
+make all 
+Building file: ../producerConsumer2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"producerConsumer2.d" -MT"producerConsumer2.d" -o "producerConsumer2.o" "../producerConsumer2.c"
+Finished building: ../producerConsumer2.c
+ 
+Building target: ProducerConsumer2
+Invoking: GCC C Linker
+gcc  -o "ProducerConsumer2"  ./producerConsumer2.o   -lpthread
+Finished building target: ProducerConsumer2
+ 
+
+**** Build Finished ****

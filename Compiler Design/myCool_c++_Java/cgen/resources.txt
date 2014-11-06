@@ -1,0 +1,1 @@
+MIPS preprocessor directives - file:///home/kempa/Academic/Computer%20Organization%20and%20Architecture/Computer%20Organization%20and%20Design,%203rd%20Edition%20-%20Patterson,%20Hennessy/Companion%20CD/Content/COD3e/CDSections/HP_AppA.pdf

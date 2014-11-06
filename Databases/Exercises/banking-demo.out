@@ -1,0 +1,403 @@
+
+SQL*Plus: Release 3.3.3.0.0 - Production on Tue Sep 15 21:27:13 1998
+
+Copyright (c) Oracle Corporation 1979, 1996.  All rights reserved.
+
+
+Connected to:
+Oracle7 Workgroup Server Release 7.3.3.0.0 - Production Release
+With the distributed option
+PL/SQL Release 2.3.3.0.0 - Production
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+All customer data.
+
+
+Jones		Main	     Harrison
+Smith		Main	     Rye
+Hayes		Main	     Harrison
+Curry		North	     Rye
+Lindsay 	Park	     Pittsfield
+Turner		Putnam	     Stamford
+Williams	Nassau	     Princeton
+Adams		Spring	     Pittsfield
+Johnson 	Alma	     Palo Alto
+Glenn		Sand Hill    Woodside
+Brooks		Senator      Brooklyn
+Green		Walnut	     Stamford
+Jackson 	University   Salt Lake
+Majeris 	First	     Rye
+McBride 	Safety	     Rye
+
+15 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+All branch data.
+
+
+Downtown	Brooklyn	   900000
+Redwood 	Palo Alto	  2100000
+Perryridge	Horseneck	  1700000
+Mianus		Horseneck	   400200
+Round Hill	Horseneck	  8000000
+Pownal		Bennington	   400000
+North Town	Rye		  3700000
+Brighton	Brooklyn	  7000000
+Central 	Rye		   400280
+
+9 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+All account data.
+
+
+A-101		Downtown	      500
+A-215		Mianus		      700
+A-102		Perryridge	      400
+A-305		Round Hill	      350
+A-201		Perryridge	      900
+A-222		Redwood 	      700
+A-217		Brighton	      750
+A-333		Central 	      850
+A-444		North Town	      625
+
+9 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+All depositor data.
+
+
+Johnson 	A-101
+Smith		A-215
+Hayes		A-102
+Hayes		A-101
+Turner		A-305
+Johnson 	A-201
+Jones		A-217
+Lindsay 	A-222
+Majeris 	A-333
+Smith		A-444
+
+10 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+All loan data.
+
+
+L-17		Downtown	     1000
+L-23		Redwood 	     2000
+L-15		Perryridge	     1500
+L-14		Downtown	     1500
+L-93		Mianus		      500
+L-11		Round Hill	      900
+L-16		Perryridge	     1300
+L-20		North Town	     7500
+L-21		Central 	      570
+
+9 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+All borrower data.
+
+
+Jones		L-17
+Smith		L-23
+Hayes		L-15
+Jackson 	L-14
+Curry		L-93
+Smith		L-11
+Williams	L-17
+Adams		L-16
+McBride 	L-20
+Smith		L-21
+
+10 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names and cities of all borrowers
+
+
+Adams		Pittsfield
+Curry		Rye
+Hayes		Harrison
+Jackson 	Salt Lake
+Jones		Harrison
+McBride 	Rye
+Smith		Rye
+Williams	Princeton
+
+8 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Set of names and cities of customers who have a loan at Perryridge branch
+
+
+Adams		Pittsfield
+Hayes		Harrison
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Numbers of accounts with balances between 700 and 900.
+
+
+A-215
+A-201
+A-222
+A-217
+A-333
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of customers on streets with names ending in "Hill".
+
+
+Glenn
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of customers with both accounts and loans at Perryridge branch.
+
+
+Hayes
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of customers with an account but not a loan at Perryridge branch.
+
+
+Johnson
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names and cities of all borrowers.
+
+
+Adams		Pittsfield
+Curry		Rye
+Hayes		Harrison
+Jackson 	Salt Lake
+Jones		Harrison
+McBride 	Rye
+Smith		Rye
+Williams	Princeton
+
+8 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Set of names of customers with accounts at a branch where Hayes has
+
+
+An account.
+
+
+Hayes
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Set of names of branches whose assets are greater than the assets of
+
+
+some branch in Brooklyn
+
+
+Brighton
+North Town
+Perryridge
+Redwood
+Round Hill
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Set of names of branches whose assets are greater than the assets of
+
+
+All branches in Brooklyn
+
+
+Round Hill
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of customers with both accounts and loans at Perryridge branch
+
+
+(using "exists").
+
+
+Hayes
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of customers with an account but not a loan at Perryridge branch
+
+
+(using "exists").
+
+
+Johnson
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Set of names of customers at Perryridge branch, in alphabetical order.
+
+
+Adams
+Hayes
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Loan data, ordered by decreasing amounts, then increasing loan numbers.
+
+
+L-20		North Town	     7500
+L-23		Redwood 	     2000
+L-14		Downtown	     1500
+L-15		Perryridge	     1500
+L-16		Perryridge	     1300
+L-17		Downtown	     1000
+L-11		Round Hill	      900
+L-21		Central 	      570
+L-93		Mianus		      500
+
+9 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of branches having at least one account, with average account balances.
+
+
+Brighton		 750
+Central 		 850
+Downtown		 500
+Mianus			 700
+North Town		 625
+Perryridge		 650
+Redwood 		 700
+Round Hill		 350
+
+8 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of branches having at least one account, with size of set of customers
+
+
+having at least one account at that branch.
+
+
+Brighton				   1
+Central 				   1
+Downtown				   2
+Mianus					   1
+North Town				   1
+Perryridge				   2
+Redwood 				   1
+Round Hill				   1
+
+8 rows selected.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+The average balance of all accounts.
+
+
+   641.66667
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Names of branches having at least one account, with average balances of
+
+
+Accounts at each branch, if that average is above 700.
+
+
+Brighton		 750
+Central 		 850
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Name(s) of branch(es) having largest average balance.
+
+
+Central
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+The number of customers.
+
+
+       15
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Average balance of all customers in Harrison having at least 2 accounts.
+
+
+	 450
+
+SQL> Disconnected from Oracle7 Workgroup Server Release 7.3.3.0.0 - Production Release
+With the distributed option
+PL/SQL Release 2.3.3.0.0 - Production

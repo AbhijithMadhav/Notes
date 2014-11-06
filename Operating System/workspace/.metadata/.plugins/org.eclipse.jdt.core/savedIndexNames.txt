@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+/home/kempa/Academic/Operating System/Operating System Concepts - 8th Edition - Silberschatz, Galvin, Gagne/Exercises/.metadata/.plugins/org.eclipse.jdt.core
+139729016.index

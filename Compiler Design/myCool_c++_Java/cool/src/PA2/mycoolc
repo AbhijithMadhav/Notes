@@ -1,0 +1,3 @@
+#!/bin/bash
+DIR=/home/compilers/lexer
+$DIR/lexer $* | $DIR/parser $* | $DIR/semant $* | $DIR/cgen $*

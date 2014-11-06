@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;BoundedBuffer/buffer.h&apos;" deleteContents="false" description="Delete resource &apos;BoundedBuffer/buffer.h&apos;" element1="/BoundedBuffer/buffer.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1317437796225"/>
+</session>

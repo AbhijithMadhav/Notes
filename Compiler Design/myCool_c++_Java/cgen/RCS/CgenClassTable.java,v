@@ -1,0 +1,3305 @@
+head	1.30;
+access;
+symbols;
+locks
+	kempa:1.30; strict;
+comment	@# @;
+
+
+1.30
+date	2013.03.14.01.12.42;	author kempa;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2013.03.10.06.22.46;	author kempa;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2013.03.10.03.33.47;	author kempa;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2013.03.09.10.03.17;	author kempa;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2013.03.06.13.09.59;	author kempa;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2013.03.03.03.38.40;	author kempa;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2013.03.03.03.05.43;	author kempa;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2013.03.02.07.47.20;	author kempa;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2013.03.01.14.02.12;	author kempa;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2013.03.01.10.39.20;	author kempa;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2013.03.01.05.57.43;	author kempa;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2013.02.28.10.51.14;	author kempa;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2013.02.28.10.46.08;	author kempa;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2013.02.28.05.54.08;	author kempa;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2013.02.27.14.34.47;	author kempa;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2013.02.27.09.40.24;	author kempa;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2013.02.27.07.52.22;	author kempa;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.27.05.56.16;	author kempa;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.26.12.44.38;	author kempa;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.26.07.50.47;	author kempa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.25.13.38.11;	author kempa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.25.10.57.29;	author kempa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.24.06.55.55;	author kempa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.24.06.11.29;	author kempa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.24.05.59.50;	author kempa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.24.04.10.33;	author kempa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.23.11.35.28;	author kempa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.22.16.35.20;	author kempa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.22.06.22.17;	author kempa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.12.09.21.42;	author kempa;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.30
+log
+@58/63
+@
+text
+@/*
+Copyright (c) 2000 The Regents of the University of California.
+All rights reserved.
+
+Permission to use, copy, modify, and distribute this software for any
+purpose, without fee, and without written agreement is hereby granted,
+provided that the above copyright notice and the following two
+paragraphs appear in all copies of this software.
+
+IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT
+OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF
+CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ON AN "AS IS" BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATION TO
+PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+ */
+
+// This is a project skeleton file
+
+import java.io.PrintStream;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Vector;
+import java.util.Enumeration;
+import java.util.LinkedList;
+
+/**
+ * This class is used for representing the inheritance tree during code
+ * generation.
+ */
+class CgenClassTable extends SymbolTable
+{
+
+	/** All classes in the program, represented as CgenNode */
+	private Vector<CgenNode> nds;
+
+	/** This is the stream to which assembly instructions are output */
+	private PrintStream str;
+	
+	/** Used to implement dynamic dispatch **/
+	public Map<AbstractSymbol, LinkedList<MethodNode>> mTab;
+
+	/** Used to lookup attributes dynamically**/
+	public Map<AbstractSymbol, LinkedList<AttrNode>> aTab;
+	
+	/** Used to find the LUB of the type of the case expression from among its
+	 * branches**/
+	public Map<Integer, LinkedList<Integer>> caseTab;
+	
+	//private Environment env;
+
+	/** Constructs a new class table and invokes the code generator */
+	public CgenClassTable(Classes cls, PrintStream str)  
+			
+	{
+		nds = new Vector<CgenNode>();
+
+		this.str = str;
+
+		//env = new Environment();
+		
+		mTab = new HashMap<AbstractSymbol, LinkedList<MethodNode>>();
+		aTab = new HashMap<AbstractSymbol, LinkedList<AttrNode>>();
+		caseTab = new HashMap<Integer, LinkedList<Integer>>();
+		
+		enterScope();
+		if (Flags.cgen_debug)
+			System.out.println("Building CgenClassTable");
+
+		// Gather all classes in nds
+		// Create name to Node mappings
+		installBasicClasses();
+		installClasses(cls);
+		
+		buildInheritanceTree();
+		installMethodTab();
+		installAttrTab();
+		installCaseTab();
+		code();
+
+		exitScope();
+	}
+
+	// The following creates an inheritance graph from
+	// a list of classes. The graph is implemented as
+	// a tree of `CgenNode', and class names are placed
+	// in the base class symbol table.
+	/**
+	 * Inserts a given node into a list of nodes
+	 * @@param nd
+	 */
+	private void installClass(CgenNode nd)
+	{
+		AbstractSymbol name = nd.getName();
+		if (probe(name) != null)
+			return;
+		nds.addElement(nd);
+		
+		// The symbol table contains a name to node mapping.
+		// node representation contains only name of the parent of a cool class
+		// The symbol table helps obtain the node representation of this parent 
+		// 	given its name
+		addId(name, nd);
+	}
+
+	/**
+	 * Creates data structures representing basic Cool classes (Object,
+	 * IO, Int, Bool, String).
+	 * */
+	private void installBasicClasses()
+	{
+		// ?? Incomplete
+		AbstractSymbol filename = AbstractTable.stringtable
+				.addString("<basic class>");
+	
+		// A few special class names are installed in the lookup table
+		// but not the class list. Thus, these classes exist, but are
+		// not part of the inheritance hierarchy. 
+		// No_class serves as the parent of Object and the other special classes.
+		// SELF_TYPE is the self class; it cannot be redefined or inherited. 
+		// prim_slot is a class known to the code generator.
+
+		addId(TreeConstants.No_class, new CgenNode(new class_(0,
+				TreeConstants.No_class, TreeConstants.No_class,
+				new Features(0), filename), CgenNode.Basic, this));
+
+		addId(TreeConstants.SELF_TYPE, new CgenNode(new class_(0,
+				TreeConstants.SELF_TYPE, TreeConstants.No_class,
+				new Features(0), filename), CgenNode.Basic, this));
+
+		addId(TreeConstants.prim_slot, new CgenNode(new class_(0,
+				TreeConstants.prim_slot, TreeConstants.No_class,
+				new Features(0), filename), CgenNode.Basic, this));
+				
+		// The Object class has no parent class. Its methods are
+		// cool_abort() : Object aborts the program
+		// type_name() : Str returns a string representation
+		// of class name
+		// copy() : SELF_TYPE returns a copy of the object
+
+		class_ Object_class = new class_(
+				0,
+				TreeConstants.Object_,
+				TreeConstants.No_class,
+				new Features(0)
+						.appendElement(
+								new method(0, TreeConstants.cool_abort,
+										new Formals(0), TreeConstants.Object_,
+										new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.type_name,
+										new Formals(0), TreeConstants.Str,
+										new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.copy,
+										new Formals(0),
+										TreeConstants.SELF_TYPE, new no_expr(0))),
+				filename);
+
+		installClass(new CgenNode(Object_class, CgenNode.Basic, this));
+
+		// The IO class inherits from Object. Its methods are
+		// out_string(Str) : SELF_TYPE writes a string to the output
+		// out_int(Int) : SELF_TYPE "    an int    " "     "
+		// in_string() : Str reads a string from the input
+		// in_int() : Int "   an int     " "     "
+
+		class_ IO_class = new class_(
+				0,
+				TreeConstants.IO,
+				TreeConstants.Object_,
+				new Features(0)
+						.appendElement(
+								new method(0, TreeConstants.out_string,
+										new Formals(0)
+												.appendElement(new formal(0,
+														TreeConstants.arg,
+														TreeConstants.Str)),
+										TreeConstants.SELF_TYPE, new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.out_int,
+										new Formals(0)
+												.appendElement(new formal(0,
+														TreeConstants.arg,
+														TreeConstants.Int)),
+										TreeConstants.SELF_TYPE, new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.in_string,
+										new Formals(0), TreeConstants.Str,
+										new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.in_int,
+										new Formals(0), TreeConstants.Int,
+										new no_expr(0))), filename);
+
+		installClass(new CgenNode(IO_class, CgenNode.Basic, this));
+
+		// The Int class has no methods and only a single attribute, the
+		// "val" for the integer.
+
+		class_ Int_class = new class_(0, TreeConstants.Int,
+				TreeConstants.Object_, new Features(0).appendElement(new attr(
+						0, TreeConstants.val, TreeConstants.prim_slot,
+						new no_expr(0))), filename);
+
+		installClass(new CgenNode(Int_class, CgenNode.Basic, this));
+
+		// Bool also has only the "val" slot.
+		class_ Bool_class = new class_(0, TreeConstants.Bool,
+				TreeConstants.Object_, new Features(0).appendElement(new attr(
+						0, TreeConstants.val, TreeConstants.prim_slot,
+						new no_expr(0))), filename);
+
+		installClass(new CgenNode(Bool_class, CgenNode.Basic, this));
+
+		// The class Str has a number of slots and operations:
+		// val the length of the string
+		// str_field the string itself
+		// length() : Int returns length of the string
+		// concat(arg: Str) : Str performs string concatenation
+		// substr(arg: Int, arg2: Int): Str substring selection
+
+		class_ Str_class = new class_(
+				0,
+				TreeConstants.Str,
+				TreeConstants.Object_,
+				new Features(0)
+						.appendElement(
+								new attr(0, TreeConstants.val,
+										TreeConstants.Int, new no_expr(0)))
+						.appendElement(
+								new attr(0, TreeConstants.str_field,
+										TreeConstants.prim_slot, new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.length,
+										new Formals(0), TreeConstants.Int,
+										new no_expr(0)))
+						.appendElement(
+								new method(0, TreeConstants.concat,
+										new Formals(0)
+												.appendElement(new formal(0,
+														TreeConstants.arg,
+														TreeConstants.Str)),
+										TreeConstants.Str, new no_expr(0)))
+						.appendElement(
+								new method(
+										0,
+										TreeConstants.substr,
+										new Formals(0)
+												.appendElement(
+														new formal(
+																0,
+																TreeConstants.arg,
+																TreeConstants.Int))
+												.appendElement(
+														new formal(
+																0,
+																TreeConstants.arg2,
+																TreeConstants.Int)),
+										TreeConstants.Str, new no_expr(0))),
+				filename);
+
+		installClass(new CgenNode(Str_class, CgenNode.Basic, this));
+	}
+
+	private void installClasses(Classes cs)
+	{
+		for (Enumeration e = cs.getElements(); e.hasMoreElements();)
+		{
+			installClass(new CgenNode((Class_) e.nextElement(),
+					CgenNode.NotBasic, this));
+		}
+	}
+
+	private void buildInheritanceTree()
+	{
+		for (Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements();)
+		{
+			setRelations((CgenNode) e.nextElement());
+		}
+	}
+
+	private void setRelations(CgenNode nd)
+	{
+		CgenNode parent = (CgenNode) probe(nd.getParent());
+		nd.setParentNd(parent);
+		parent.addChild(nd);
+	}
+
+	/** Gets the root of the inheritance tree */
+	public CgenNode root()
+	{
+		return (CgenNode) probe(TreeConstants.Object_);
+	}
+	
+	// The following methods emit code for constants and global
+	// declarations.
+
+	/**
+	 * Construct the method table used to generate code for dynamic dispatch
+	 * The method table, mTAb has a key per method. The value of a key is a
+	 * list of MethodNode's with overridden methods not included. 
+	 */
+	private void installMethodTab()
+	{	
+		for (Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements(); )
+		{// For each class
+			CgenNode nd = (CgenNode)e.nextElement();
+
+			// For each ancestor of this class
+			int methodOffset = 0;
+			for (Iterator<CgenNode> i = nd.getAncestors(); i.hasNext();)
+			{
+				CgenNode p = i.next();
+				for (Enumeration e1 = p.getFeatures().getElements(); e1
+						.hasMoreElements();)
+				{// An entry of each method
+					method m;
+					try
+					{
+						m = (method) e1.nextElement();
+						if(!mTab.containsKey(m.name))
+						{
+							if (!nd.isOverridden(m.name, p))
+							{
+								LinkedList<MethodNode> l 
+									= new LinkedList<MethodNode>();
+								l.add(new MethodNode(methodOffset, m, nd));
+								mTab.put(m.name, l);
+							}
+						}
+						else
+						{
+							if (!nd.isOverridden(m.name, p))
+								mTab.get(m.name).add
+									(new MethodNode(methodOffset, m, nd));
+						}
+						methodOffset++;
+					}
+					catch (ClassCastException ex) // Attributes
+					{
+						// Attributes can be Features too.
+						// Not interested in attributes here
+						continue;
+					}
+				}
+			}
+		}
+	}
+
+	private void installAttrTab()
+	{
+		// For all the classes in the ancestor program
+		for(Iterator<CgenNode> i = nds.iterator(); i.hasNext(); )
+		{
+			CgenNode nd = i.next();
+			
+			int offset = nd.getStartAttrOffset();
+			for(Enumeration e = nd.getFeatures().getElements(); 
+					e.hasMoreElements(); )
+			{
+				try
+				{
+					attr a = (attr)e.nextElement();
+					if (!aTab.containsKey(a.name))
+					{	
+						LinkedList<AttrNode> lst = new LinkedList<AttrNode>();
+						for (Iterator<CgenNode> k = nd.getSubtypes(); 
+								k.hasNext(); ) // This includes nd itself
+						{
+							CgenNode ndSubType = k.next();
+							lst.add(new AttrNode(offset, ndSubType.classTag, 
+									ndSubType));
+						}
+						aTab.put(a.name, lst);
+					}
+					else
+					{	
+						LinkedList<AttrNode> lst = aTab.get(a.name);
+						for (Iterator<CgenNode> k = nd.getSubtypes(); 
+								k.hasNext(); ) // This includes nd itself
+						{
+							CgenNode ndSubType = k.next();
+							lst.add(new AttrNode(offset, ndSubType.classTag, 
+									ndSubType));
+						}
+					}
+					offset++;
+				}
+				catch (ClassCastException ex)
+				{
+					
+				}
+			}
+		}
+		/*for (Iterator<AbstractSymbol> i = aTab.keySet().iterator();
+				i.hasNext(); )
+		{
+			AbstractSymbol n = i.next();
+			System.out.println(n.toString());
+			for (Iterator<AttrNode> k = aTab.get(n).iterator(); k.hasNext(); )
+			{
+				AttrNode nd = k.next();
+				System.out.println("\t" + nd.nd.name.toString() + " : " + nd.offset);
+			}
+			System.out.println();
+		}*/
+	}
+
+	/**
+	 * The caseTab contains mappings which give the ancestors of each class in 
+	 * the child first order. This makes it easier to determine the LUB of a
+	 * type.
+	 * 
+	 * The LUB of the type of the case-expression is determined by sequentially 
+	 * comparing each ancestor in the corresponding list(child-first order) 
+	 * with all the types of the branches. The first matched ancestor is the LUB
+	 */
+	private void installCaseTab()
+	{
+		// for all classes in the program
+		for(Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements(); )
+		{
+			CgenNode nd = e.nextElement();
+			LinkedList<Integer> lst = new LinkedList<Integer>();
+			for (Iterator<CgenNode> i = nd.getAncestors(); i.hasNext(); )
+			{
+				CgenNode t = i.next();
+				// Ancestors are in parents-first order
+				// Create a list in the child-first order
+				lst.addFirst(t.classTag); 
+			}
+			caseTab.put(nd.classTag, lst);
+		}
+		
+		/*for (Iterator<Entry<Integer, LinkedList<Integer>>> i 
+				= caseTab.entrySet().iterator(); i.hasNext(); )
+		{
+			Entry<Integer, LinkedList<Integer>> e = i.next();
+			System.out.println("\n" + e.getKey());
+			for (Iterator<Integer> k = e.getValue().iterator(); k.hasNext(); )
+			{
+				System.out.print(k.next() + " ");
+			}
+		}*/
+
+	}
+	/**
+	 * This method is the meat of the code generator.
+	 */
+	public void code()  
+	{
+		if (Flags.cgen_debug)
+			System.out.println("coding global data");
+		codeGlobalData();
+
+		if (Flags.cgen_debug)
+			System.out.println("choosing gc");
+		codeSelectGc();
+
+		if (Flags.cgen_debug)
+			System.out.println("coding constants");
+		codeConstants();
+
+		str.println("# Begin - Class name table");
+		str.println("# Class name table contains addresses of String objects"
+				+ " representing all the classes in the program. These can be"
+				+ " indexed using the classtag of objects");
+		str.println("# Used by Object.type_name() to return name of the "
+				+ "invoking object");
+		codeClassNameTab();
+		str.println("# End - Class name table\n");
+
+		str.println("# Begin - Class Object table");
+		str.println("# Contains pointers to prototype objects of all classes "
+				+ "and to their initializers. These can be indexed using the "
+				+ "classtag of objexts");
+		str.println("# Used to create objects for the expression, "
+				+ "new SELF_TYPE");
+		codeObjTab();
+		str.println("# End - Class Object table\n");
+
+		str.println("# Begin - Dispatch tables");
+		str.println("# Dispatch table of all classes");
+		codeDispTab();
+		str.println("# End - Dispatch tables\n");
+
+		str.println("# Begin - Prototype objects");
+		str.println("# Prototype objects for all classes. Used to create new "
+				+ "objects for the respective classes");
+		codePrototypeObjects();
+		str.println("# End - Prototype objects");		
+		
+		if (Flags.cgen_debug)
+			System.out.println("coding global text");
+		codeGlobalText();
+
+		str.println("# Begin - Object Initializers");
+		codeObjInit();
+		str.println("# End - Object Initializers");
+
+		str.println("# Begin - Class Methods");
+		codeClassMethods();
+		str.println("# End - Class Methods");
+
+	}
+	/**
+	 * Emits code to start the .data segment and to
+	 * declare the global names.
+	 * */
+	private void codeGlobalData()
+	{
+		// The following global names must be defined first.
+
+		str.print("\t.data\n" + CgenSupport.ALIGN);
+		str.println(CgenSupport.GLOBAL + CgenSupport.CLASSNAMETAB);
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitProtObjRef(TreeConstants.Main, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitProtObjRef(TreeConstants.Int, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitProtObjRef(TreeConstants.Str, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		BoolConst.falsebool.codeRef(str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		BoolConst.truebool.codeRef(str);
+		str.println("");
+		str.println(CgenSupport.GLOBAL + CgenSupport.INTTAG);
+		str.println(CgenSupport.GLOBAL + CgenSupport.BOOLTAG);
+		str.println(CgenSupport.GLOBAL + CgenSupport.STRINGTAG);
+
+		// We also need to know the tag of the Int, String, and Bool classes
+		// during code generation.
+		// why??? Incomplete
+
+		str.println(CgenSupport.INTTAG + CgenSupport.LABEL + CgenSupport.WORD
+				+ ((CgenNode)probe(TreeConstants.Int)).classTag);
+		str.println(CgenSupport.BOOLTAG + CgenSupport.LABEL + CgenSupport.WORD
+				+ ((CgenNode)probe(TreeConstants.Bool)).classTag);
+		str.println(CgenSupport.STRINGTAG + CgenSupport.LABEL+ CgenSupport.WORD
+				+ ((CgenNode)probe(TreeConstants.Str)).classTag);
+	}
+
+	/** Generates GC choice constants (pointers to GC functions) */
+	private void codeSelectGc()
+	{
+		str.println(CgenSupport.GLOBAL + "_MemMgr_INITIALIZER");
+		str.println("_MemMgr_INITIALIZER:");
+		str.println(CgenSupport.WORD
+				+ CgenSupport.gcInitNames[Flags.cgen_Memmgr]);
+
+		str.println(CgenSupport.GLOBAL + "_MemMgr_COLLECTOR");
+		str.println("_MemMgr_COLLECTOR:");
+		str.println(CgenSupport.WORD
+				+ CgenSupport.gcCollectNames[Flags.cgen_Memmgr]);
+
+		str.println(CgenSupport.GLOBAL + "_MemMgr_TEST");
+		str.println("_MemMgr_TEST:");
+		str.println(CgenSupport.WORD
+				+ ((Flags.cgen_Memmgr_Test == Flags.GC_TEST) ? "1" : "0"));
+	}
+
+	/**
+	 * Emits code to reserve space for and initialise all of the
+	 * constants. Class names should have been added to the string
+	 * table (in the supplied code, is is done during the construction
+	 * of the inheritance graph), and code for emitting string constants
+	 * as a side effect adds the string's length to the integer table.
+	 * The constants are emmitted by running through the stringtable and
+	 * inttable and producing code for each entry.
+	 */
+	private void codeConstants()
+	{
+		// Add constants that are required by the code generator.
+		AbstractTable.stringtable.addString("");
+		AbstractTable.inttable.addString("0");
+
+		// The string table must first be codified as the sizes of the string
+		// are then added to the int table which is then codified
+		AbstractTable.stringtable.codeStringTable(
+				((CgenNode)probe(TreeConstants.Str)).classTag, str);
+		AbstractTable.inttable.codeStringTable(
+				((CgenNode)probe(TreeConstants.Int)).classTag, str);
+
+		codeBools(((CgenNode)probe(TreeConstants.Bool)).classTag);
+		codeVoid();
+	}
+
+	/** Emits code definitions for boolean constants. */
+	private void codeBools(int classtag)
+	{
+		BoolConst.falsebool.codeDef(classtag, str);
+		BoolConst.truebool.codeDef(classtag, str);
+	}
+
+	/** Emits code definition for void */
+	private void codeVoid()
+	{
+		// Add -1 eye catcher
+		str.println(CgenSupport.WORD + "-1");
+		str.println(CgenSupport.VOIDCONST_PREFIX + CgenSupport.LABEL
+				+ CgenSupport.WORD + CgenSupport.VOID_CLASSTAG); // tag 
+		str.println(CgenSupport.WORD 
+				+ (CgenSupport.DEFAULT_OBJFIELDS - 1)); // size
+	}
+
+	/**
+	 * Class name table 
+	 * 
+	 * A table, which at index (class tag) ∗ 4 contains a pointer
+	 * to a 'String' object containing the name of the class associated 
+	 */
+	private void codeClassNameTab()
+	{
+		//The PQ sorts the nodes w.r.t the class tags.
+		PriorityQueue<CgenNode> pq = new PriorityQueue<CgenNode>(nds);		
+
+		// Generate the class-name table
+		str.print(CgenSupport.CLASSNAMETAB + CgenSupport.LABEL);
+		while (!pq.isEmpty())
+			str.println(CgenSupport.WORD + CgenSupport.STRCONST_PREFIX
+					+ AbstractTable.stringtable.lookup
+						(pq.remove().name.toString()).index);
+
+	}
+
+	/**
+	 * Class Object table
+	 * 
+	 * A table, which at index (class tag) ∗ 8 contains a pointer to the
+	 * prototype object and at index (class tag) ∗ 8 + 4 contains a pointer to
+	 * the initialization method for that class. 
+	 *  
+	 *  This is required so that objects can be created for the expression
+	 *  'new SELF_TYPE'
+	 */
+	private void codeObjTab()
+	{		
+		//The PQ sorts the nodes w.r.t the class tags.
+		PriorityQueue<CgenNode> pq = new PriorityQueue<CgenNode>(nds);		
+
+		// Generate the object table
+		str.print(CgenSupport.CLASSOBJTAB + CgenSupport.LABEL);
+		while (!pq.isEmpty())
+		{
+			CgenNode nd = pq.remove();
+			str.println(CgenSupport.WORD + nd.getName().toString()
+					+ CgenSupport.PROTOBJ_SUFFIX);
+			str.println(CgenSupport.WORD + nd.getName().toString()
+					+ CgenSupport.CLASSINIT_SUFFIX);
+		}
+	}
+
+	/**
+	 * Index for dispatch tables of all classes
+	 * Also construb the method table used to generate code for dynamic dispatch
+	 */
+	private void codeDispTab()
+	{	
+		for (Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements(); )
+		{// For each class
+			CgenNode nd = (CgenNode)e.nextElement();
+			
+			str.print(nd.getName().toString() + CgenSupport.DISPTAB_SUFFIX
+					+ CgenSupport.LABEL);
+			
+			// For each ancestor of this class
+			for (Iterator<CgenNode> i = nd.getAncestors(); i.hasNext();)
+			{
+				CgenNode p = i.next();
+				for (Enumeration e1 = p.getFeatures().getElements(); e1
+						.hasMoreElements();)
+				{// An entry of each method
+					method m;
+					try
+					{
+						m = (method) e1.nextElement();
+					}
+					catch (ClassCastException ex) // Attributes
+					{
+						// Attributes can be Features too.
+						// Not interested in attributes here
+						continue;
+					}
+					str.println(CgenSupport.WORD + p.getName().toString() + "."
+							+ m.name);
+				}
+			}
+		}
+		
+/*		for(Iterator<LinkedList<MethodNode>> i = mTab.values().iterator(); i.hasNext();)
+		{
+			LinkedList<MethodNode> l = i.next();
+			for(Iterator<MethodNode> j = l.iterator(); j.hasNext();)
+			{
+				MethodNode mn = j.next();
+				System.out.print(mn.nd.name + "." + mn.m.name + " ");
+			}
+			System.out.println();
+			
+		}
+		*/
+	}
+	
+	/**
+	 * Prototype Objects - Prototype objects of all classes of the
+	 * program. Used by Object.copy() to create new objects
+	 * 
+	 */
+	private void codePrototypeObjects()
+	{
+		for (Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements(); )
+		{
+			CgenNode nd = (CgenNode)e.nextElement();
+
+			str.println(CgenSupport.WORD + "-1"); // Add -1 eye catcher
+			str.print(nd.getName() + CgenSupport.PROTOBJ_SUFFIX
+					+ CgenSupport.LABEL); // label
+			str.println(CgenSupport.WORD + 
+					((CgenNode)probe(nd.getName())).classTag); // tag
+
+			if (nd.getName().equals(TreeConstants.Object_))
+			{
+				// Object size
+				str.println(CgenSupport.WORD + (CgenSupport.DEFAULT_OBJFIELDS));
+				str.println(CgenSupport.WORD + nd.getName().toString()
+						+ CgenSupport.DISPTAB_SUFFIX); // dispatch table
+			}
+			else if (nd.getName().equals(TreeConstants.Str))
+			{
+				// object size
+				str.println(CgenSupport.WORD
+						+ (CgenSupport.DEFAULT_OBJFIELDS
+								+ CgenSupport.STRING_SLOTS 
+								+ (CgenSupport.STR_DEFAULT.length() + 4) / 4));
+				str.println(CgenSupport.WORD + nd.getName().toString()
+						+ CgenSupport.DISPTAB_SUFFIX); // dispatch table
+				// length
+				str.print(CgenSupport.WORD);
+				((IntSymbol) (AbstractTable.inttable
+						.lookup(CgenSupport.STR_DEFAULT.length())))
+						.codeRef(str);
+				str.println();
+
+				// default string
+				CgenSupport.emitStringConstant(CgenSupport.STR_DEFAULT, str);
+			}
+			else if (nd.getName().equals(TreeConstants.Int))
+			{
+				str.println(CgenSupport.WORD
+						+ (CgenSupport.DEFAULT_OBJFIELDS 
+								+ CgenSupport.INT_SLOTS));// object size
+				str.println(CgenSupport.WORD + nd.getName().toString()
+						+ CgenSupport.DISPTAB_SUFFIX); // dispatch table
+				str.println(CgenSupport.WORD + CgenSupport.INT_DEFAULT);
+			}
+			else if (nd.getName().equals(TreeConstants.Bool))
+			{
+				str.println(CgenSupport.WORD
+						+ (CgenSupport.DEFAULT_OBJFIELDS 
+								+ CgenSupport.BOOL_SLOTS));// object size
+				str.println(CgenSupport.WORD + nd.getName().toString()
+						+ CgenSupport.DISPTAB_SUFFIX); // dispatch table
+				str.println(CgenSupport.WORD + CgenSupport.BOOL_DEFAULT);
+			}
+			else if (nd.getName().equals(TreeConstants.IO))
+			{
+				str.println(CgenSupport.WORD 
+						+ CgenSupport.DEFAULT_OBJFIELDS);// object size
+				str.println(CgenSupport.WORD + nd.getName().toString()
+						+ CgenSupport.DISPTAB_SUFFIX); // dispatch table
+			}
+			else 			// user class prototype object
+			{
+				str.println(CgenSupport.WORD
+						+ (CgenSupport.DEFAULT_OBJFIELDS 
+								+ nd.getAttributes().size())); // size
+				str.println(CgenSupport.WORD + nd.getName().toString()
+						+ CgenSupport.DISPTAB_SUFFIX); // dispatch table
+
+				// Initialize all attributes from the
+				// inheritance hierarchy in the parent first order.
+				for(Iterator<attr> i = nd.getAttributes().iterator();
+						i.hasNext(); )
+				{
+					attr a;
+					try
+					{
+						
+						a = i.next();
+					}
+					catch (ClassCastException ex)
+					{
+						continue;
+					}
+					str.println(CgenSupport.WORD 
+							+ Utilities.getDefaultObjectAddress(a.type_decl));
+				}
+			}
+		}
+	}
+
+
+
+	/**
+	 * Emits code to start the .text segment and to
+	 * declare the global names.
+	 * */
+	private void codeGlobalText()
+	{
+		str.println(CgenSupport.GLOBAL + CgenSupport.HEAP_START);
+		str.print(CgenSupport.HEAP_START + CgenSupport.LABEL);
+		str.println(CgenSupport.WORD + 0);
+		str.println("\t.text");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Main, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Int, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Str, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Bool, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitMethodRef(TreeConstants.Main, TreeConstants.main_meth,
+				str);
+		str.println("");
+	}
+
+	/**
+	 * Initializers for objects of all classes
+	 */
+	void codeObjInit() 
+	{
+		for (Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements(); )
+		{
+			CgenNode nd = e.nextElement();
+
+			str.print(nd.getName().toString() + CgenSupport.CLASSINIT_SUFFIX
+					+ CgenSupport.LABEL);
+			// Incomplete : Cleaner implementation
+			method m = new method(0, new IdSymbol("init", "init".length(), 0), 
+					new Formals(0, null), TreeConstants.No_type, new no_expr(0));
+			MethodNode mn = new MethodNode(0, m, nd);
+
+			// Callee responsibility
+			str.println("#Set up the FP");
+			CgenSupport.emitMove(CgenSupport.FP, CgenSupport.SP, str);
+			str.println();
+			str.println("#Save return address");
+			CgenSupport.emitPush(CgenSupport.RA, mn, str);
+			str.println();
+
+			// Need to call the init of the parent of the class of this object
+			
+			// Caller responsibility
+			// 1. Save my FP
+			CgenSupport.emitPush(CgenSupport.FP, mn, str);
+			
+			// Save self Object
+			CgenSupport.emitPush(CgenSupport.ACC, mn, str);
+			// Call the initializer of the parent
+			if (!nd.getName().equals(TreeConstants.Object_))
+				CgenSupport.emitJal(nd.getParentNd().getName().toString()
+						+ CgenSupport.CLASSINIT_SUFFIX, str);
+			// Restore the self Object
+			CgenSupport.emitPop(CgenSupport.ACC, mn, str);
+
+			// Caller responsibility
+			// 1. Restore my FP
+			CgenSupport.emitPop(CgenSupport.FP, mn, str);
+			
+			// Basic classes whose attributes cannot be initialized explicitly
+			if (nd.getName().equals(TreeConstants.Int)
+					|| nd.getName().equals(TreeConstants.Str)
+					|| nd.getName().equals(TreeConstants.Bool))
+			{
+				CgenSupport.emitPop(CgenSupport.RA, mn, str);
+				CgenSupport.emitReturn(str); // return
+				continue;
+			}
+			
+			// Initialize attributes of this object. The inherited attributes
+			//  are initialised by the parent initializer
+			int offset = nd.getStartAttrOffset();
+			for (Enumeration e1 = nd.getFeatures().getElements();
+					e1.hasMoreElements();)
+			{
+				try
+				{
+					attr a = (attr)e1.nextElement();
+
+					// Save self Object
+					CgenSupport.emitPush(CgenSupport.ACC, mn, str);
+					
+					if (a.init.getClass().toString().equals("class no_expr"))// Incomplete: hack	
+					{
+						// Restore the self Object
+						CgenSupport.emitPop(CgenSupport.ACC, mn, str);
+
+						CgenSupport.emitLoadAddress(CgenSupport.T1, 
+								Utilities.getDefaultObjectAddress(a.type_decl), 
+									str);
+						CgenSupport.emitStore(CgenSupport.T1, offset, 
+								CgenSupport.ACC, str);
+						
+					}
+				else
+					{
+						a.init.code(mn, this, str); 
+						CgenSupport.emitMove(CgenSupport.T1, CgenSupport.ACC, 
+								str);
+
+						// 	Restore the self Object
+						CgenSupport.emitPop(CgenSupport.ACC, mn, str);
+					
+						// 	Set initializer
+						CgenSupport.emitStore(CgenSupport.T1, offset, 
+								CgenSupport.ACC, str);
+					}
+					offset++;
+				}
+				catch(ClassCastException ex)
+				{
+					;
+				}
+			}
+			CgenSupport.emitPop(CgenSupport.RA, mn, str);
+			CgenSupport.emitReturn(str); // return
+		}
+	}
+
+	/**
+	 * Generates code for all methods in the program
+	 */
+	private void codeClassMethods() 
+	{
+		for (Enumeration<CgenNode> e = nds.elements(); e.hasMoreElements(); )
+		{
+			CgenNode nd = e.nextElement();
+
+			// Code for methods of basic classes are given as a part of the
+			// runtime.
+			if (nd.getName().equals(TreeConstants.Object_)
+					|| nd.getName().equals(TreeConstants.IO)
+					|| nd.getName().equals(TreeConstants.Int)
+					|| nd.getName().equals(TreeConstants.Bool) 
+					|| nd.getName().equals(TreeConstants.Str))
+				continue;
+
+			// Code for methods of user classes
+			for (Enumeration e1 = nd.getFeatures().getElements(); 
+					e1.hasMoreElements();)
+			{
+				try
+				{
+					method m = (method) e1.nextElement();
+					enterScope();
+					MethodNode mn = null;
+					for (Iterator<MethodNode> i = mTab.get(m.name).iterator(); 
+							i.hasNext(); )
+					{
+						mn = i.next();
+						if (mn.nd.equals(nd))
+							break;
+					}
+					codeMethod(mn, nd);
+					if (Flags.cgen_debug)
+						System.out.println("Finished " + m.name);
+					exitScope();
+				}
+				catch (ClassCastException ex)
+				{
+					continue;
+				}
+			}
+		}
+	}
+
+	/**
+	 * Generates code for specified method
+	 * 
+	 * @@param m The AbstractSymbol representing the method
+	 * @@param c The class_ object representing the method in which the method
+	 *            is statically defined.
+	 */
+	private void codeMethod(MethodNode mn, CgenNode c) 
+	{
+		CgenSupport.emitMethodDef(c.getName(), mn.m.name, str);
+		
+		str.println("# Set FP");
+		CgenSupport.emitMove(CgenSupport.FP, CgenSupport.SP, str);
+		str.println();
+		
+		str.println("# Save return address");
+		CgenSupport.emitPush(CgenSupport.RA, mn, str);
+		str.println();
+
+		// Add the addresses of the formal parameters, relative to the FP,
+		// into the symbol table. Note that the arguments are in the caller
+		// AR above the current AR's FP
+		int offset = mn.m.formals.getLength();
+		for (Enumeration e = mn.m.formals.getElements(); e.hasMoreElements(); 
+				offset--)
+			addId(((formal) (e.nextElement())).name, offset);
+
+		int nItems = 0;
+		if (mn.m !=null)
+			nItems = mn.nItems;
+		str.println("# Emit code for method body");
+		mn.m.expr.code(mn, this, str);
+		str.println();
+
+		if (mn!=null)
+			mn.nItems = nItems;
+		str.println("# Get return address");
+		CgenSupport.emitPop(CgenSupport.RA, mn, str);
+		str.println();
+		
+		// callee responsibilities after method body execution
+		if (mn.m.formals.getLength() > 0)
+		{
+			str.println("# Pop AR");
+		//	CgenSupport.emitPopAR(m.formals.getLength(), m, str);
+			// This in effect is popping entries in the caller activation record
+			// and this has to be accounted for after the dispatch of a method
+			CgenSupport.emitPopAR(mn.m.formals.getLength(), str);
+			str.println();
+		}
+		
+		str.println("# Return");
+		CgenSupport.emitReturn(str);
+		str.println();
+	}
+}@
+
+
+1.29
+log
+@58/63
+@
+text
+@a331 1
+						boolean val = nd.isOverridden(m.name, p);
+d334 1
+a334 1
+							if (!val)
+d344 1
+a344 1
+							if (!val)
+@
+
+
+1.28
+log
+@58/63
+@
+text
+@d859 4
+d869 1
+a869 1
+			CgenSupport.emitPush(CgenSupport.RA, str);
+d876 1
+a876 1
+			CgenSupport.emitPush(CgenSupport.FP, str);
+d879 1
+a879 1
+			CgenSupport.emitPush(CgenSupport.ACC, str);
+d885 1
+a885 1
+			CgenSupport.emitPop(CgenSupport.ACC, str);
+d889 1
+a889 1
+			CgenSupport.emitPop(CgenSupport.FP, str);
+d896 1
+a896 1
+				CgenSupport.emitPop(CgenSupport.RA, str);
+d902 1
+a902 1
+			//  are initialized by the parent initializer
+d912 1
+a912 1
+					CgenSupport.emitPush(CgenSupport.ACC, str);
+d917 1
+a917 1
+						CgenSupport.emitPop(CgenSupport.ACC, str);
+d928 1
+a928 1
+						a.init.code(new MethodNode(0, null, nd), this, str);// Incomplete : will null work?? SHould as no references to function parameters 
+d933 1
+a933 1
+						CgenSupport.emitPop(CgenSupport.ACC, str);
+d946 1
+a946 1
+			CgenSupport.emitPop(CgenSupport.RA, str);
+@
+
+
+1.27
+log
+@58/63
+@
+text
+@d64 1
+a64 1
+			throws AddressNotFoundException
+d462 1
+a462 1
+	public void code()  throws AddressNotFoundException
+d851 1
+a851 1
+	void codeObjInit() throws AddressNotFoundException
+d950 1
+a950 1
+	private void codeClassMethods() throws AddressNotFoundException
+d1001 1
+a1001 1
+	private void codeMethod(MethodNode mn, CgenNode c) throws AddressNotFoundException
+@
+
+
+1.26
+log
+@55/63
+@
+text
+@d364 1
+a375 8
+					HashSet<Integer> classTags = new HashSet<Integer>();
+					for (Iterator<CgenNode> k = nd.getSubtypes(); 
+							k.hasNext(); ) // This includes nd itself
+					{
+						CgenNode ndSubType = k.next();
+						classTags.add(ndSubType.classTag);
+					}
+					
+d383 2
+a384 1
+							lst.add(new AttrNode(offset, ndSubType.classTag, ndSubType));
+d395 2
+a396 1
+							lst.add(new AttrNode(offset, ndSubType.classTag, ndSubType));
+d398 2
+a399 1
+					}	
+a404 1
+				offset++;
+d432 1
+a432 1
+		// for all classes in the ancestor trees
+@
+
+
+1.25
+log
+@49/63
+@
+text
+@d30 1
+d56 2
+d428 6
+a433 1
+	 * the child first order, amenable to determine the lub of a type
+a449 1
+			
+d451 12
+@
+
+
+1.24
+log
+@49/63
+@
+text
+@d55 1
+a55 1
+	public Map<Integer, List<Integer>> caseTab;
+d71 1
+d85 1
+d319 1
+a319 1
+			for (Iterator<CgenNode> i = getAncestors(nd); i.hasNext();)
+d329 1
+a329 1
+						boolean val = isOverridden(m.name, p, nd);
+a358 55
+	/**
+	 * Returns subtypes of nd including itself
+	 * @@param nd
+	 * @@return
+	 */
+	Iterator<CgenNode> getSubtypes(CgenNode nd)
+	{
+		Queue<CgenNode> q = new LinkedList<CgenNode>();
+		Queue<CgenNode> subTypes = new LinkedList<CgenNode>();
+		
+		q.add(nd);
+		while(!q.isEmpty())
+		{
+			CgenNode t = q.remove();
+			subTypes.add(t);
+			
+			for (Enumeration<CgenNode> e = t.getChildren(); 
+					e.hasMoreElements(); )
+				q.add(e.nextElement());
+		}
+		return subTypes.iterator();
+		
+	}
+	
+	/**
+	 * Gives the offset of the starting attribute of nd
+	 * @@param nd
+	 * @@return
+	 */
+	int getStartAttrOffset(CgenNode nd)
+	{
+		int sOffset = CgenSupport.DEFAULT_OBJFIELDS;
+		
+		for(Iterator<CgenNode> i = getAncestors(nd); i.hasNext(); )
+		{
+			CgenNode t = i.next();
+			if (t.name.equals(nd.name))
+				break;
+			for (Enumeration e = t.getFeatures().getElements(); 
+					e.hasMoreElements(); )
+			{
+				try
+				{
+					attr a = (attr) e.nextElement();
+					sOffset++;
+				}
+				catch(ClassCastException ex)
+				{
+					
+				}
+			}	
+		}
+		return sOffset;
+	}
+	
+d365 1
+a365 1
+			int offset = getStartAttrOffset(nd);
+d373 1
+a373 1
+					for (Iterator<CgenNode> k = getSubtypes(nd); 
+d383 1
+a383 1
+						for (Iterator<CgenNode> k = getSubtypes(nd); 
+d394 1
+a394 1
+						for (Iterator<CgenNode> k = getSubtypes(nd); 
+d422 1
+d424 2
+a425 6
+	 * Do any methods in 'type' and its ancestors upto 'supertype' override the 
+	 * method supetype.mName
+	 * @@param mName
+	 * @@param p The node in which p resides
+	 * @@param nd
+	 * @@return
+d427 1
+a427 2
+	private boolean isOverridden(AbstractSymbol mName, CgenNode supertype, 
+			CgenNode type)
+d429 2
+a430 6
+		//if (parent.equals(child))
+			//return false;
+		
+		// reverse set of ancestors to obtain a child first order
+		LinkedList<CgenNode> l = new LinkedList<CgenNode>();
+		for (Iterator<CgenNode> i = getAncestors(type); i.hasNext(); )
+d432 3
+a434 11
+			l.addFirst(i.next());
+		}
+		
+		for (Iterator<CgenNode> i = l.iterator(); i.hasNext(); )
+		{
+			CgenNode t = i.next();
+			if (t.name.equals(supertype.name))
+				return false;
+
+			for (Enumeration e = t.getFeatures().getElements(); 
+					e.hasMoreElements(); )
+d436 4
+a439 10
+				try
+				{
+					method m = (method)e.nextElement();
+					if (m.name.equals(mName))
+						return true;
+				}
+				catch(ClassCastException ex)
+				{
+					
+				}
+d441 2
+a442 1
+
+a443 1
+		return false;
+a444 1
+	
+d669 1
+a669 1
+			for (Iterator<CgenNode> i = getAncestors(nd); i.hasNext();)
+a704 21
+
+	/**
+	 * Gets a list of ancestors of the given node, the oldest listed first
+	 * The current node is also its own ancestor
+	 * @@param nd
+	 * @@return
+	 */
+	private Iterator<CgenNode> getAncestors(CgenNode nd)
+	{
+		LinkedList<CgenNode> s = new LinkedList<CgenNode>();
+		
+		s.addFirst(nd);
+		CgenNode p = nd.getParentNd();
+		while (p != null)
+		{
+			s.addFirst(p);
+			p = p.getParentNd();
+		}
+		
+		return s.iterator();
+	}
+d778 1
+a778 1
+								+ getAttributes(nd).size())); // size
+d784 1
+a784 1
+				for(Iterator<attr> i = getAttributes(nd).iterator();
+d804 1
+a804 27
+	/**
+	 * Gets the attributes(inherited ones included) of the given node in 
+	 * parent-attributes-first order
+	 * @@param nd
+	 * @@return
+	 */
+	private List<attr> getAttributes(CgenNode nd)
+	{
+		LinkedList<attr> l = new LinkedList<attr>();
+		for(Iterator<CgenNode> i = getAncestors(nd); i.hasNext(); )
+		{
+			CgenNode p = i.next();
+			for(Enumeration e = p.getFeatures().getElements();
+					e.hasMoreElements(); )
+			{
+				try
+				{
+					l.addFirst((attr)e.nextElement());
+				}
+				catch(ClassCastException ex)
+				{
+					
+				}
+			}
+		}
+		return l;
+	}
+d885 1
+a885 1
+			int offset = getStartAttrOffset(nd);
+@
+
+
+1.23
+log
+@43/63
+@
+text
+@d52 1
+d54 2
+@
+
+
+1.22
+log
+@47/63
+@
+text
+@d26 1
+d31 1
+d52 2
+d67 1
+d79 2
+a80 1
+		installmTab();
+d306 1
+a306 1
+	private void installmTab()
+d355 118
+d1005 1
+a1005 1
+			int offset = CgenSupport.DEFAULT_OBJFIELDS; // Incomplete. I should be initializing only this objects attributes
+@
+
+
+1.21
+log
+@45/63
+@
+text
+@d318 1
+d321 1
+a321 1
+							if (!isOverridden(m.name, p, nd))
+d331 1
+a331 1
+							if (!isOverridden(m.name, p, nd))
+d906 1
+a906 1
+						a.init.code(null, this, str);// Incomplete : will null work?? SHould as no references to function parameters 
+@
+
+
+1.20
+log
+@40/63
+@
+text
+@d348 2
+a349 1
+	 * Do any methods in class nd override the method mName in class parent
+d355 2
+a356 2
+	private boolean isOverridden(AbstractSymbol mName, CgenNode parent, 
+			CgenNode child)
+d358 6
+a363 4
+		if (parent.equals(child))
+			return false;
+		for (Enumeration e = child.getFeatures().getElements(); 
+				e.hasMoreElements(); )
+d365 11
+a375 7
+			try
+			{
+				method m = (method)e.nextElement();
+				if (m.name.equals(mName))
+					return true;
+			}
+			catch(ClassCastException ex)
+d377 10
+a386 1
+				
+d388 1
+@
+
+
+1.19
+log
+@40/63
+@
+text
+@d25 1
+d28 1
+a29 1
+import java.util.Stack;
+d47 3
+d62 2
+d74 1
+d294 81
+d585 1
+a585 1
+	
+d588 1
+d591 1
+a591 1
+	{
+a599 1
+			int methodOffset = 0;
+a609 1
+						m.methodOffset = methodOffset++;
+d622 13
+d639 1
+d880 4
+a883 2
+								Utilities.getDefaultObjectAddress(a.type_decl), str);
+						CgenSupport.emitStore(CgenSupport.T1, offset, CgenSupport.ACC, str);
+d888 3
+a890 2
+						a.init.code(nd, null, this, str);// Incomplete : will null work?? SHould as no references to function parameters 
+						CgenSupport.emitMove(CgenSupport.T1, CgenSupport.ACC, str);
+d896 2
+a897 1
+						CgenSupport.emitStore(CgenSupport.T1, offset, CgenSupport.ACC, str);
+d937 9
+a945 1
+					codeMethod(m, nd);
+d965 1
+a965 1
+	private void codeMethod(method m, CgenNode c) throws AddressNotFoundException
+d967 1
+a967 1
+		CgenSupport.emitMethodDef(c.getName(), m.name, str);
+d974 1
+a974 1
+		CgenSupport.emitPush(CgenSupport.RA, m, str);
+d980 2
+a981 2
+		int offset = m.formals.getLength();
+		for (Enumeration e = m.formals.getElements(); e.hasMoreElements(); 
+d986 2
+a987 2
+		if (m!=null)
+			nItems = m.nItems;
+d989 1
+a989 1
+		m.expr.code(c, m, this, str);
+d992 2
+a993 2
+		if (m!=null)
+			m.nItems = nItems;
+d995 1
+a995 1
+		CgenSupport.emitPop(CgenSupport.RA, m, str);
+d999 1
+a999 1
+		if (m.formals.getLength() > 0)
+d1005 1
+a1005 1
+			CgenSupport.emitPopAR(m.formals.getLength(), str);
+@
+
+
+1.18
+log
+@40/63
+@
+text
+@d890 2
+a891 1
+			
+@
+
+
+1.17
+log
+@36/63
+@
+text
+@d872 3
+d879 2
+d889 3
+a891 1
+			CgenSupport.emitPopAR(m.formals.getLength(), m, str);
+@
+
+
+1.16
+log
+@31/63
+@
+text
+@d750 10
+@
+
+
+1.15
+log
+@30/63
+@
+text
+@d45 2
+d56 2
+d740 1
+a740 1
+			if (!nd.getName().toString().equals("Object"))
+d750 5
+a754 3
+			// Initialize attributes of this object
+			int offset = CgenSupport.DEFAULT_OBJFIELDS;
+			for (Enumeration e1 = nd.getFeatures().getElements(); e1.hasMoreElements();)
+d763 1
+a763 1
+					if (a.init.getClass().toString().equals("class no_expr"))	
+d775 1
+a775 1
+						a.init.code(nd, null, this, str);// Incomplete : will null work??
+a843 4
+		// Number of items in the AR of this method
+		// This helps record the offset of local variables(introduced by let)
+		//  relative to the FP in the symbol table
+
+a859 1
+		{
+a860 1
+		}
+a861 1
+		// Method body. Return value is in $a0
+a865 1
+		
+@
+
+
+1.14
+log
+@30/63
+@
+text
+@d26 1
+a492 20
+
+	/**
+	 * Gets a list of ancestors of the given node, the oldest listed first
+	 * @@param nd
+	 * @@return
+	 */
+	private Iterator<CgenNode> getAncestors(CgenNode nd)
+	{
+		LinkedList<CgenNode> s = new LinkedList<CgenNode>();
+		
+		s.addFirst(nd);
+		CgenNode p = nd.getParentNd();
+		while (p != null)
+		{
+			s.addFirst(p);
+			p = p.getParentNd();
+		}
+		
+		return s.iterator();
+	}
+d534 20
+d560 1
+a560 4
+		LinkedList<CgenNode> q = new LinkedList<CgenNode>();
+		q.add(root());
+
+		while (!q.isEmpty()) // BFS
+d562 1
+a562 1
+			CgenNode nd = q.remove();
+d570 1
+a570 1
+			if (nd.getName().toString().equals("Object"))
+d572 2
+a573 2
+				str.println(CgenSupport.WORD + (CgenSupport.DEFAULT_OBJFIELDS));// object
+																				// size
+d577 1
+a577 1
+			else if (nd.getName().toString().equals("String"))
+d582 2
+a583 3
+								+ CgenSupport.STRING_SLOTS + (CgenSupport.STR_DEFAULT
+								.length() + 4) / 4));
+
+a585 1
+
+d591 1
+a591 1
+				str.println("");
+d596 1
+a596 1
+			else if (nd.getName().toString().equals("Int"))
+d599 2
+a600 2
+						+ (CgenSupport.DEFAULT_OBJFIELDS + CgenSupport.INT_SLOTS));// object
+																					// size
+d605 1
+a605 1
+			else if (nd.getName().toString().equals("Bool"))
+d608 2
+a609 2
+						+ (CgenSupport.DEFAULT_OBJFIELDS + CgenSupport.BOOL_SLOTS));// object
+																					// size
+d614 1
+a614 1
+			else if (nd.getName().toString().equals("IO"))
+d616 2
+a617 2
+				str.println(CgenSupport.WORD + (CgenSupport.DEFAULT_OBJFIELDS));// object
+																				// size
+d621 1
+a621 2
+			else
+			// user class prototype object
+a622 29
+				// Need a count of all attributes from the inheritance
+				// hierarchy.
+				Stack<CgenNode> s = new Stack<CgenNode>();
+				s.push(nd);
+				CgenNode p = nd.getParentNd();
+				while (p != null)
+				{
+					s.push(p);
+					p = p.getParentNd();
+				}
+				int aCount = 0;
+				while (!s.empty())
+				{
+					for (Enumeration e = s.pop().getFeatures().getElements(); e
+							.hasMoreElements();)
+					{
+						try
+						{
+							e.nextElement();
+							aCount++;
+						}
+						catch (ClassCastException ex) // Methods
+						{
+							// Methods can be Features too.
+							// Not interested in Methods here
+							continue;
+						}
+					}
+				}
+d624 2
+a625 1
+						+ (CgenSupport.DEFAULT_OBJFIELDS + aCount)); // size
+d629 1
+a629 1
+				// Need to allocate and initialize all attributes from the
+d631 2
+a632 4
+				s = new Stack<CgenNode>();
+				s.push(nd);
+				p = nd.getParentNd();
+				while (p != null)
+d634 7
+a640 7
+					s.push(p);
+					p = p.getParentNd();
+				}
+				while (!s.empty())
+				{
+					for (Enumeration e = s.pop().getFeatures().getElements(); e
+							.hasMoreElements();)
+d642 1
+a642 11
+						attr a;
+						try
+						{
+							a = (attr) e.nextElement();
+						}
+						catch (ClassCastException ex)
+						{
+							continue;
+						}
+						str.println(CgenSupport.WORD 
+								+ Utilities.getDefaultObjectAddress(a.type_decl));
+d644 2
+d648 2
+d651 24
+a674 2
+			for (Enumeration<CgenNode> e = nd.getChildren(); e.hasMoreElements();)
+				q.add((CgenNode) e.nextElement());
+d676 1
+d712 1
+a712 3
+		LinkedList<CgenNode> q = new LinkedList<CgenNode>();
+		q.add(root());
+		while (!q.isEmpty()) // BFS
+d714 1
+a714 1
+			CgenNode nd = q.remove();
+d722 2
+a723 1
+			// 2. Save return address
+d725 1
+d748 1
+a748 1
+			for (Enumeration e = nd.getFeatures().getElements(); e.hasMoreElements();)
+d752 1
+a752 1
+					attr a = (attr)e.nextElement();
+a784 1
+
+a786 3
+
+			for (Enumeration<CgenNode> e = nd.getChildren(); e.hasMoreElements();)
+				q.add((CgenNode) e.nextElement());
+d795 1
+a795 3
+		LinkedList<CgenNode> q = new LinkedList<CgenNode>();
+		q.add(root());
+		while (!q.isEmpty()) // BFS. For each class in the program
+d797 1
+a797 1
+			CgenNode nd = q.remove();
+d801 1
+a801 1
+			if (!(nd.getName().equals(TreeConstants.Object_)
+d804 7
+a810 2
+					|| nd.getName().equals(TreeConstants.Bool) || nd.getName()
+					.equals(TreeConstants.Str)))
+d812 10
+a821 3
+				// Code for methods of user classes
+				for (Enumeration e = nd.getFeatures().getElements(); e
+						.hasMoreElements();)
+d823 1
+a823 13
+					try
+					{
+						method m = (method) e.nextElement();
+						enterScope();
+						codeMethod(m, nd);
+						if (Flags.cgen_debug)
+							System.out.println("Finished " + m.name);
+						exitScope();
+					}
+					catch (ClassCastException ex)
+					{
+						continue;
+					}
+a825 3
+			for (Enumeration<CgenNode> e = nd.getChildren(); e.hasMoreElements();)
+				q.add((CgenNode) e.nextElement());
+
+a826 1
+		
+@
+
+
+1.13
+log
+@30/63
+@
+text
+@d25 1
+a25 1
+import java.util.Hashtable;
+d57 2
+d61 1
+d68 22
+d92 1
+a92 4
+	 * IO, Int, Bool, String). Please note: as is this method does not
+	 * do anything useful; you will need to edit it to make if do what
+	 * you want. 
+	 * 						Incomplete????
+a106 2
+		// Why add them to the symbol table?? Incomplete????
+
+d111 1
+a111 1
+		/*addId(TreeConstants.SELF_TYPE, new CgenNode(new class_(0,
+d117 1
+a117 1
+				new Features(0), filename), CgenNode.Basic, this));*/
+a249 14
+	// The following creates an inheritance graph from
+	// a list of classes. The graph is implemented as
+	// a tree of `CgenNode', and class names are placed
+	// in the base class symbol table.
+
+	private void installClass(CgenNode nd)
+	{
+		AbstractSymbol name = nd.getName();
+		if (probe(name) != null)
+			return;
+		nds.addElement(nd);
+		addId(name, nd); // why???
+	}
+
+d282 60
+a382 45
+	/**
+	 * Emits code to start the .text segment and to
+	 * declare the global names.
+	 * */
+	private void codeGlobalText()
+	{
+		str.println(CgenSupport.GLOBAL + CgenSupport.HEAP_START);
+		str.print(CgenSupport.HEAP_START + CgenSupport.LABEL);
+		str.println(CgenSupport.WORD + 0);
+		str.println("\t.text");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Main, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Int, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Str, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Bool, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitMethodRef(TreeConstants.Main, TreeConstants.main_meth,
+				str);
+		str.println("");
+	}
+
+	/** Emits code definitions for boolean constants. */
+	private void codeBools(int classtag)
+	{
+		BoolConst.falsebool.codeDef(classtag, str);
+		BoolConst.truebool.codeDef(classtag, str);
+	}
+
+	/** Emits code definition for void */
+	private void codeVoid(int classtag)
+	{
+		// Add -1 eye catcher
+		str.println(CgenSupport.WORD + "-1");
+		str.println(CgenSupport.VOIDCONST_PREFIX + CgenSupport.LABEL
+				+ CgenSupport.WORD + classtag);
+		str.println(CgenSupport.WORD + (CgenSupport.DEFAULT_OBJFIELDS - 1)); // size
+	}
+
+d419 4
+a422 2
+		AbstractTable.stringtable.codeStringTable(((CgenNode)probe(TreeConstants.Str)).classTag, str);
+		AbstractTable.inttable.codeStringTable(((CgenNode)probe(TreeConstants.Int)).classTag, str);
+d425 19
+a443 1
+		codeVoid(CgenSupport.VOID_CLASSTAG);
+a450 1
+	 * 
+d454 2
+a455 16
+		/*
+		 * Traverse the inheritance tree and gather up all classes in a PQ.
+		 * The class-name table sorted by the class tags can now be created
+		 */
+		LinkedList<CgenNode> q = new LinkedList<CgenNode>();
+		PriorityQueue<CgenNode> pq = new PriorityQueue<CgenNode>();		
+		q.add(root());
+		while(!q.isEmpty()) // BFS
+		{
+			CgenNode nd = q.remove();
+			if (!nd.getName().equals(TreeConstants.No_class))
+				pq.add(nd);
+			
+			for(Enumeration<CgenNode> e = nd.getChildren(); e.hasMoreElements(); )
+				q.add((CgenNode)e.nextElement());
+		}
+d467 8
+a474 3
+	 * Class Object table - Contains pointers to prototype objects and
+	 * initializers of all classes indexed by the classtag so that objects can
+	 * be created for the expression 'new SELF_TYPE'
+d477 3
+a479 3
+	{
+		LinkedList<CgenNode> q = new LinkedList<CgenNode>();
+		q.add(root());
+d481 1
+d483 1
+a483 1
+		while (!q.isEmpty()) // BFS
+d485 1
+a485 1
+			CgenNode nd = q.remove();
+a489 2
+			for (Enumeration e = nd.getChildren(); e.hasMoreElements();)
+				q.add((CgenNode) e.nextElement());
+d494 20
+d518 4
+a521 6
+		LinkedList<CgenNode> q = new LinkedList<CgenNode>();
+		q.add(root());
+
+		while (!q.isEmpty()) // BFS
+		{
+			CgenNode nd = q.remove();
+d524 2
+a525 13
+
+			// Gather all ancestors in a stack to access their methods
+			// Stack is used so that the methods of parent class come first.
+			CgenNode p = nd.getParentNd();
+			Stack<CgenNode> s = new Stack<CgenNode>();
+			s.push(nd);
+			while (p != null)
+			{
+				s.push(p);
+				p = p.getParentNd();
+			}
+
+			// Generate labels to all methods
+d527 1
+a527 1
+			while (!s.empty())
+d529 2
+a530 2
+				p = s.pop();
+				for (Enumeration e = p.getFeatures().getElements(); e
+d532 1
+a532 1
+				{
+d536 1
+a536 1
+						m = (method) e.nextElement();
+a548 3
+
+			for (Enumeration e = nd.getChildren(); e.hasMoreElements();)
+				q.add((CgenNode) e.nextElement());
+a643 1
+						attr a;
+d646 1
+a646 1
+							a = (attr) e.nextElement();
+d692 1
+a692 1
+			for (Enumeration e = nd.getChildren(); e.hasMoreElements();)
+d698 28
+d807 1
+a807 1
+			for (Enumeration e = nd.getChildren(); e.hasMoreElements();)
+d850 1
+a850 1
+			for (Enumeration e = nd.getChildren(); e.hasMoreElements();)
+a910 61
+	}
+
+	/**
+	 * This method is the meat of the code generator. It is to be
+	 * filled in programming assignment 5
+	 */
+	public void code()  throws AddressNotFoundException
+	{
+		if (Flags.cgen_debug)
+			System.out.println("coding global data");
+		codeGlobalData();
+
+		if (Flags.cgen_debug)
+			System.out.println("choosing gc");
+		codeSelectGc();
+
+		if (Flags.cgen_debug)
+			System.out.println("coding constants");
+		codeConstants();
+
+		str.println("# Begin - Class name table");
+		str.println("# Class name table contains addresses of String objects"
+				+ " representing all the classes in the program. These can be"
+				+ " indexed using the classtag of objects");
+		str.println("# Used by Object.type_name() to return name of the "
+				+ "invoking object");
+		codeClassNameTab();
+		str.println("# End - Class name table\n");
+
+		str.println("# Begin - Class Object table");
+		str.println("# Contains pointers to prototype objects of all classes "
+				+ "and to their initializers. These can be indexed using the "
+				+ "classtag of objexts");
+		str.println("# Used to create objects for the expression, "
+				+ "new SELF_TYPE");
+		codeObjTab();
+		str.println("# End - Class Object table\n");
+
+		str.println("# Begin - Dispatch tables");
+		str.println("# Dispatch table of all classes");
+		codeDispTab();
+		str.println("# End - Dispatch tables\n");
+
+		str.println("# Begin - Prototype objects");
+		str.println("# Prototype objects for all classes. Used to create new "
+				+ "objects for the respective classes");
+		codePrototypeObjects();
+		str.println("# End - Prototype objects");		
+		
+		if (Flags.cgen_debug)
+			System.out.println("coding global text");
+		codeGlobalText();
+
+		str.println("# Begin - Object Initializers");
+		codeObjInit();
+		str.println("# End - Object Initializers");
+
+		str.println("# Begin - Class Methods");
+		codeClassMethods();
+		str.println("# End - Class Methods");
+
+@
+
+
+1.12
+log
+@30/63
+@
+text
+@d26 1
+d34 1
+a34 2
+ * generation. You will need to fill in some of its methods and
+ * potentially extend it in other useful ways.
+d40 1
+a40 1
+	private Vector nds;
+d45 3
+a47 9
+	// The following methods emit code for constants and global
+	// declarations.
+	Hashtable<Integer, CgenNode> classTagTab;
+
+	/**
+	 * Emits code to start the .data segment and to
+	 * declare the global names.
+	 * */
+	private void codeGlobalData()
+d49 1
+a49 1
+		// The following global names must be defined first.
+d51 1
+a51 20
+		str.print("\t.data\n" + CgenSupport.ALIGN);
+		str.println(CgenSupport.GLOBAL + CgenSupport.CLASSNAMETAB);
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitProtObjRef(TreeConstants.Main, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitProtObjRef(TreeConstants.Int, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitProtObjRef(TreeConstants.Str, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		BoolConst.falsebool.codeRef(str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		BoolConst.truebool.codeRef(str);
+		str.println("");
+		str.println(CgenSupport.GLOBAL + CgenSupport.INTTAG);
+		str.println(CgenSupport.GLOBAL + CgenSupport.BOOLTAG);
+		str.println(CgenSupport.GLOBAL + CgenSupport.STRINGTAG);
+d53 3
+a55 3
+		// We also need to know the tag of the Int, String, and Bool classes
+		// during code generation.
+		// why???
+d57 4
+a60 7
+		str.println(CgenSupport.INTTAG + CgenSupport.LABEL + CgenSupport.WORD
+				+ CgenSupport.INT_CLASSTAG);
+		str.println(CgenSupport.BOOLTAG + CgenSupport.LABEL + CgenSupport.WORD
+				+ CgenSupport.BOOL_CLASSTAG);
+		str.println(CgenSupport.STRINGTAG + CgenSupport.LABEL
+				+ CgenSupport.WORD + CgenSupport.STR_CLASSTAG);
+	}
+d62 1
+a62 86
+	/**
+	 * Emits code to start the .text segment and to
+	 * declare the global names.
+	 * */
+	private void codeGlobalText()
+	{
+		str.println(CgenSupport.GLOBAL + CgenSupport.HEAP_START);
+		str.print(CgenSupport.HEAP_START + CgenSupport.LABEL);
+		str.println(CgenSupport.WORD + 0);
+		str.println("\t.text");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Main, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Int, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Str, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitInitRef(TreeConstants.Bool, str);
+		str.println("");
+		str.print(CgenSupport.GLOBAL);
+		CgenSupport.emitMethodRef(TreeConstants.Main, TreeConstants.main_meth,
+				str);
+		str.println("");
+	}
+
+	/** Emits code definitions for boolean constants. */
+	private void codeBools(int classtag)
+	{
+		BoolConst.falsebool.codeDef(classtag, str);
+		BoolConst.truebool.codeDef(classtag, str);
+	}
+
+	/** Emits code definition for void */
+	private void codeVoid(int classtag)
+	{
+		// Add -1 eye catcher
+		str.println(CgenSupport.WORD + "-1");
+		str.println(CgenSupport.VOIDCONST_PREFIX + CgenSupport.LABEL
+				+ CgenSupport.WORD + classtag);
+		str.println(CgenSupport.WORD + (CgenSupport.DEFAULT_OBJFIELDS - 1)); // size
+	}
+
+	/** Generates GC choice constants (pointers to GC functions) */
+	private void codeSelectGc()
+	{
+		str.println(CgenSupport.GLOBAL + "_MemMgr_INITIALIZER");
+		str.println("_MemMgr_INITIALIZER:");
+		str.println(CgenSupport.WORD
+				+ CgenSupport.gcInitNames[Flags.cgen_Memmgr]);
+
+		str.println(CgenSupport.GLOBAL + "_MemMgr_COLLECTOR");
+		str.println("_MemMgr_COLLECTOR:");
+		str.println(CgenSupport.WORD
+				+ CgenSupport.gcCollectNames[Flags.cgen_Memmgr]);
+
+		str.println(CgenSupport.GLOBAL + "_MemMgr_TEST");
+		str.println("_MemMgr_TEST:");
+		str.println(CgenSupport.WORD
+				+ ((Flags.cgen_Memmgr_Test == Flags.GC_TEST) ? "1" : "0"));
+	}
+
+	/**
+	 * Emits code to reserve space for and initialise all of the
+	 * constants. Class names should have been added to the string
+	 * table (in the supplied code, is is done during the construction
+	 * of the inheritance graph), and code for emitting string constants
+	 * as a side effect adds the string's length to the integer table.
+	 * The constants are emmitted by running through the stringtable and
+	 * inttable and producing code for each entry.
+	 */
+	private void codeConstants()
+	{
+		// Add constants that are required by the code generator.
+		AbstractTable.stringtable.addString("");
+		AbstractTable.inttable.addString("0");
+
+		// The string table must first be codified as the sizes of the string
+		// are then added to the int table which is then codified
+		AbstractTable.stringtable.codeStringTable(CgenSupport.STR_CLASSTAG, str);
+		AbstractTable.inttable.codeStringTable(CgenSupport.INT_CLASSTAG, str);
+
+		codeBools(CgenSupport.BOOL_CLASSTAG);
+		codeVoid(CgenSupport.VOID_CLASSTAG);
+d69 2
+a70 1
+	 * you want.???
+d77 1
+a77 2
+
+		// Why add them to the symbol table?? Incomplete
+d80 6
+a85 4
+		// not part of the inheritance hierarchy. No_class serves as
+		// the parent of Object and the other special classes.
+		// SELF_TYPE is the self class; it cannot be redefined or
+		// inherited. prim_slot is a class known to the code generator.
+d91 1
+a91 1
+		addId(TreeConstants.SELF_TYPE, new CgenNode(new class_(0,
+d97 2
+a98 2
+				new Features(0), filename), CgenNode.Basic, this));
+
+d255 1
+a255 1
+		for (Enumeration e = nds.elements(); e.hasMoreElements();)
+d268 8
+d277 134
+a410 2
+	 * Class name table - Contain addresses of 'String' objects representing all
+	 * the classes in the program. Used to implement Object.type_name()
+d414 4
+d419 1
+d421 1
+a421 3
+
+		str.print(CgenSupport.CLASSNAMETAB + CgenSupport.LABEL);
+		for(int i = 0; i < classTagTab.size(); i++)
+d423 3
+a425 3
+			str.println(CgenSupport.WORD
+					+ CgenSupport.STRCONST_PREFIX
+					+ AbstractTable.stringtable.lookup(classTagTab.get(i).getName().toString()).index);
+d427 2
+d430 8
+a526 1
+		int userClassTag = 5;
+d535 2
+a539 3
+				classTagTab.put(CgenSupport.OBJECT_CLASSTAG, nd);
+				nd.classTag = CgenSupport.OBJECT_CLASSTAG;
+				str.println(CgenSupport.WORD + CgenSupport.OBJECT_CLASSTAG); // tag
+a546 4
+				classTagTab.put(CgenSupport.STR_CLASSTAG, nd);
+				nd.classTag = CgenSupport.STR_CLASSTAG;
+				str.println(CgenSupport.WORD + CgenSupport.STR_CLASSTAG); // tag
+
+a567 3
+				classTagTab.put(CgenSupport.INT_CLASSTAG, nd);
+				nd.classTag = CgenSupport.INT_CLASSTAG;
+				str.println(CgenSupport.WORD + CgenSupport.INT_CLASSTAG); // tag
+a576 3
+				classTagTab.put(CgenSupport.BOOL_CLASSTAG, nd);
+				nd.classTag = CgenSupport.BOOL_CLASSTAG;
+				str.println(CgenSupport.WORD + CgenSupport.BOOL_CLASSTAG); // tag
+a585 3
+				classTagTab.put(CgenSupport.IO_CLASSTAG, nd);
+				nd.classTag = CgenSupport.IO_CLASSTAG;
+				str.println(CgenSupport.WORD + CgenSupport.IO_CLASSTAG); // tag
+a593 4
+				classTagTab.put(userClassTag, nd);
+				nd.classTag = userClassTag;
+				str.println(CgenSupport.WORD + userClassTag++); // tag
+
+d654 1
+a654 1
+								+ Utilities.getDefaultAddress(a.type_decl));
+a663 20
+	/** Constructs a new class table and invokes the code generator */
+	public CgenClassTable(Classes cls, PrintStream str)  throws AddressNotFoundException
+	{
+		nds = new Vector();
+		classTagTab = new Hashtable<Integer, CgenNode>();
+
+		this.str = str;
+
+		enterScope();
+		if (Flags.cgen_debug)
+			System.out.println("Building CgenClassTable");
+
+		installBasicClasses();
+		installClasses(cls);
+		buildInheritanceTree();
+		code();
+
+		exitScope();
+	}
+
+d720 1
+a720 1
+								Utilities.getDefaultAddress(a.type_decl), str);
+d870 8
+a877 1
+
+d892 1
+a892 1
+// Incomplete - classTagTab is initialized in codePrototypeObjects
+d897 1
+a897 11
+		str.println("# End - Prototype objects");
+// Incomplete - codeClassNametab depends on CodePrototypeObjects
+		str.println("# Begin - Class name table");
+		str.println("# Class name table contains addresses of String objects"
+				+ " representing all the classes in the program. These can be"
+				+ " indexed using the classtag of objects");
+		str.println("# Used by Object.type_name() to return name of the "
+				+ "invoking object");
+		codeClassNameTab();
+		str.println("# End - Class name table\n");
+		
+a910 6
+	}
+
+	/** Gets the root of the inheritance tree */
+	public CgenNode root()
+	{
+		return (CgenNode) probe(TreeConstants.Object_);
+@
+
+
+1.11
+log
+@30/63
+@
+text
+@d642 1
+a642 1
+	public CgenClassTable(Classes cls, PrintStream str)
+d664 1
+a664 1
+	void codeObjInit()
+d676 1
+a676 1
+			// 1. Set up the FP
+d751 1
+a751 1
+	private void codeClassMethods()
+d800 1
+a800 1
+	private void codeMethod(method m, CgenNode c)
+d853 1
+a853 1
+	public void code()
+@
+
+
+1.10
+log
+@25/63
+@
+text
+@d498 1
+d508 1
+d533 1
+d545 1
+d557 1
+d568 1
+d675 2
+a676 2
+			// callee responsibility
+			// Set up the FP
+d678 1
+a678 1
+			// Save return address
+d681 4
+a684 2
+			// caller responsiblity
+			// Save my FP
+d686 3
+a688 1
+
+d693 32
+d726 15
+a740 6
+			// callee responsibility
+			CgenSupport.emitLoad(CgenSupport.RA, 2, CgenSupport.SP, str);
+			// pop the activation record
+			CgenSupport.emitPopAR(2, str);
+			// Load the old FP for the caller
+			CgenSupport.emitLoad(CgenSupport.FP, 0, CgenSupport.SP, str);
+d907 1
+a907 1
+		str.println("# Begin - Object Initializers");
+d909 1
+a909 1
+		str.println("# End - Object Initializers");
+@
+
+
+1.9
+log
+@23/63
+@
+text
+@d25 1
+a44 7
+	private int objectclasstag;
+	private int ioclasstag;
+	private int stringclasstag;
+	private int intclasstag;
+	private int boolclasstag;
+	private int voidclasstag;
+
+d47 1
+d83 1
+a83 1
+				+ intclasstag);
+d85 1
+a85 1
+				+ boolclasstag);
+d87 1
+a87 1
+				+ CgenSupport.WORD + stringclasstag);
+d171 2
+a172 2
+		AbstractTable.stringtable.codeStringTable(stringclasstag, str);
+		AbstractTable.inttable.codeStringTable(intclasstag, str);
+d174 2
+a175 2
+		codeBools(boolclasstag);
+		codeVoid(voidclasstag);
+d389 1
+a389 1
+		while (!q.isEmpty()) // A BFS
+a390 1
+			CgenNode nd = q.remove();
+d393 2
+a394 3
+					+ AbstractTable.stringtable.lookup(nd.getName().toString()).index);
+			for (Enumeration e = nd.getChildren(); e.hasMoreElements();)
+				q.add((CgenNode) e.nextElement());
+d497 2
+a498 1
+				str.println(CgenSupport.WORD + objectclasstag); // tag
+d506 2
+a507 1
+				str.println(CgenSupport.WORD + stringclasstag); // tag
+d530 2
+a531 1
+				str.println(CgenSupport.WORD + intclasstag); // tag
+d541 2
+a542 1
+				str.println(CgenSupport.WORD + boolclasstag); // tag
+d552 2
+a553 1
+				str.println(CgenSupport.WORD + ioclasstag); // tag
+d562 1
+d639 1
+a642 7
+		voidclasstag = CgenSupport.VOID_CLASSTAG;
+		objectclasstag = CgenSupport.OBJECT_CLASSTAG;
+		ioclasstag = CgenSupport.IO_CLASSTAG;
+		stringclasstag = CgenSupport.STR_CLASSTAG /* Change to your String class tag here */;
+		intclasstag = CgenSupport.INT_CLASSTAG /* Change to your Int class tag here */;
+		boolclasstag = CgenSupport.BOOL_CLASSTAG /* Change to your Bool class tag here */;
+
+a649 1
+
+d816 1
+a816 8
+		str.println("# Begin - Class name table");
+		str.println("# Class name table contains addresses of String objects"
+				+ " representing all the classes in the program. These can be"
+				+ " indexed using the classtag of objects");
+		str.println("# Used by Object.type_name() to return name of the "
+				+ "invoking object");
+		codeClassNameTab();
+		str.println("# End - Class name table\n");
+d831 1
+a831 1
+
+d837 11
+a847 1
+
+@
+
+
+1.8
+log
+@19/63
+@
+text
+@d454 1
+d465 1
+@
+
+
+1.7
+log
+@16/63
+@
+text
+@d763 1
+a763 1
+		str.println("\t# Set FP");
+d767 1
+a767 1
+		str.println("\t# Save return address");
+d782 1
+a782 1
+		str.println("\t# Emit code for method body");
+d787 1
+a787 1
+		str.println("\t# Get return address");
+d794 1
+a794 1
+			str.println("\t# Pop AR");
+d799 1
+a799 1
+		str.println("\t# Return");
+@
+
+
+1.6
+log
+@15/63
+@
+text
+@d768 1
+a768 1
+		CgenSupport.emitPush(CgenSupport.RA, str);
+d788 1
+a788 1
+		CgenSupport.emitPop(CgenSupport.RA, str);
+d795 1
+a795 1
+			CgenSupport.emitPopAR(m.formals.getLength(), str);
+@
+
+
+1.5
+log
+@18/63
+@
+text
+@a665 1
+		int dummy = 0;
+d679 1
+a679 1
+			CgenSupport.emitPush(CgenSupport.RA, dummy, str);
+d683 1
+a683 1
+			CgenSupport.emitPush(CgenSupport.FP, dummy, str);
+d693 1
+a693 1
+			CgenSupport.emitPopAR(2, dummy, str);
+d757 3
+a759 1
+		int nItems = 0;
+d768 1
+a768 1
+		CgenSupport.emitPush(CgenSupport.RA, nItems, str);
+d783 1
+a783 1
+		m.expr.code(c, this, nItems, str);
+d788 1
+a788 1
+		CgenSupport.emitPop(CgenSupport.RA, nItems, str);
+d795 1
+a795 1
+			CgenSupport.emitPopAR(m.formals.getLength(), nItems, str);
+@
+
+
+1.4
+log
+@11/63
+@
+text
+@d666 1
+d680 1
+a680 2
+			CgenSupport.emitStore(CgenSupport.RA, 0, CgenSupport.SP, str);
+			CgenSupport.emitAddiu(CgenSupport.SP, CgenSupport.SP, -4, str);
+d684 1
+a684 2
+			CgenSupport.emitStore(CgenSupport.FP, 0, CgenSupport.SP, str);
+			CgenSupport.emitAddiu(CgenSupport.SP, CgenSupport.SP, -4, str);
+d694 1
+a694 1
+			CgenSupport.emitAddiu(CgenSupport.SP, CgenSupport.SP, 8, str);
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d642 5
+a646 5
+		objectclasstag = 0;
+		ioclasstag = 1;
+		stringclasstag = 4 /* Change to your String class tag here */;
+		intclasstag = 2 /* Change to your Int class tag here */;
+		boolclasstag = 3 /* Change to your Bool class tag here */;
+@
+
+
+1.2
+log
+@Hello World
+@
+text
+@d623 2
+a624 23
+
+						if (a.type_decl.toString().equals(
+								TreeConstants.Int.toString()))
+							str.println(CgenSupport.WORD
+									+ CgenSupport.INTCONST_PREFIX
+									+ AbstractTable.inttable
+											.lookup(CgenSupport.INT_DEFAULT).index);
+						else if (a.type_decl.toString().equals(
+								TreeConstants.Str.toString()))
+							str.println(CgenSupport.WORD
+									+ CgenSupport.STRCONST_PREFIX
+									+ AbstractTable.stringtable
+											.lookup(CgenSupport.STR_DEFAULT).index);
+						else if (a.type_decl.toString().equals(
+								TreeConstants.Bool.toString()))
+						{
+							str.print(CgenSupport.WORD);
+							BoolConst.falsebool.codeRef(str);
+						}
+						else
+							// If none of the above type initialiase with void
+							str.println(CgenSupport.WORD
+									+ CgenSupport.VOIDCONST_PREFIX);
+d733 2
+d747 1
+d759 1
+a759 1
+		// $a0 contains the invoking object
+d761 14
+a774 11
+		// callee responsibilities before method body execution
+		CgenSupport.emitMethodRef(c.getName(), m.name, str);
+		str.print(CgenSupport.LABEL);// label
+		str.println("\t#Set FP");
+		CgenSupport.emitMove(CgenSupport.FP, CgenSupport.SP, str); // set FP
+		str.println("\t#Save return address");
+		CgenSupport.emitPush(CgenSupport.RA, str); // save return address
+
+		// Add the addresses of the formal parameters, relative to the FP
+		// into the symbol table
+		int offset = 1;
+d776 2
+a777 1
+				offset++)
+d779 1
+d782 9
+a790 3
+		str.println("\t#Emit code for method body");
+		m.expr.code(c, this, str);
+
+d794 3
+a796 2
+			str.println("\t#Pop AR");
+			CgenSupport.emitPopAR(m.formals.getLength(), str);
+d798 2
+a799 2
+		str.println("\t#Get return address and return");
+		CgenSupport.emitPop(CgenSupport.RA, str);
+d801 1
+d862 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d20 1
+a20 1
+*/
+d25 1
+d28 1
+d30 845
+a874 401
+/** This class is used for representing the inheritance tree during code
+    generation. You will need to fill in some of its methods and
+    potentially extend it in other useful ways. */
+class CgenClassTable extends SymbolTable {
+
+    /** All classes in the program, represented as CgenNode */
+    private Vector nds;
+
+    /** This is the stream to which assembly instructions are output */
+    private PrintStream str;
+
+    private int stringclasstag;
+    private int intclasstag;
+    private int boolclasstag;
+
+
+    // The following methods emit code for constants and global
+    // declarations.
+
+    /** Emits code to start the .data segment and to
+     * declare the global names.
+     * */
+    private void codeGlobalData() {
+	// The following global names must be defined first.
+
+	str.print("\t.data\n" + CgenSupport.ALIGN);
+	str.println(CgenSupport.GLOBAL + CgenSupport.CLASSNAMETAB);
+	str.print(CgenSupport.GLOBAL); 
+	CgenSupport.emitProtObjRef(TreeConstants.Main, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL); 
+	CgenSupport.emitProtObjRef(TreeConstants.Int, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL); 
+	CgenSupport.emitProtObjRef(TreeConstants.Str, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL); 
+	BoolConst.falsebool.codeRef(str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL); 
+	BoolConst.truebool.codeRef(str);
+	str.println("");
+	str.println(CgenSupport.GLOBAL + CgenSupport.INTTAG);
+	str.println(CgenSupport.GLOBAL + CgenSupport.BOOLTAG);
+	str.println(CgenSupport.GLOBAL + CgenSupport.STRINGTAG);
+
+	// We also need to know the tag of the Int, String, and Bool classes
+	// during code generation.
+
+	str.println(CgenSupport.INTTAG + CgenSupport.LABEL 
+		    + CgenSupport.WORD + intclasstag);
+	str.println(CgenSupport.BOOLTAG + CgenSupport.LABEL 
+		    + CgenSupport.WORD + boolclasstag);
+	str.println(CgenSupport.STRINGTAG + CgenSupport.LABEL 
+		    + CgenSupport.WORD + stringclasstag);
+
+    }
+
+    /** Emits code to start the .text segment and to
+     * declare the global names.
+     * */
+    private void codeGlobalText() {
+	str.println(CgenSupport.GLOBAL + CgenSupport.HEAP_START);
+	str.print(CgenSupport.HEAP_START + CgenSupport.LABEL);
+	str.println(CgenSupport.WORD + 0);
+	str.println("\t.text");
+	str.print(CgenSupport.GLOBAL);
+	CgenSupport.emitInitRef(TreeConstants.Main, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL);
+	CgenSupport.emitInitRef(TreeConstants.Int, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL);
+	CgenSupport.emitInitRef(TreeConstants.Str, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL);
+	CgenSupport.emitInitRef(TreeConstants.Bool, str);
+	str.println("");
+	str.print(CgenSupport.GLOBAL);
+	CgenSupport.emitMethodRef(TreeConstants.Main, TreeConstants.main_meth, str);
+	str.println("");
+    }
+
+    /** Emits code definitions for boolean constants. */
+    private void codeBools(int classtag) {
+	BoolConst.falsebool.codeDef(classtag, str);
+	BoolConst.truebool.codeDef(classtag, str);
+    }
+
+    /** Generates GC choice constants (pointers to GC functions) */
+    private void codeSelectGc() {
+	str.println(CgenSupport.GLOBAL + "_MemMgr_INITIALIZER");
+	str.println("_MemMgr_INITIALIZER:");
+	str.println(CgenSupport.WORD 
+		    + CgenSupport.gcInitNames[Flags.cgen_Memmgr]);
+
+	str.println(CgenSupport.GLOBAL + "_MemMgr_COLLECTOR");
+	str.println("_MemMgr_COLLECTOR:");
+	str.println(CgenSupport.WORD 
+		    + CgenSupport.gcCollectNames[Flags.cgen_Memmgr]);
+
+	str.println(CgenSupport.GLOBAL + "_MemMgr_TEST");
+	str.println("_MemMgr_TEST:");
+	str.println(CgenSupport.WORD 
+		    + ((Flags.cgen_Memmgr_Test == Flags.GC_TEST) ? "1" : "0"));
+    }
+
+    /** Emits code to reserve space for and initialize all of the
+     * constants.  Class names should have been added to the string
+     * table (in the supplied code, is is done during the construction
+     * of the inheritance graph), and code for emitting string constants
+     * as a side effect adds the string's length to the integer table.
+     * The constants are emmitted by running through the stringtable and
+     * inttable and producing code for each entry. */
+    private void codeConstants() {
+	// Add constants that are required by the code generator.
+	AbstractTable.stringtable.addString("");
+	AbstractTable.inttable.addString("0");
+
+	AbstractTable.stringtable.codeStringTable(stringclasstag, str);
+	AbstractTable.inttable.codeStringTable(intclasstag, str);
+	codeBools(boolclasstag);
+    }
+
+
+    /** Creates data structures representing basic Cool classes (Object,
+     * IO, Int, Bool, String).  Please note: as is this method does not
+     * do anything useful; you will need to edit it to make if do what
+     * you want.
+     * */
+    private void installBasicClasses() {
+	AbstractSymbol filename 
+	    = AbstractTable.stringtable.addString("<basic class>");
+	
+	// A few special class names are installed in the lookup table
+	// but not the class list.  Thus, these classes exist, but are
+	// not part of the inheritance hierarchy.  No_class serves as
+	// the parent of Object and the other special classes.
+	// SELF_TYPE is the self class; it cannot be redefined or
+	// inherited.  prim_slot is a class known to the code generator.
+
+	addId(TreeConstants.No_class,
+	      new CgenNode(new class_(0,
+				      TreeConstants.No_class,
+				      TreeConstants.No_class,
+				      new Features(0),
+				      filename),
+			   CgenNode.Basic, this));
+
+	addId(TreeConstants.SELF_TYPE,
+	      new CgenNode(new class_(0,
+				      TreeConstants.SELF_TYPE,
+				      TreeConstants.No_class,
+				      new Features(0),
+				      filename),
+			   CgenNode.Basic, this));
+	
+	addId(TreeConstants.prim_slot,
+	      new CgenNode(new class_(0,
+				      TreeConstants.prim_slot,
+				      TreeConstants.No_class,
+				      new Features(0),
+				      filename),
+			   CgenNode.Basic, this));
+
+	// The Object class has no parent class. Its methods are
+	//        cool_abort() : Object    aborts the program
+	//        type_name() : Str        returns a string representation 
+	//                                 of class name
+	//        copy() : SELF_TYPE       returns a copy of the object
+
+	class_ Object_class = 
+	    new class_(0, 
+		       TreeConstants.Object_, 
+		       TreeConstants.No_class,
+		       new Features(0)
+			   .appendElement(new method(0, 
+					      TreeConstants.cool_abort, 
+					      new Formals(0), 
+					      TreeConstants.Object_, 
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.type_name,
+					      new Formals(0),
+					      TreeConstants.Str,
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.copy,
+					      new Formals(0),
+					      TreeConstants.SELF_TYPE,
+					      new no_expr(0))),
+		       filename);
+
+	installClass(new CgenNode(Object_class, CgenNode.Basic, this));
+	
+	// The IO class inherits from Object. Its methods are
+	//        out_string(Str) : SELF_TYPE  writes a string to the output
+	//        out_int(Int) : SELF_TYPE      "    an int    "  "     "
+	//        in_string() : Str            reads a string from the input
+	//        in_int() : Int                "   an int     "  "     "
+
+	class_ IO_class = 
+	    new class_(0,
+		       TreeConstants.IO,
+		       TreeConstants.Object_,
+		       new Features(0)
+			   .appendElement(new method(0,
+					      TreeConstants.out_string,
+					      new Formals(0)
+						  .appendElement(new formal(0,
+								     TreeConstants.arg,
+								     TreeConstants.Str)),
+					      TreeConstants.SELF_TYPE,
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.out_int,
+					      new Formals(0)
+						  .appendElement(new formal(0,
+								     TreeConstants.arg,
+								     TreeConstants.Int)),
+					      TreeConstants.SELF_TYPE,
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.in_string,
+					      new Formals(0),
+					      TreeConstants.Str,
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.in_int,
+					      new Formals(0),
+					      TreeConstants.Int,
+					      new no_expr(0))),
+		       filename);
+
+	installClass(new CgenNode(IO_class, CgenNode.Basic, this));
+
+	// The Int class has no methods and only a single attribute, the
+	// "val" for the integer.
+
+	class_ Int_class = 
+	    new class_(0,
+		       TreeConstants.Int,
+		       TreeConstants.Object_,
+		       new Features(0)
+			   .appendElement(new attr(0,
+					    TreeConstants.val,
+					    TreeConstants.prim_slot,
+					    new no_expr(0))),
+		       filename);
+
+	installClass(new CgenNode(Int_class, CgenNode.Basic, this));
+
+	// Bool also has only the "val" slot.
+	class_ Bool_class = 
+	    new class_(0,
+		       TreeConstants.Bool,
+		       TreeConstants.Object_,
+		       new Features(0)
+			   .appendElement(new attr(0,
+					    TreeConstants.val,
+					    TreeConstants.prim_slot,
+					    new no_expr(0))),
+		       filename);
+
+	installClass(new CgenNode(Bool_class, CgenNode.Basic, this));
+
+	// The class Str has a number of slots and operations:
+	//       val                              the length of the string
+	//       str_field                        the string itself
+	//       length() : Int                   returns length of the string
+	//       concat(arg: Str) : Str           performs string concatenation
+	//       substr(arg: Int, arg2: Int): Str substring selection
+
+	class_ Str_class =
+	    new class_(0,
+		       TreeConstants.Str,
+		       TreeConstants.Object_,
+		       new Features(0)
+			   .appendElement(new attr(0,
+					    TreeConstants.val,
+					    TreeConstants.Int,
+					    new no_expr(0)))
+			   .appendElement(new attr(0,
+					    TreeConstants.str_field,
+					    TreeConstants.prim_slot,
+					    new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.length,
+					      new Formals(0),
+					      TreeConstants.Int,
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.concat,
+					      new Formals(0)
+						  .appendElement(new formal(0,
+								     TreeConstants.arg, 
+								     TreeConstants.Str)),
+					      TreeConstants.Str,
+					      new no_expr(0)))
+			   .appendElement(new method(0,
+					      TreeConstants.substr,
+					      new Formals(0)
+						  .appendElement(new formal(0,
+								     TreeConstants.arg,
+								     TreeConstants.Int))
+						  .appendElement(new formal(0,
+								     TreeConstants.arg2,
+								     TreeConstants.Int)),
+					      TreeConstants.Str,
+					      new no_expr(0))),
+		       filename);
+
+	installClass(new CgenNode(Str_class, CgenNode.Basic, this));
+    }
+	
+    // The following creates an inheritance graph from
+    // a list of classes.  The graph is implemented as
+    // a tree of `CgenNode', and class names are placed
+    // in the base class symbol table.
+    
+    private void installClass(CgenNode nd) {
+	AbstractSymbol name = nd.getName();
+	if (probe(name) != null) return;
+	nds.addElement(nd);
+	addId(name, nd);
+    }
+
+    private void installClasses(Classes cs) {
+        for (Enumeration e = cs.getElements(); e.hasMoreElements(); ) {
+	    installClass(new CgenNode((Class_)e.nextElement(), 
+				       CgenNode.NotBasic, this));
+        }
+    }
+
+    private void buildInheritanceTree() {
+	for (Enumeration e = nds.elements(); e.hasMoreElements(); ) {
+	    setRelations((CgenNode)e.nextElement());
+	}
+    }
+
+    private void setRelations(CgenNode nd) {
+	CgenNode parent = (CgenNode)probe(nd.getParent());
+	nd.setParentNd(parent);
+	parent.addChild(nd);
+    }
+
+    /** Constructs a new class table and invokes the code generator */
+    public CgenClassTable(Classes cls, PrintStream str) {
+	nds = new Vector();
+
+	this.str = str;
+
+	stringclasstag = 4 /* Change to your String class tag here */;
+	intclasstag =    3 /* Change to your Int class tag here */;
+	boolclasstag =   5 /* Change to your Bool class tag here */;
+
+	enterScope();
+	if (Flags.cgen_debug) System.out.println("Building CgenClassTable");
+	
+	installBasicClasses();
+	installClasses(cls);
+	buildInheritanceTree();
+
+	code();
+
+	exitScope();
+    }
+
+    /** This method is the meat of the code generator.  It is to be
+        filled in programming assignment 5 */
+    public void code() {
+	if (Flags.cgen_debug) System.out.println("coding global data");
+	codeGlobalData();
+
+	if (Flags.cgen_debug) System.out.println("choosing gc");
+	codeSelectGc();
+
+	if (Flags.cgen_debug) System.out.println("coding constants");
+	codeConstants();
+
+	//                 Add your code to emit
+	//                   - prototype objects
+	//                   - class_nameTab
+	//                   - dispatch tables
+
+	if (Flags.cgen_debug) System.out.println("coding global text");
+	codeGlobalText();
+
+	//                 Add your code to emit
+	//                   - object initializer
+	//                   - the class methods
+	//                   - etc...
+    }
+
+    /** Gets the root of the inheritance tree */
+    public CgenNode root() {
+	return (CgenNode)probe(TreeConstants.Object_);
+    }
+}
+			  
+    
+@

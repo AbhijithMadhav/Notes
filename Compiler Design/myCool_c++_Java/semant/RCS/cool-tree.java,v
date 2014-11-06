@@ -1,0 +1,5965 @@
+head	1.46;
+access;
+symbols;
+locks
+	kempa:1.46; strict;
+comment	@# @;
+
+
+1.46
+date	2012.06.20.13.03.17;	author kempa;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2012.06.20.12.02.18;	author kempa;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2012.06.20.11.53.27;	author kempa;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2012.06.20.06.40.17;	author kempa;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2012.06.20.02.02.17;	author kempa;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2012.06.19.16.54.14;	author kempa;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2012.06.19.05.46.00;	author kempa;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2012.06.19.03.17.15;	author kempa;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2012.06.18.21.05.43;	author kempa;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2012.06.18.20.01.35;	author kempa;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2012.06.18.19.34.54;	author kempa;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2012.06.18.19.19.46;	author kempa;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2012.06.18.18.23.45;	author kempa;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2012.06.18.17.03.47;	author kempa;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2012.06.18.16.49.04;	author kempa;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2012.06.18.15.38.54;	author kempa;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2012.06.18.15.13.14;	author kempa;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2012.06.18.14.46.04;	author kempa;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2012.06.18.14.39.18;	author kempa;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2012.06.18.13.34.20;	author kempa;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2012.06.18.10.25.39;	author kempa;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2012.06.18.08.38.42;	author kempa;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2012.06.18.07.59.11;	author kempa;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2012.06.18.06.13.34;	author kempa;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2012.06.18.05.38.08;	author kempa;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2012.06.18.03.21.23;	author kempa;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2012.06.17.12.51.58;	author kempa;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2012.06.17.09.46.33;	author kempa;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2012.06.17.08.37.17;	author kempa;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2012.06.17.06.27.29;	author kempa;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2012.06.17.06.09.44;	author kempa;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2012.06.17.03.39.43;	author kempa;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2012.06.17.02.54.26;	author kempa;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2012.06.16.17.37.42;	author kempa;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2012.06.16.16.49.45;	author kempa;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2012.06.15.12.36.24;	author kempa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2012.06.15.09.34.27;	author kempa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2012.06.15.07.53.43;	author kempa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2012.06.15.07.38.01;	author kempa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2012.06.14.19.15.35;	author kempa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2012.06.13.19.01.47;	author kempa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2012.06.13.18.21.13;	author kempa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2012.06.13.16.40.19;	author kempa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2012.06.13.11.40.58;	author kempa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2012.06.13.10.46.40;	author kempa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.06.13.07.47.10;	author kempa;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@// -*- mode: java -*- 
+//
+// file: cool-tree.m4
+//
+// This file defines the AST
+//
+//////////////////////////////////////////////////////////
+
+import java.util.Enumeration;
+import java.io.PrintStream;
+import java.util.Vector;
+
+
+/** Defines simple phylum Program */
+abstract class Program extends TreeNode {
+    protected Program(int lineNumber) {
+        super(lineNumber);
+    }
+    public abstract void dump_with_types(PrintStream out, int n);
+    public abstract void semant() throws PossibleNullDereferenceException, UnresolvableSelfTypeException;
+    public abstract void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException;
+}
+
+
+/** Defines simple phylum Class_ */
+abstract class Class_ extends TreeNode {
+    protected Class_(int lineNumber) {
+        super(lineNumber);
+    }
+    public abstract void dump_with_types(PrintStream out, int n);
+    public abstract void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException;
+}
+
+
+/** Defines list phylum Classes
+    <p>
+    See <a href="ListNode.html">ListNode</a> for full documentation. */
+class Classes extends ListNode {
+    public final static Class elementClass = Class_.class;
+    /** Returns class of this lists's elements */
+    public Class getElementClass() {
+        return elementClass;
+    }
+    protected Classes(int lineNumber, Vector elements) {
+        super(lineNumber, elements);
+    }
+    /** Creates an empty "Classes" list */
+    public Classes(int lineNumber) {
+        super(lineNumber);
+    }
+    /** Appends "Class_" element to this list */
+    public Classes appendElement(TreeNode elem) {
+        addElement(elem);
+        return this;
+    }
+    public TreeNode copy() {
+        return new Classes(lineNumber, copyElements());
+    }
+}
+
+
+/** Defines simple phylum Feature */
+abstract class Feature extends TreeNode {
+    protected Feature(int lineNumber) {
+        super(lineNumber);
+    }
+    public abstract void dump_with_types(PrintStream out, int n);
+    public abstract void validate(SymbolTable o, class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException;
+}
+
+
+/** Defines list phylum Features
+    <p>
+    See <a href="ListNode.html">ListNode</a> for full documentation. */
+class Features extends ListNode {
+    public final static Class elementClass = Feature.class;
+    /** Returns class of this lists's elements */
+    public Class getElementClass() {
+        return elementClass;
+    }
+    protected Features(int lineNumber, Vector elements) {
+        super(lineNumber, elements);
+    }
+    /** Creates an empty "Features" list */
+    public Features(int lineNumber) {
+        super(lineNumber);
+    }
+    /** Appends "Feature" element to this list */
+    public Features appendElement(TreeNode elem) {
+        addElement(elem);
+        return this;
+    }
+    public TreeNode copy() {
+        return new Features(lineNumber, copyElements());
+    }
+}
+
+
+/** Defines simple phylum Formal */
+abstract class Formal extends TreeNode {
+    protected Formal(int lineNumber) {
+        super(lineNumber);
+    }
+    public abstract void dump_with_types(PrintStream out, int n);
+    public abstract void validate(SymbolTable o, method m, class_c c, ClassTable ct) throws UnresolvableSelfTypeException ;
+}
+
+
+/** Defines list phylum Formals
+    <p>
+    See <a href="ListNode.html">ListNode</a> for full documentation. */
+class Formals extends ListNode {
+    public final static Class elementClass = Formal.class;
+    /** Returns class of this lists's elements */
+    public Class getElementClass() {
+        return elementClass;
+    }
+    protected Formals(int lineNumber, Vector elements) {
+        super(lineNumber, elements);
+    }
+    /** Creates an empty "Formals" list */
+    public Formals(int lineNumber) {
+        super(lineNumber);
+    }
+    /** Appends "Formal" element to this list */
+    public Formals appendElement(TreeNode elem) {
+        addElement(elem);
+        return this;
+    }
+    public TreeNode copy() {
+        return new Formals(lineNumber, copyElements());
+    }
+}
+
+
+/** Defines simple phylum Expression */
+abstract class Expression extends TreeNode {
+    protected Expression(int lineNumber) {
+        super(lineNumber);
+    }
+    private AbstractSymbol type = null;                                 
+    public AbstractSymbol get_type() throws PossibleNullDereferenceException { 
+        if (type == null) 
+            throw new PossibleNullDereferenceException("Internal Error: get_type : Attempting to retrieve type before it is set.");
+        return type;
+    }           
+    public Expression set_type(AbstractSymbol s) { type = s; return this; } 
+    public abstract void dump_with_types(PrintStream out, int n);
+    public void dump_type(PrintStream out, int n) {
+        if (type != null)
+            { out.println(Utilities.pad(n) + ": " + type.getString()); }
+        else
+            { out.println(Utilities.pad(n) + ": _no_type"); }
+    }
+    public abstract void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException ;
+}
+
+
+/** Defines list phylum Expressions
+    <p>
+    See <a href="ListNode.html">ListNode</a> for full documentation. */
+class Expressions extends ListNode {
+    public final static Class elementClass = Expression.class;
+    /** Returns class of this lists's elements */
+    public Class getElementClass() {
+        return elementClass;
+    }
+    protected Expressions(int lineNumber, Vector elements) {
+        super(lineNumber, elements);
+    }
+    /** Creates an empty "Expressions" list */
+    public Expressions(int lineNumber) {
+        super(lineNumber);
+    }
+    /** Appends "Expression" element to this list */
+    public Expressions appendElement(TreeNode elem) {
+        addElement(elem);
+        return this;
+    }
+    public TreeNode copy() {
+        return new Expressions(lineNumber, copyElements());
+    }
+}
+
+
+/** Defines simple phylum Case */
+abstract class Case extends TreeNode {
+    protected Case(int lineNumber) {
+        super(lineNumber);
+    }
+    public abstract void dump_with_types(PrintStream out, int n);
+    public abstract void validate(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException ;
+}
+
+
+/** Defines list phylum Cases
+    <p>
+    See <a href="ListNode.html">ListNode</a> for full documentation. */
+class Cases extends ListNode {
+    public final static Class elementClass = Case.class;
+    /** Returns class of this lists's elements */
+    public Class getElementClass() {
+        return elementClass;
+    }
+    protected Cases(int lineNumber, Vector elements) {
+        super(lineNumber, elements);
+    }
+    /** Creates an empty "Cases" list */
+    public Cases(int lineNumber) {
+        super(lineNumber);
+    }
+    /** Appends "Case" element to this list */
+    public Cases appendElement(TreeNode elem) {
+        addElement(elem);
+        return this;
+    }
+    public TreeNode copy() {
+        return new Cases(lineNumber, copyElements());
+    }
+}
+
+
+/** Defines AST constructor 'programc'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class programc extends Program {
+    protected Classes classes;
+
+    /** Creates "programc" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for classes
+      */
+    public programc(int lineNumber, Classes a1) {
+        super(lineNumber);
+        classes = a1;
+    }
+    public TreeNode copy() {
+        return new programc(lineNumber, (Classes)classes.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "programc\n");
+        classes.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_program");
+        for (Enumeration e = classes.getElements(); e.hasMoreElements(); ) {
+            // sm: changed 'n + 1' to 'n + 2' to match changes elsewhere
+	    ((Class_)e.nextElement()).dump_with_types(out, n + 2);
+        }
+    }
+
+        /** This method is the entry point to the semantic checker.
+	<p>
+        Your checker should do the following two things:
+	<ol>
+	<li>Check that the program is semantically correct
+	<li>Decorate the abstract syntax tree with type information
+        by setting the type field in each Expression node.
+        (see tree.h)
+	</ol>
+	<p>
+	You are free to first do (1) and make sure you catch all semantic
+    	errors. Part (2) can be done in a second stage when you want
+	to test the complete compiler.
+    */
+    public void semant() throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+		// ClassTable contains the inheritance relationship info and thus is a part of the class environment
+		ClassTable ct = new ClassTable(classes);
+		if (ct.errors()) {
+		    System.err.println("Compilation halted due to static semantic errors.");
+		    System.exit(1);
+		}
+	
+		/* some semantic analysis code may go here */
+	    SymbolTable o = new SymbolTable();
+	    validate(o, ct);
+		if (ct.errors()) {
+		    System.err.println("Compilation halted due to static semantic errors.");
+		    System.exit(1);
+		}
+    }
+
+    public void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        o.enterScope(); // program scope start
+        
+        // Validate each class of the program
+        for (Enumeration e = classes.getElements(); e.hasMoreElements(); )
+    	    ((Class_)e.nextElement()).validate(o, ct);
+
+        o.exitScope(); // program scope end
+    }
+}
+
+
+/** Defines AST constructor 'class_c'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class class_c extends Class_ {
+    protected AbstractSymbol name;
+    protected AbstractSymbol parent;
+    protected Features features;
+    protected AbstractSymbol filename;
+    /** Creates "class_c" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      * @@param a2 initial value for parent
+      * @@param a3 initial value for features
+      * @@param a4 initial value for filename
+      */
+    public class_c(int lineNumber, AbstractSymbol a1, AbstractSymbol a2, Features a3, AbstractSymbol a4) {
+        super(lineNumber);
+        name = a1;
+        parent = a2;
+        features = a3;
+        filename = a4;
+    }
+    public TreeNode copy() {
+        return new class_c(lineNumber, copy_AbstractSymbol(name), copy_AbstractSymbol(parent), (Features)features.copy(), copy_AbstractSymbol(filename));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "class_c\n");
+        dump_AbstractSymbol(out, n+2, name);
+        dump_AbstractSymbol(out, n+2, parent);
+        features.dump(out, n+2);
+        dump_AbstractSymbol(out, n+2, filename);
+    }
+
+    
+    public AbstractSymbol getFilename() { return filename; }
+    public AbstractSymbol getName()     { return name; }
+    public AbstractSymbol getParent()   { return parent; }
+    public Features getFeatures() { return features; }
+
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_class");
+        dump_AbstractSymbol(out, n + 2, name);
+        dump_AbstractSymbol(out, n + 2, parent);
+        out.print(Utilities.pad(n + 2) + "\"");
+        Utilities.printEscapedString(out, filename.getString());
+        out.println("\"\n" + Utilities.pad(n + 2) + "(");
+        for (Enumeration e = features.getElements(); e.hasMoreElements();) {
+	    ((Feature)e.nextElement()).dump_with_types(out, n + 2);
+        }
+        out.println(Utilities.pad(n + 2) + ")");
+    }
+
+    public void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // Validate each feature of the class
+        // A feature is either a method or attribute definition
+        for (Enumeration e = features.getElements(); e.hasMoreElements();)
+    	    ((Feature)e.nextElement()).validate(o, this, ct);
+    }
+
+    public boolean containsAttr(AbstractSymbol name, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // look in class env
+        for (AbstractSymbol supertype : ct.supertypes(getName())) 
+            for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+                try { 
+                    if (((attr)e.nextElement()).getName().equals(name))
+                        return true;
+                } catch(ClassCastException ex) {
+                     continue;
+                     // if e.nextElement() turns out to be a method, there are no name to compare. so ignore
+                }
+        return false;
+    }
+
+        // look in class env
+    public attr getAttr(AbstractSymbol name, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        for (AbstractSymbol supertype : ct.supertypes(getName())) 
+            for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+                try { 
+                    attr a = (attr)e.nextElement();
+                    if (a.getName().equals(name))
+                        return a;
+                } catch(ClassCastException ex) {
+                     continue;
+                     // if e.nextElement() turns out to be a method, there are no name to compare. so ignore
+                }
+        throw new PossibleNullDereferenceException("Internal Error : getAttr : No attribute called " + name + ". Use containsAttr() first");
+    }
+
+    public boolean containsMethod(AbstractSymbol name, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException  {
+        for (AbstractSymbol supertype : ct.supertypes(getName())) 
+	        for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+	            try { 
+	                if (((method)e.nextElement()).getName().equals(name))
+	                    return true;
+	            } catch(ClassCastException ex) {
+	                 continue;
+	                 // if e.nextElement() turns out to be a attribute, there are no name to compare. so ignore
+	            }
+	    return false;
+    }
+
+    public method getMethod(AbstractSymbol name, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+         // A redefnition overrides a method in an ancestor.
+         // Thus check for the method in this class first
+        for (Enumeration e = features.getElements(); e.hasMoreElements(); )
+            try {
+	                method m = (method)e.nextElement();
+	                if (m.getName().equals(name))
+	                    return m;
+	            } catch(ClassCastException ex) {
+	                 continue;
+	                 // if e.nextElement() turns out to be a attribute, there are no name to compare. so ignore
+	            }
+
+        // Now check in all the supertypes
+        for (AbstractSymbol supertype : ct.supertypes(getName()))
+	        for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+	            try { 
+	                method m = (method)e.nextElement();
+	                if (m.getName().equals(name))
+	                    return m;
+	            } catch(ClassCastException ex) {
+	                 continue;
+	                 // if e.nextElement() turns out to be an attribute , there are no name to compare. so ignore
+	            }
+        throw new PossibleNullDereferenceException("Internal Error : getMethod : No attribute called " + name + ". Use containsMethod() first");
+    }
+
+
+}
+
+
+/** Defines AST constructor 'method'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class method extends Feature {
+    protected AbstractSymbol name;
+    protected Formals formals;
+    protected AbstractSymbol return_type;
+    protected Expression expr;
+    /** Creates "method" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      * @@param a2 initial value for formals
+      * @@param a3 initial value for return_type
+      * @@param a4 initial value for expr
+      */
+    public method(int lineNumber, AbstractSymbol a1, Formals a2, AbstractSymbol a3, Expression a4) {
+        super(lineNumber);
+        name = a1;
+        formals = a2;
+        return_type = a3;
+        expr = a4;
+    }
+    public TreeNode copy() {
+        return new method(lineNumber, copy_AbstractSymbol(name), (Formals)formals.copy(), copy_AbstractSymbol(return_type), (Expression)expr.copy());
+    }
+
+    public AbstractSymbol getName() { return name; }
+    public Formals getFormals() { return formals; }
+    public AbstractSymbol getReturnType() { return return_type; }
+
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "method\n");
+        dump_AbstractSymbol(out, n+2, name);
+        formals.dump(out, n+2);
+        dump_AbstractSymbol(out, n+2, return_type);
+        expr.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_method");
+        dump_AbstractSymbol(out, n + 2, name);
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+	    ((Formal)e.nextElement()).dump_with_types(out, n + 2);
+        }
+        dump_AbstractSymbol(out, n + 2, return_type);
+	expr.dump_with_types(out, n + 2);
+    }
+
+    public void validate(SymbolTable o, class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // is this a redefined method? If so, check on the number and type of parameters
+        if (!isOriginalMethod(c, ct)) {
+            Enumeration eOriginal = getOriginalMethod(c, ct).getFormals().getElements();
+            Enumeration eRedefined = formals.getElements();
+            while ( eOriginal.hasMoreElements() && eRedefined.hasMoreElements()) {
+                formalc fOriginal = (formalc)eOriginal.nextElement();
+                formalc fRedefined = (formalc)eRedefined.nextElement();
+                if (!fOriginal.getTypeDecl().equals(fRedefined.getTypeDecl()))
+                    ct.semantError(c).println("In redefined method " + name + ", parameter type " + fRedefined.getTypeDecl() + " is different from original type " + fOriginal.getTypeDecl());
+            }
+            if (eOriginal.hasMoreElements() || eRedefined.hasMoreElements())
+                ct.semantError(c).println("Incompatible number of formal parameters in redefined method " + name + ".");
+        }
+
+        // Validate each formal parameter
+        Vector<AbstractSymbol> lst = new Vector<AbstractSymbol>();
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+            formalc f = (formalc)e.nextElement();
+            if (f.getName().equals(TreeConstants.self)) 
+                ct.semantError(c).println("'self' cannot be the name of a formal parameter.");
+            if (lst.contains(f.getName()))
+                ct.semantError(c).println("Formal parameter " + f.getName() + " is multiply defined.");
+            else
+                lst.add(f.getName());
+	        f.validate(o, this, c, ct);
+        }
+
+        // Is return type of method defined
+        // getResolvedType for <name>(...) : SELF_TYPE
+        if (!ct.isDefined(Util.getResolvedType(return_type, c))) {
+            ct.semantError(c).println("Return type " + return_type + " not defined.");
+            return;
+        }
+        // Validate the body of the method only if the return type is defined as the type of the body needs to be a subtype of the return type
+        expr.validateAndSetType(o, this, c, ct);
+
+        // Check if the return type is compatible with the inferred type
+        if (return_type.equals(TreeConstants.SELF_TYPE)) {
+            if (expr.get_type().equals(TreeConstants.SELF_TYPE))
+                return; // compatible
+            else // T <= SELF_TYPE(c) is false
+                ct.semantError(c).println("Inferred return type " + expr.get_type() + " of method " + name + " does not conform to declared return type " + return_type +".");
+        }
+        else { 
+            if (!ct.supertypes(Util.getResolvedType(expr.get_type(), c)).contains(return_type))
+                ct.semantError(c).println("Inferred return type " + expr.get_type() + " of method " + name + " does not conform to declared return type " + return_type +".");
+        }
+    }
+
+    // look for name in in method env
+    public boolean containsFormal(AbstractSymbol name) {
+        for (Enumeration e = formals.getElements(); e.hasMoreElements(); ) 
+      	    if (((formalc)e.nextElement()).getName().equals(name)) 
+                return true;
+        return false;
+    }
+
+    // look for name in in method env
+    public formalc getFormal(AbstractSymbol name) {
+        for (Enumeration e = formals.getElements(); e.hasMoreElements(); ) {
+            formalc f = (formalc)e.nextElement();
+      	    if (f.getName().equals(name)) 
+                return f;
+        }
+        return null;
+    }
+
+    // Is this method original, and not one which is redifined and thus overridding its namesake in a supertype?
+    public boolean isOriginalMethod(class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        for (AbstractSymbol supertype : ct.supertypes(c.getName())) {
+            if (supertype.equals(c.getName()))
+                continue;
+	        for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+	            try { 
+	                if (((method)e.nextElement()).getName().equals(name))
+	                    return false;
+	            } catch(ClassCastException ex) {
+	                 continue;
+	                 // if e.nextElement() turns out to be a attribute, there are no name to compare. so ignore
+	            }
+        }
+	    return true;
+    }
+
+    // Get the original method that this one is overridding
+    public method getOriginalMethod(class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        for (AbstractSymbol supertype : ct.supertypes(c.getName())) {
+            if (supertype.equals(c.getName()))
+                continue;
+	        for (Enumeration<method> e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+	            try { 
+                    method m = e.nextElement();
+	                if (m.getName().equals(name))
+	                    return m;
+	            } catch(ClassCastException ex) {
+	                 continue;
+	                 // if e.nextElement() turns out to be a attribute, there are no name to compare. so ignore
+	            }
+        }
+        throw new PossibleNullDereferenceException("Internal Error : getOriginalMethod : Trying to get the original method when this one is the one. Use isOriginalMethod() before.");
+    }
+}
+
+
+/** Defines AST constructor 'attr'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class attr extends Feature {
+    protected AbstractSymbol name;
+    protected AbstractSymbol type_decl;
+    protected Expression init;
+    private method dummy;
+    /** Creates "attr" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      * @@param a2 initial value for type_decl
+      * @@param a3 initial value for init
+      */
+    public attr(int lineNumber, AbstractSymbol a1, AbstractSymbol a2, Expression a3) {
+        super(lineNumber);
+        name = a1;
+        type_decl = a2;
+        init = a3;
+        dummy = new method(lineNumber, TreeConstants.dummyMethodForAttr, new Formals(lineNumber), TreeConstants.Object_, new no_expr(lineNumber));
+    }
+    public TreeNode copy() {
+        return new attr(lineNumber, copy_AbstractSymbol(name), copy_AbstractSymbol(type_decl), (Expression)init.copy());
+    }
+
+    public AbstractSymbol getName() { return name; }
+    public AbstractSymbol getTypeDecl() { return type_decl; } 
+
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "attr\n");
+        dump_AbstractSymbol(out, n+2, name);
+        dump_AbstractSymbol(out, n+2, type_decl);
+        init.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_attr");
+        dump_AbstractSymbol(out, n + 2, name);
+        dump_AbstractSymbol(out, n + 2, type_decl);
+	init.dump_with_types(out, n + 2);
+    }
+
+    public void validate(SymbolTable o, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // an attribute cannot be named 'self'
+        if (name.equals(TreeConstants.self))
+            ct.semantError(c).println("'self' cannot be the name of an attribute.");
+
+        // is attr type is known?
+        // getResolvedType for '<name> : SELF_TYPE'
+        if (!ct.isDefined(Util.getResolvedType(type_decl, c)))
+            ct.semantError(c).println("Type " + type_decl + " of attribute " + name + " not defined.");
+
+        // Should not override attributes of supertypes
+        for (AbstractSymbol cName : ct.supertypes(c.getName()))
+            if (!cName.equals(c.getName()) && ct.get_class_c(cName).containsAttr(name, ct))
+                ct.semantError(c).println("Attribute " + name + " is an attribute of an inherited class.");
+
+        // validate the initializer
+        init.validateAndSetType(o, dummy, c, ct);
+    }
+}
+
+
+/** Defines AST constructor 'formalc'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class formalc extends Formal {
+    protected AbstractSymbol name;
+    protected AbstractSymbol type_decl;
+    /** Creates "formalc" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      * @@param a2 initial value for type_decl
+      */
+    public formalc(int lineNumber, AbstractSymbol a1, AbstractSymbol a2) {
+        super(lineNumber);
+        name = a1;
+        type_decl = a2;
+    }
+    public TreeNode copy() {
+        return new formalc(lineNumber, copy_AbstractSymbol(name), copy_AbstractSymbol(type_decl));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "formalc\n");
+        dump_AbstractSymbol(out, n+2, name);
+        dump_AbstractSymbol(out, n+2, type_decl);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_formal");
+        dump_AbstractSymbol(out, n + 2, name);
+        dump_AbstractSymbol(out, n + 2, type_decl);
+    }
+
+    public AbstractSymbol getName() {
+        return name;
+    }
+
+    public AbstractSymbol getTypeDecl() {
+        return type_decl;
+    }
+
+    public void validate(SymbolTable o, method m, class_c c, ClassTable ct) throws UnresolvableSelfTypeException{
+        // formal parameter cannot be self type
+        if (type_decl.equals(TreeConstants.SELF_TYPE)) {
+            ct.semantError(c).println("Formal parameter " + type_decl + " cannot have type SELF_TYPE.");
+            return;
+        }
+
+        // Is formal type is a known type
+        if (!ct.isDefined(type_decl)) {
+            ct.semantError(c).println("Type " + type_decl + " of formal parameter " + name + " not defined.");
+            return;
+        }
+    }
+}
+
+
+/** Defines AST constructor 'branch'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class branch extends Case {
+    protected AbstractSymbol name;
+    protected AbstractSymbol type_decl;
+    protected Expression expr;
+    /** Creates "branch" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      * @@param a2 initial value for type_decl
+      * @@param a3 initial value for expr
+      */
+    public branch(int lineNumber, AbstractSymbol a1, AbstractSymbol a2, Expression a3) {
+        super(lineNumber);
+        name = a1;
+        type_decl = a2;
+        expr = a3;
+    }
+    public TreeNode copy() {
+        return new branch(lineNumber, copy_AbstractSymbol(name), copy_AbstractSymbol(type_decl), (Expression)expr.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "branch\n");
+        dump_AbstractSymbol(out, n+2, name);
+        dump_AbstractSymbol(out, n+2, type_decl);
+        expr.dump(out, n+2);
+    }
+
+    public AbstractSymbol getTypeDecl() { return type_decl; } 
+    public Expression getExpr() { return expr; }
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_branch");
+        dump_AbstractSymbol(out, n + 2, name);
+        dump_AbstractSymbol(out, n + 2, type_decl);
+	expr.dump_with_types(out, n + 2);
+    }
+
+    public void validate(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        o.enterScope(); // Branch scope start
+
+        if (type_decl.equals(TreeConstants.SELF_TYPE)) 
+            ct.semantError(c).println("Identifier " + name + " declared with type SELF_TYPE in case branch.");
+        // is branch type is a known type
+        else if (!ct.isDefined(type_decl)) 
+           ct.semantError(c).println("Type " + type_decl + " of branch " + name + " not defined.");
+
+        // Introduce the branch identifier into the symbol table
+        o.addId(name, new TypeAndInit(type_decl, new no_expr(lineNumber)));
+
+        // Validate the branch expression
+        expr.validateAndSetType(o, m, c, ct);
+
+        o.exitScope(); // Branch scope ends
+    }
+}
+
+
+/** Defines AST constructor 'assign'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class assign extends Expression {
+    protected AbstractSymbol name;
+    protected Expression expr;
+    /** Creates "assign" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      * @@param a2 initial value for expr
+      */
+    public assign(int lineNumber, AbstractSymbol a1, Expression a2) {
+        super(lineNumber);
+        name = a1;
+        expr = a2;
+    }
+    public TreeNode copy() {
+        return new assign(lineNumber, copy_AbstractSymbol(name), (Expression)expr.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "assign\n");
+        dump_AbstractSymbol(out, n+2, name);
+        expr.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_assign");
+        dump_AbstractSymbol(out, n + 2, name);
+	expr.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // Set the default type of expression in case of error
+        set_type(TreeConstants.Object_);
+
+        if (name.equals(TreeConstants.self)) {
+            ct.semantError(c).println("Cannot assign to 'self'");
+            return;
+        }
+         // Is the name bound to a declaration?
+        if (o.lookup(name) == null && !m.containsFormal(name) && !c.containsAttr(name, ct))
+            ct.semantError(c).println("Assignment to undeclared variable " + name + ".");
+
+        // Validate the intializer
+        expr.validateAndSetType(o, m, c, ct);
+
+
+        // Check if the LHS is compatible with the RHS
+        AbstractSymbol tName = Util.typeLookup(name, o, m, c, ct);
+        if (!ct.supertypes(Util.getResolvedType(expr.get_type(), c)).contains(tName)) {
+        // getResolvedType for '<name> <- self'
+            ct.semantError(c).println("Type " + expr.get_type() + " of assigned expression does not conform to declared type " +  tName + " of identifier " + name + ".");
+            return;
+        }
+ 
+        // set type of expression
+        set_type(expr.get_type());
+    }
+}
+
+
+/** Defines AST constructor 'static_dispatch'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class static_dispatch extends Expression {
+    protected Expression expr;
+    protected AbstractSymbol type_name;
+    protected AbstractSymbol name;
+    protected Expressions actual;
+    /** Creates "static_dispatch" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for expr
+      * @@param a2 initial value for type_name
+      * @@param a3 initial value for name
+      * @@param a4 initial value for actual
+      */
+    public static_dispatch(int lineNumber, Expression a1, AbstractSymbol a2, AbstractSymbol a3, Expressions a4) {
+        super(lineNumber);
+        expr = a1;
+        type_name = a2;
+        name = a3;
+        actual = a4;
+    }
+    public TreeNode copy() {
+        return new static_dispatch(lineNumber, (Expression)expr.copy(), copy_AbstractSymbol(type_name), copy_AbstractSymbol(name), (Expressions)actual.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "static_dispatch\n");
+        expr.dump(out, n+2);
+        dump_AbstractSymbol(out, n+2, type_name);
+        dump_AbstractSymbol(out, n+2, name);
+        actual.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_static_dispatch");
+	expr.dump_with_types(out, n + 2);
+        dump_AbstractSymbol(out, n + 2, type_name);
+        dump_AbstractSymbol(out, n + 2, name);
+        out.println(Utilities.pad(n + 2) + "(");
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).dump_with_types(out, n + 2);
+        }
+        out.println(Utilities.pad(n + 2) + ")");
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // Validate the invoking expression
+        expr.validateAndSetType(o, m, c, ct);
+
+        // Set default type of dispatch in case of an error
+        set_type(TreeConstants.Object_);
+
+        // Validate the actual arguments
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();)
+            ((Expression)e.nextElement()).validateAndSetType(o, m, c, ct);
+
+        // Type Checking
+        
+        // Get types of actual arguments
+        Vector<AbstractSymbol> tActual = new Vector<AbstractSymbol>();
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();)
+            tActual.add(Util.getResolvedType(((Expression)e.nextElement()).get_type(), c));
+            // getResolvedType for <expr>@@<type_name>.<name>(..., self, ...)
+
+        // Get type of invoking expression 
+        AbstractSymbol tExpr = expr.get_type();
+
+        // static type qualifier cannot be SELF
+        if (type_name.equals(TreeConstants.SELF_TYPE)) {
+            ct.semantError(c).println("Static dispatch to SELF_TYPE.");
+            return;
+        }
+
+        // is the invoking expression a descendent of the static type qualifier?
+        if (!ct.supertypes(Util.getResolvedType(expr.get_type(), c)).contains(type_name)) {
+        // getResolvedType for self@@<type_name>.<name>(..., <actual>, ...)
+            ct.semantError(c).println("Expression type " + expr.get_type() + " does not conform to declared static dispatch type " + type_name + ".");
+            return;
+        }
+
+        // is the method a member of the class of the static type qualifier
+        if (!ct.get_class_c(type_name).containsMethod(name, ct)) {
+            ct.semantError(c).println("Static dispatch to undefined method " + name + ".");
+            return;
+        }
+
+        // If the invocation of the method is valid proceed with
+        //  1. Validating the number and type of arguments
+        //  2. Setting the type of the static dispatch
+        
+        // Get types of formal arguments
+        Formals formals = ct.get_class_c(type_name).getMethod(name, ct).getFormals();
+        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+            formalc param = ((formalc)e.nextElement());
+            tFormal.add(param.getTypeDecl());
+            paramName.add(param.getName());
+        }
+
+        // wrong number of arguments
+        if (tActual.size() != tFormal.size()) {
+             ct.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+             return;
+        }
+        
+        // non-conforming type of arguments    
+        for (int i = 0; i < tActual.size(); i++) {
+            if (!ct.supertypes(tActual.get(i)).contains(tFormal.get(i))) {
+                ct.semantError(c).println("In call of method " + name
+                        + ", type " + tActual.get(i) + " of parameter "
+                        +  paramName.get(i) + " does not conform to declared type "
+                        + tFormal.get(i) + ".");
+                return;
+            }
+        }
+
+         // All is fine. Set the type information
+        method meth = ct.get_class_c(type_name).getMethod(name, ct);
+        if (meth.getReturnType().equals(TreeConstants.SELF_TYPE))
+            set_type(expr.get_type());
+        else
+            set_type(meth.getReturnType());
+    }
+}
+
+
+/** Defines AST constructor 'dispatch'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class dispatch extends Expression {
+    protected Expression expr;
+    protected AbstractSymbol name;
+    protected Expressions actual;
+    /** Creates "dispatch" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for expr
+      * @@param a2 initial value for name
+      * @@param a3 initial value for actual
+      */
+    public dispatch(int lineNumber, Expression a1, AbstractSymbol a2, Expressions a3) {
+        super(lineNumber);
+        expr = a1;
+        name = a2;
+        actual = a3;
+    }
+    public TreeNode copy() {
+        return new dispatch(lineNumber, (Expression)expr.copy(), copy_AbstractSymbol(name), (Expressions)actual.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "dispatch\n");
+        expr.dump(out, n+2);
+        dump_AbstractSymbol(out, n+2, name);
+        actual.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_dispatch");
+	expr.dump_with_types(out, n + 2);
+        dump_AbstractSymbol(out, n + 2, name);
+        out.println(Utilities.pad(n + 2) + "(");
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).dump_with_types(out, n + 2);
+        }
+        out.println(Utilities.pad(n + 2) + ")");
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // validate the invoking expression
+        expr.validateAndSetType(o, m, c, ct);
+
+        // Set default type of dispatch in case of an error
+        set_type(TreeConstants.Object_);
+
+        // Validate each of the actual arguments
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();)
+            ((Expression)e.nextElement()).validateAndSetType(o, m, c, ct);
+
+        // Type Checking
+        
+        // Get types of actual arguments
+        Vector<AbstractSymbol> tActual = new Vector<AbstractSymbol>();
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();)
+            tActual.add(Util.getResolvedType(((Expression)e.nextElement()).get_type(), c));
+            // getResolvedType for <expr>.<name>(..., self, ...)
+
+        // is the method a member of the class any of the supertypes of the of the invoking object class
+        if (!ct.get_class_c(Util.getResolvedType(expr.get_type(), c)).containsMethod(name, ct)) {
+        // getResolvedType for self.<name>(...)
+            ct.semantError(c).println("Dispatch to undefined method " + name + ".");
+            return;
+        }
+
+        // If the invocation of the method is valid proceed with
+        //  1. Validating the number and type of arguments
+        //  2. Setting the type of the static dispatch
+
+        // Get types of formal arguments. getResolvedType for self.<name>(...)
+        Formals formals = ct.get_class_c(Util.getResolvedType(expr.get_type(), c)).getMethod(name, ct).getFormals();
+        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+            formalc param = ((formalc)e.nextElement());
+            tFormal.add(param.getTypeDecl());
+            paramName.add(param.getName());
+        }
+   		// Wrong number of arguments
+        if (tActual.size() != tFormal.size()) {
+             ct.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+             return;
+        }
+        // Non conforming type of arguments
+        for (int i = 0; i < tActual.size(); i++) {
+            if (!ct.supertypes(tActual.get(i)).contains(tFormal.get(i))) {
+                ct.semantError(c).println("In call of method " + name
+                        + ", type " + tActual.get(i) + " of parameter "
+                        +  paramName.get(i) + " does not conform to declared type "
+                        + tFormal.get(i) + ".");
+            return;
+            }
+        }
+
+        // All is fine. Set the type information
+        // getResolvedType for self.<name>(...)
+        method meth = ct.get_class_c(Util.getResolvedType(expr.get_type(), c)).getMethod(name, ct);
+        if (meth.getReturnType().equals(TreeConstants.SELF_TYPE))
+            set_type(expr.get_type());
+        else 
+            set_type(meth.getReturnType());
+   } // void validateAndSetType(...)
+} // class dispatch extends Expression
+
+
+/** Defines AST constructor 'cond'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class cond extends Expression {
+    protected Expression pred;
+    protected Expression then_exp;
+    protected Expression else_exp;
+    /** Creates "cond" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for pred
+      * @@param a2 initial value for then_exp
+      * @@param a3 initial value for else_exp
+      */
+    public cond(int lineNumber, Expression a1, Expression a2, Expression a3) {
+        super(lineNumber);
+        pred = a1;
+        then_exp = a2;
+        else_exp = a3;
+    }
+    public TreeNode copy() {
+        return new cond(lineNumber, (Expression)pred.copy(), (Expression)then_exp.copy(), (Expression)else_exp.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "cond\n");
+        pred.dump(out, n+2);
+        then_exp.dump(out, n+2);
+        else_exp.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_cond");
+	pred.dump_with_types(out, n + 2);
+	then_exp.dump_with_types(out, n + 2);
+	else_exp.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+    // validate the predicate, 'then' expression and the 'else' expression
+	pred.validateAndSetType(o, m, c, ct);
+	then_exp.validateAndSetType(o, m, c, ct);
+	else_exp.validateAndSetType(o, m, c, ct);
+
+    // Check type of predicate
+    if (!pred.get_type().equals(TreeConstants.Bool))
+        ct.semantError(c).println("Predicate of 'if' does not have type Bool.");
+
+    // Set type of the 'cond' expression. 
+    // getResolvedType for cases where the the 'then' or 'else' expression evalutes to SELF_TYPE
+    set_type(ct.lub(Util.getResolvedType(then_exp.get_type(), c), Util.getResolvedType(else_exp.get_type(), c)));
+    }
+}
+
+
+/** Defines AST constructor 'loop'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class loop extends Expression {
+    protected Expression pred;
+    protected Expression body;
+    /** Creates "loop" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for pred
+      * @@param a2 initial value for body
+      */
+    public loop(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        pred = a1;
+        body = a2;
+    }
+    public TreeNode copy() {
+        return new loop(lineNumber, (Expression)pred.copy(), (Expression)body.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "loop\n");
+        pred.dump(out, n+2);
+        body.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_loop");
+	pred.dump_with_types(out, n + 2);
+	body.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+    // Validate the predicate expression and the body expression
+	pred.validateAndSetType(o, m, c, ct);
+	body.validateAndSetType(o, m, c, ct);
+
+    // Check the predicate expression
+    if (!pred.get_type().equals(TreeConstants.Bool))
+        ct.semantError(c).println("Predicate of 'while' does not have type Bool.");
+
+    // set the type of the 'while' expression
+    set_type(TreeConstants.Object_);
+    }
+}
+
+
+/** Defines AST constructor 'typcase'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class typcase extends Expression {
+    protected Expression expr;
+    protected Cases cases;
+    /** Creates "typcase" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for expr
+      * @@param a2 initial value for cases
+      */
+    public typcase(int lineNumber, Expression a1, Cases a2) {
+        super(lineNumber);
+        expr = a1;
+        cases = a2;
+    }
+    public TreeNode copy() {
+        return new typcase(lineNumber, (Expression)expr.copy(), (Cases)cases.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "typcase\n");
+        expr.dump(out, n+2);
+        cases.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_typcase");
+	expr.dump_with_types(out, n + 2);
+        for (Enumeration e = cases.getElements(); e.hasMoreElements();) {
+	    ((Case)e.nextElement()).dump_with_types(out, n + 2);
+        }
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // Validate the expression of the typcase
+        expr.validateAndSetType(o, m, c, ct);
+
+        // Validate every branch
+        AbstractSymbol lub = TreeConstants.No_type;
+        Vector<AbstractSymbol> bTypes = new Vector<AbstractSymbol>();
+        for (Enumeration e = cases.getElements(); e.hasMoreElements();) {
+            branch b = (branch)e.nextElement();
+	        b.validate(o, m, c, ct);
+            if (bTypes.contains(b.getTypeDecl())) // Duplicate branch
+                ct.semantError(c).println("Duplicate branch " + b.getTypeDecl() + " in case statement.");
+            else
+                bTypes.add(b.getTypeDecl());
+
+            // type of typecase is the lub of all the types of the expressions of its branches 
+            // getResolvedType for 'case x of y : SELF_TYPE => self ; z : Int => 1 ; esac'
+            //  Even though the first branch is illegal the semant proceeds further needing a resolved type
+            lub = ct.lub(Util.getResolvedType(lub, c), Util.getResolvedType(b.getExpr().get_type(), c));
+        }
+            set_type(lub);
+    }
+}
+
+
+/** Defines AST constructor 'block'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class block extends Expression {
+    protected Expressions body;
+    /** Creates "block" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for body
+      */
+    public block(int lineNumber, Expressions a1) {
+        super(lineNumber);
+        body = a1;
+    }
+    public TreeNode copy() {
+        return new block(lineNumber, (Expressions)body.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "block\n");
+        body.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_block");
+        for (Enumeration e = body.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).dump_with_types(out, n + 2);
+        }
+    	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        // Validate each expression and set its type
+        for (Enumeration e = body.getElements(); e.hasMoreElements();) {
+            Expression expr = (Expression)e.nextElement();
+    	    expr.validateAndSetType(o, m, c, ct);
+            set_type(expr.get_type());
+        }
+    }
+}
+
+
+/** Defines AST constructor 'let'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class let extends Expression {
+    protected AbstractSymbol identifier;
+    protected AbstractSymbol type_decl;
+    protected Expression init;
+    protected Expression body;
+    /** Creates "let" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for identifier
+      * @@param a2 initial value for type_decl
+      * @@param a3 initial value for init
+      * @@param a4 initial value for body
+      */
+    public let(int lineNumber, AbstractSymbol a1, AbstractSymbol a2, Expression a3, Expression a4) {
+        super(lineNumber);
+        identifier = a1;
+        type_decl = a2;
+        init = a3;
+        body = a4;
+    }
+    public TreeNode copy() {
+        return new let(lineNumber, copy_AbstractSymbol(identifier), copy_AbstractSymbol(type_decl), (Expression)init.copy(), (Expression)body.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "let\n");
+        dump_AbstractSymbol(out, n+2, identifier);
+        dump_AbstractSymbol(out, n+2, type_decl);
+        init.dump(out, n+2);
+        body.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_let");
+	dump_AbstractSymbol(out, n + 2, identifier);
+	dump_AbstractSymbol(out, n + 2, type_decl);
+	init.dump_with_types(out, n + 2);
+	body.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+
+        // set default type of expression in case of error
+        set_type(TreeConstants.Object_);
+
+        if (identifier.equals(TreeConstants.self))
+            ct.semantError(c).println("'self' cannot be bound in a 'let' expression.");
+
+        // getResolvedType for 'let <identifier> : SELFTYPE in ...'
+        if (!ct.isDefined(Util.getResolvedType(type_decl, c)))
+            ct.semantError(c).println("Type " + type_decl + " of let not defined.");
+
+        // Validate the initializer expression
+        init.validateAndSetType(o, m, c, ct);
+
+        // let-init
+        if (!(Util.getResolvedType(init.get_type(), c)).equals(TreeConstants.No_type)) {
+            // getResolvedType for let <identifier> : <type_name> <- self in ...'
+
+            // The inferred type of the initialization and the type declaration must be compatible
+            if (type_decl.equals(TreeConstants.SELF_TYPE))
+               if (init.get_type().equals(TreeConstants.SELF_TYPE))
+                       ; // compatible
+               else {
+                    ct.semantError(c).println("Inferred type " + init.get_type() + " of initialization of " + identifier + " does not conform to identifier's declared type " + type_decl + ".");
+                    return;
+               }
+            else
+                if (!ct.supertypes(Util.getResolvedType(init.get_type(), c)).contains(type_decl)) {
+                    ct.semantError(c).println("Inferred type " + init.get_type() + " of initialization of " + identifier + " does not conform to identifier's declared type " + type_decl + ".");
+                    return;
+                }
+        }
+
+        o.enterScope(); // Scope of let starts
+
+        o.addId(identifier, new TypeAndInit(type_decl, init));
+        body.validateAndSetType(o, m, c, ct);
+        set_type(body.get_type());
+
+        o.exitScope(); // Scope of let ends
+    }
+}
+
+/**
+ * A class to represent the type and initializer of a let variable.
+ * This is needed as the object symbol table records have a name-value fields.
+ * This class helps stick both the type and initializer expression together to
+ * put as the value into the object symbol table
+ */
+class TypeAndInit {
+    private AbstractSymbol type;
+    private Expression init;
+
+    public TypeAndInit(AbstractSymbol t, Expression e) {
+        type = t;
+        init = e;
+    }
+
+    public AbstractSymbol getType() {
+        return type;
+    }
+
+    public Expression getInit() {
+        return init;
+    }
+}
+
+/** Defines AST constructor 'plus'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class plus extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "plus" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public plus(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new plus(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "plus\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_plus");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+
+        // type checking
+        AbstractSymbol t1 = e1.get_type();
+        AbstractSymbol t2 = e2.get_type();
+        set_type(TreeConstants.Object_);
+        if (t1.equals(TreeConstants.Int) && t2.equals(TreeConstants.Int))
+            set_type(TreeConstants.Int);
+        else
+            ct.semantError(c).println("Non-Int arguments: " + t1 + " + " + t2);
+    }
+}
+
+
+/** Defines AST constructor 'sub'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class sub extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "sub" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public sub(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new sub(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "sub\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_sub");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+
+        // type checking
+        AbstractSymbol t1 = e1.get_type();
+        AbstractSymbol t2 = e2.get_type();
+        set_type(TreeConstants.Object_);
+        if (t1.equals(TreeConstants.Int) && t2.equals(TreeConstants.Int))
+            set_type(TreeConstants.Int);
+        else
+            ct.semantError(c).println("Non-Int arguments: " + t1 + " - " + t2);
+    }
+}
+
+
+/** Defines AST constructor 'mul'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class mul extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "mul" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public mul(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new mul(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "mul\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_mul");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+
+        // type checking
+        AbstractSymbol t1 = e1.get_type();
+        AbstractSymbol t2 = e2.get_type();
+        set_type(TreeConstants.Object_);
+        if (t1.equals(TreeConstants.Int) && t2.equals(TreeConstants.Int))
+            set_type(TreeConstants.Int);
+        else
+            ct.semantError(c).println("Non-Int arguments: " + t1 + " * " + t2);
+    }
+}
+
+
+/** Defines AST constructor 'divide'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class divide extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "divide" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public divide(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new divide(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "divide\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_divide");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+        
+        // type checking
+        AbstractSymbol t1 = e1.get_type();
+        AbstractSymbol t2 = e2.get_type();
+        set_type(TreeConstants.Object_);
+        if (t1.equals(TreeConstants.Int) && t2.equals(TreeConstants.Int))
+            set_type(TreeConstants.Int);
+        else
+            ct.semantError(c).println("Non-Int arguments: " + t1 + " / " + t2);
+    }
+}
+
+
+/** Defines AST constructor 'neg'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class neg extends Expression {
+    protected Expression e1;
+    /** Creates "neg" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      */
+    public neg(int lineNumber, Expression a1) {
+        super(lineNumber);
+        e1 = a1;
+    }
+    public TreeNode copy() {
+        return new neg(lineNumber, (Expression)e1.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "neg\n");
+        e1.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_neg");
+	e1.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        set_type(TreeConstants.Int);
+    }
+}
+
+
+/** Defines AST constructor 'lt'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class lt extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "lt" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public lt(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new lt(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "lt\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_lt");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+        set_type(TreeConstants.Bool);
+    }
+}
+
+
+/** Defines AST constructor 'eq'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class eq extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "eq" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public eq(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new eq(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "eq\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_eq");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+
+        Vector<AbstractSymbol> bTypes = new Vector<AbstractSymbol>();
+        bTypes.add(TreeConstants.Int);
+        bTypes.add(TreeConstants.Str);
+        bTypes.add(TreeConstants.Bool);
+        if (e1.get_type() != e2.get_type() && (bTypes.contains(e1.get_type()) || bTypes.contains(e2.get_type()))) {
+            ct.semantError(c).println("Illegal comparison with a basic type.");
+            set_type(TreeConstants.Object_);
+        }
+        else
+            set_type(TreeConstants.Bool);
+    }
+}
+
+
+/** Defines AST constructor 'leq'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class leq extends Expression {
+    protected Expression e1;
+    protected Expression e2;
+    /** Creates "leq" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      * @@param a2 initial value for e2
+      */
+    public leq(int lineNumber, Expression a1, Expression a2) {
+        super(lineNumber);
+        e1 = a1;
+        e2 = a2;
+    }
+    public TreeNode copy() {
+        return new leq(lineNumber, (Expression)e1.copy(), (Expression)e2.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "leq\n");
+        e1.dump(out, n+2);
+        e2.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_leq");
+	e1.dump_with_types(out, n + 2);
+	e2.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        e2.validateAndSetType(o, m, c, ct);
+        set_type(TreeConstants.Bool);
+    }
+}
+
+
+/** Defines AST constructor 'comp'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class comp extends Expression {
+    protected Expression e1;
+    /** Creates "comp" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      */
+    public comp(int lineNumber, Expression a1) {
+        super(lineNumber);
+        e1 = a1;
+    }
+    public TreeNode copy() {
+        return new comp(lineNumber, (Expression)e1.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "comp\n");
+        e1.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_comp");
+	e1.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        set_type(TreeConstants.Bool);
+    }
+}
+
+
+/** Defines AST constructor 'int_const'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class int_const extends Expression {
+    protected AbstractSymbol token;
+    /** Creates "int_const" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for token
+      */
+    public int_const(int lineNumber, AbstractSymbol a1) {
+        super(lineNumber);
+        token = a1;
+    }
+    public TreeNode copy() {
+        return new int_const(lineNumber, copy_AbstractSymbol(token));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "int_const\n");
+        dump_AbstractSymbol(out, n+2, token);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_int");
+	dump_AbstractSymbol(out, n + 2, token);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+        set_type(TreeConstants.Int);
+    }
+}
+
+
+/** Defines AST constructor 'bool_const'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class bool_const extends Expression {
+    protected Boolean val;
+    /** Creates "bool_const" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for val
+      */
+    public bool_const(int lineNumber, Boolean a1) {
+        super(lineNumber);
+        val = a1;
+    }
+    public TreeNode copy() {
+        return new bool_const(lineNumber, copy_Boolean(val));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "bool_const\n");
+        dump_Boolean(out, n+2, val);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_bool");
+	dump_Boolean(out, n + 2, val);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+        set_type(TreeConstants.Bool);
+    }
+}
+
+
+/** Defines AST constructor 'string_const'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class string_const extends Expression {
+    protected AbstractSymbol token;
+    /** Creates "string_const" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for token
+      */
+    public string_const(int lineNumber, AbstractSymbol a1) {
+        super(lineNumber);
+        token = a1;
+    }
+    public TreeNode copy() {
+        return new string_const(lineNumber, copy_AbstractSymbol(token));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "string_const\n");
+        dump_AbstractSymbol(out, n+2, token);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_string");
+	out.print(Utilities.pad(n + 2) + "\"");
+	Utilities.printEscapedString(out, token.getString());
+	out.println("\"");
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+        set_type(TreeConstants.Str);
+    }
+}
+
+
+/** Defines AST constructor 'new_'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class new_ extends Expression {
+    protected AbstractSymbol type_name;
+    /** Creates "new_" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for type_name
+      */
+    public new_(int lineNumber, AbstractSymbol a1) {
+        super(lineNumber);
+        type_name = a1;
+    }
+    public TreeNode copy() {
+        return new new_(lineNumber, copy_AbstractSymbol(type_name));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "new_\n");
+        dump_AbstractSymbol(out, n+2, type_name);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_new");
+	dump_AbstractSymbol(out, n + 2, type_name);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws UnresolvableSelfTypeException {
+        // check if name is known type
+        // getResolvedType for 'new SELF_TYPE'
+        if (!ct.isDefined(Util.getResolvedType(type_name, c))) 
+            ct.semantError(c).println("'new' used with undefined class " + type_name + ".");
+
+        // type check
+            set_type(type_name);
+    }
+}
+
+
+/** Defines AST constructor 'isvoid'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class isvoid extends Expression {
+    protected Expression e1;
+    /** Creates "isvoid" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for e1
+      */
+    public isvoid(int lineNumber, Expression a1) {
+        super(lineNumber);
+        e1 = a1;
+    }
+    public TreeNode copy() {
+        return new isvoid(lineNumber, (Expression)e1.copy());
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "isvoid\n");
+        e1.dump(out, n+2);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_isvoid");
+	e1.dump_with_types(out, n + 2);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        e1.validateAndSetType(o, m, c, ct);
+        set_type(TreeConstants.Bool);
+    }
+}
+
+
+/** Defines AST constructor 'no_expr'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class no_expr extends Expression {
+    /** Creates "no_expr" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      */
+    public no_expr(int lineNumber) {
+        super(lineNumber);
+    }
+    public TreeNode copy() {
+        return new no_expr(lineNumber);
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "no_expr\n");
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_no_expr");
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+        set_type(TreeConstants.No_type);
+    }
+}
+
+
+/** Defines AST constructor 'object'.
+    <p>
+    See <a href="TreeNode.html">TreeNode</a> for full documentation. */
+class object extends Expression {
+    protected AbstractSymbol name;
+    /** Creates "object" AST node. 
+      *
+      * @@param lineNumber the line in the source file from which this node came.
+      * @@param a1 initial value for name
+      */
+    public object(int lineNumber, AbstractSymbol a1) {
+        super(lineNumber);
+        name = a1;
+    }
+    public TreeNode copy() {
+        return new object(lineNumber, copy_AbstractSymbol(name));
+    }
+    public void dump(PrintStream out, int n) {
+        out.print(Utilities.pad(n) + "object\n");
+        dump_AbstractSymbol(out, n+2, name);
+    }
+
+    
+    public void dump_with_types(PrintStream out, int n) {
+        dump_line(out, n);
+        out.println(Utilities.pad(n) + "_object");
+	dump_AbstractSymbol(out, n + 2, name);
+	dump_type(out, n);
+    }
+
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+       set_type(Util.typeLookup(name, o, m, c, ct));
+    }
+}
+
+final class Util {
+    private Util() {}
+
+    /**
+     *  Returns the type of 'name' in the environment defined by o, m, c(ct is considered included in c)
+     */
+    public static AbstractSymbol typeLookup(AbstractSymbol name, SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+        if (name.equals(TreeConstants.self))
+            return TreeConstants.SELF_TYPE;
+        else if ((TypeAndInit)o.lookup(name) != null)
+            return ((TypeAndInit)o.lookup(name)).getType();
+        else if (m.containsFormal(name))
+            return m.getFormal(name).getTypeDecl();
+        else if (c.containsAttr(name, ct))
+            return c.getAttr(name, ct).getTypeDecl();
+        else {
+            ct.semantError(c).println("Undeclared identifier " + name + ".");
+            return TreeConstants.Object_;
+        }
+    }
+
+    /**
+     * Resolves a type name.
+     * A type name is resolved if it is gaureented not to be a context dependent placeholder, the SELF_TYPE.
+     */
+    public static AbstractSymbol getResolvedType(AbstractSymbol type, class_c container) {
+        if (type.equals(TreeConstants.SELF_TYPE))
+            return container.getName();
+        return type;
+    }
+}
+
+class PossibleNullDereferenceException extends Exception {
+    PossibleNullDereferenceException(String s) {
+        super(s);
+    }
+}
+
+class UnresolvableSelfTypeException extends Exception {
+    UnresolvableSelfTypeException() {
+            super("Internal Error: Unresolved SELF_TYPE");
+    }
+}
+@
+
+
+1.45
+log
+@Cleaned Design
+@
+text
+@d521 8
+a528 5
+        // Check if the return type is compatiblei(a supertype of) with the inferred type
+        // Not : T <= SELF_TYPE(c) is false. Thus the scenario where the inferred type is a non SELF_TYPE and the return type is SELF_TYPE, resolving the return type will result in T <= SELF_TYPE(c) if T = C.
+        // If both the return type and the inferred type are SELF_TYPE, they resolve into compatible types dynamically. 
+        // To do
+        if (!(return_type.equals(TreeConstants.SELF_TYPE) && expr.get_type().equals(TreeConstants.SELF_TYPE))) 
+d531 1
+d809 7
+d818 1
+a818 1
+            ct.semantError(c).println("Assignment to unndeclared variable " + name + ".");
+d823 7
+a829 10
+        // check and set type of expression
+        AbstractSymbol tName = Util.lookup(name, o, m, c, ct);
+        // to do
+        if (!(tName.equals(TreeConstants.SELF_TYPE) && expr.get_type().equals(TreeConstants.SELF_TYPE))) 
+            if (!ct.supertypes(Util.getResolvedType(expr.get_type(), c)).contains(tName)) {
+            // getResolvedType for '<name> <- self'
+                set_type(TreeConstants.Object_);
+                ct.semantError(c).println("Type " + expr.get_type() + " of assigned expression does not conform to declared type " +  tName + " of identifier " + name + ".");
+                set_type(TreeConstants.Object_);
+                return;
+d831 2
+d1339 3
+d1356 13
+a1368 5
+        // If both the return type and the inferred type are SELF_TYPE, they resolve into compatible types dynamically. 
+        // To do
+        if (!(type_decl.equals(TreeConstants.SELF_TYPE) && init.get_type().equals(TreeConstants.SELF_TYPE))) 
+            if (!ct.supertypes(init.get_type()).contains(type_decl))
+                ct.semantError(c).println("Inferred type " + init.get_type() + " of initialization of " + identifier + " does not conform to identifier's declared type " + type_decl + ".");
+d2072 1
+a2072 1
+       set_type(Util.lookup(name, o, m, c, ct));
+d2082 1
+a2082 1
+    public static AbstractSymbol lookup(AbstractSymbol name, SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+a2105 2
+
+
+@
+
+
+1.44
+log
+@Cleaned design
+@
+text
+@d514 1
+a514 1
+        if (!ct.isDefined(ct.getResolvedType(return_type, c))) {
+d526 1
+a526 1
+            if (!ct.supertypes(ct.getResolvedType(expr.get_type(), c)).contains(return_type))
+d637 1
+a637 1
+        if (!ct.isDefined(ct.getResolvedType(type_decl, c)))
+d813 1
+a813 1
+        AbstractSymbol tName = Type.getType(name, o, m, c, ct);
+d816 1
+a816 1
+            if (!ct.supertypes(ct.getResolvedType(expr.get_type(), c)).contains(tName)) {
+d893 1
+a893 1
+            tActual.add(ct.getResolvedType(((Expression)e.nextElement()).get_type(), c));
+d906 1
+a906 1
+        if (!ct.supertypes(ct.getResolvedType(expr.get_type(), c)).contains(type_name)) {
+d1019 1
+a1019 1
+            tActual.add(ct.getResolvedType(((Expression)e.nextElement()).get_type(), c));
+d1023 1
+a1023 1
+        if (!ct.get_class_c(ct.getResolvedType(expr.get_type(), c)).containsMethod(name, ct)) {
+d1034 1
+a1034 1
+        Formals formals = ct.get_class_c(ct.getResolvedType(expr.get_type(), c)).getMethod(name, ct).getFormals();
+d1060 1
+a1060 1
+        method meth = ct.get_class_c(ct.getResolvedType(expr.get_type(), c)).getMethod(name, ct);
+d1122 1
+a1122 1
+    set_type(ct.lub(ct.getResolvedType(then_exp.get_type(), c), ct.getResolvedType(else_exp.get_type(), c)));
+d1232 1
+a1232 1
+            lub = ct.lub(ct.getResolvedType(lub, c), ct.getResolvedType(b.getExpr().get_type(), c));
+d1333 1
+a1333 1
+        if (!ct.isDefined(ct.getResolvedType(type_decl, c)))
+d1340 1
+a1340 1
+        if (!(ct.getResolvedType(init.get_type(), c)).equals(TreeConstants.No_type)) {
+d1943 1
+a1943 1
+        if (!ct.isDefined(ct.getResolvedType(type_name, c))) 
+d2051 1
+a2051 1
+       set_type(Type.getType(name, o, m, c, ct));
+d2055 2
+a2056 2
+final class Type {
+    private Type() {}
+d2061 1
+a2061 1
+    public static AbstractSymbol getType(AbstractSymbol name, SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException, UnresolvableSelfTypeException {
+d2075 12
+d2092 6
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d362 2
+a363 2
+        for (AbstractSymbol supertype : ct.supertypes(getName(), this)) 
+            for (Enumeration e = ct.get_class_c(supertype, this).getFeatures().getElements(); e.hasMoreElements(); )
+d376 2
+a377 2
+        for (AbstractSymbol supertype : ct.supertypes(this.getName(), this)) 
+            for (Enumeration e = ct.get_class_c(supertype, this).getFeatures().getElements(); e.hasMoreElements(); )
+d390 2
+a391 2
+        for (AbstractSymbol supertype : ct.supertypes(this.getName(), this)) 
+	        for (Enumeration e = ct.get_class_c(supertype, this).getFeatures().getElements(); e.hasMoreElements(); )
+d416 2
+a417 2
+        for (AbstractSymbol supertype : ct.supertypes(this.getName(), this))
+	        for (Enumeration e = ct.get_class_c(supertype, this).getFeatures().getElements(); e.hasMoreElements(); )
+d503 1
+a503 1
+            if (f.getName().equals(TreeConstants.self)) // to do : why?
+a504 2
+            if (f.getTypeDecl().equals(TreeConstants.SELF_TYPE)) // to do : Why?
+                ct.semantError(c).println("Formal parameter " + f.getName() + " cannot have type SELF_TYPE.");
+d513 2
+a514 2
+        // return_type can be SELF_TYPE. So resolve it
+        if (!ct.isDefined(return_type, c)) {
+d526 1
+a526 1
+            if (!ct.supertypes(expr.get_type(), c).contains(return_type))
+d550 1
+a550 1
+        for (AbstractSymbol supertype : ct.supertypes(c.getName(), c)) {
+d553 1
+a553 1
+	        for (Enumeration e = ct.get_class_c(supertype, c).getFeatures().getElements(); e.hasMoreElements(); )
+d567 1
+a567 1
+        for (AbstractSymbol supertype : ct.supertypes(c.getName(), c)) {
+d570 1
+a570 1
+	        for (Enumeration<method> e = ct.get_class_c(supertype, c).getFeatures().getElements(); e.hasMoreElements(); )
+d636 2
+a637 2
+        // type of an attribute may be a SELF_TYPE. Resolve it
+        if (!ct.isDefined(type_decl, c))
+d641 2
+a642 2
+        for (AbstractSymbol cName : ct.supertypes(c.getName(), c))
+            if (!cName.equals(c.getName()) && ct.get_class_c(cName, c).containsAttr(name, ct))
+d694 6
+d701 1
+a701 1
+        if (!ct.isDefined(type_decl, c)) {
+d703 1
+d752 5
+a756 3
+         // is branch type is a known type
+        if (!ct.isDefined(type_decl, c)) 
+            ct.semantError(c).println("Type " + type_decl + " of branch " + name + " not defined.");
+a812 1
+        AbstractSymbol tExpr = expr.get_type();
+d814 8
+a821 3
+        if (!ct.supertypes(tExpr, c).contains(tName)) {
+            set_type(TreeConstants.Object_);
+            ct.semantError(c).println("Type " + tExpr + " of assigned expression does not conform to declared type " +  tName + " of identifier " + name + ".");
+d823 1
+a823 2
+        else
+            set_type(tExpr);
+d893 2
+a894 1
+            tActual.add(((Expression)e.nextElement()).get_type());
+d899 6
+d906 4
+a909 2
+        if (!ct.supertypes(tExpr, c).contains(type_name)) {
+            ct.semantError(c).println("Expression type " + tExpr + " does not conform to declared static dispatch type " + type_name + ".");
+d913 1
+a913 1
+        if (!ct.get_class_c(type_name, c).containsMethod(name, ct)) {
+d923 1
+a923 1
+        Formals formals = ct.get_class_c(type_name, c).getMethod(name, ct).getFormals();
+d940 1
+a940 1
+            if (!ct.supertypes(tActual.get(i), c).contains(tFormal.get(i))) {
+d950 1
+a950 1
+        method meth = ct.get_class_c(type_name, c).getMethod(name, ct);
+d952 1
+a952 1
+            set_type(tExpr);
+d1019 2
+a1020 8
+            tActual.add(((Expression)e.nextElement()).get_type());
+
+        // Get type of invoking expression 
+        AbstractSymbol tExprOrig = expr.get_type();
+        AbstractSymbol tExpr = tExprOrig;
+        if (tExpr == TreeConstants.SELF_TYPE)
+            tExpr = c.getName();
+
+d1023 2
+a1024 1
+        if (!ct.get_class_c(tExpr, c).containsMethod(name, ct)) {
+d1033 2
+a1034 2
+        // Get types of formal arguments
+        Formals formals = ct.get_class_c(tExpr, c).getMethod(name, ct).getFormals();
+d1049 1
+a1049 1
+            if (!ct.supertypes(tActual.get(i), c).contains(tFormal.get(i))) {
+d1059 5
+a1063 5
+        method meth = ct.get_class_c(tExpr, c).getMethod(name, ct);
+        if (meth.getReturnType().equals(TreeConstants.SELF_TYPE)) {
+            set_type(tExprOrig);
+        }
+        else {
+a1064 1
+        }
+d1120 3
+a1122 4
+    // Set type of the 'cond' expression
+    AbstractSymbol then_type = then_exp.get_type();
+    AbstractSymbol else_type = else_exp.get_type();
+    set_type(ct.lub(then_type, else_type, c));
+d1224 1
+a1224 1
+            if (bTypes.contains(b.getTypeDecl())) { // Duplicate branch
+a1225 1
+            }
+d1229 4
+a1232 3
+            // type of typecase is the lub of all the types of the expressions of its branches
+            lub = ct.lub(lub, b.getExpr().get_type(), c);
+            // save the current processing branch for the next iteration
+d1332 2
+a1333 2
+        // type declaration can be SELF_TYPE. Resolve it
+        if (!ct.isDefined(type_decl, c))
+d1340 3
+a1342 2
+        if (!init.get_type().equals(TreeConstants.No_type)) {
+            // type declaration can be SELF_TYPE. Resolve it
+d1346 1
+a1346 1
+            if (!ct.supertypes(init.get_type(), c).contains(type_decl))
+d1942 2
+a1943 2
+        // type can be SELF_TYPE. So resolve it
+        if (!ct.isDefined(type_name, c)) 
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d515 1
+d522 5
+d528 1
+a528 1
+        if (!ct.supertypes(expr.get_type(), c).contains(return_type)) // to do
+d633 4
+d638 1
+a641 4
+        // an attribute cannot be named 'self'
+        if (name.equals(TreeConstants.self))
+            ct.semantError(c).println("'self' cannot be the name of an attribute.");
+
+d1320 1
+d1329 5
+a1333 1
+            if (!ct.supertypes(init.get_type(), c).contains(ct.getResolvedType(type_decl, c))) // to do
+d1929 1
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d521 3
+a523 2
+        if (!ct.supertypes(expr.get_type(), c).contains(return_type))
+            ct.semantError(c).println("Inferred return type " + expr.get_type() + " of method " + name + " does not conform to declared return type " + return_type +".");
+@
+
+
+1.40
+log
+@All tests pass
+@
+text
+@d20 2
+a21 2
+    public abstract void semant() throws PossibleNullDereferenceException;
+    public abstract void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException;
+d31 1
+a31 1
+    public abstract void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException;
+d68 1
+a68 1
+    public abstract void validate(SymbolTable o, class_c c, ClassTable ct) throws PossibleNullDereferenceException;
+d105 1
+a105 1
+    public abstract void validate(SymbolTable o, method m, class_c c, ClassTable ct);
+d155 1
+a155 1
+    public abstract void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException ;
+d192 1
+a192 1
+    public abstract void validate(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException ;
+d270 1
+a270 1
+    public void semant() throws PossibleNullDereferenceException {
+d287 1
+a287 1
+    public void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException {
+d353 1
+a353 1
+    public void validate(SymbolTable o, ClassTable ct) throws PossibleNullDereferenceException {
+d360 1
+a360 1
+    public boolean containsAttr(AbstractSymbol name, ClassTable ct) throws PossibleNullDereferenceException {
+d362 2
+a363 2
+        for (AbstractSymbol supertype : ct.supertypes(this.getName(), this)) 
+            for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+d375 1
+a375 1
+    public attr getAttr(AbstractSymbol name, ClassTable ct) throws PossibleNullDereferenceException {
+d377 1
+a377 1
+            for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+d389 1
+a389 1
+    public boolean containsMethod(AbstractSymbol name, ClassTable ct)  throws PossibleNullDereferenceException {
+d391 1
+a391 1
+	        for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+d402 1
+a402 1
+    public method getMethod(AbstractSymbol name, ClassTable ct) throws PossibleNullDereferenceException {
+d417 1
+a417 1
+	        for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+d484 1
+a484 1
+    public void validate(SymbolTable o, class_c c, ClassTable ct) throws PossibleNullDereferenceException {
+a485 1
+        // To do : Why?
+d515 1
+a515 1
+        if (!ct.isDefined(return_type)) {
+d544 1
+a544 1
+    public boolean isOriginalMethod(class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d548 1
+a548 1
+	        for (Enumeration e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+d561 1
+a561 1
+    public method getOriginalMethod(class_c c, ClassTable ct) throws PossibleNullDereferenceException {
+d565 1
+a565 1
+	        for (Enumeration<method> e = ct.get_class_c(supertype).getFeatures().getElements(); e.hasMoreElements(); )
+d625 1
+a625 1
+    public void validate(SymbolTable o, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d627 1
+a627 1
+        if (!ct.isDefined(type_decl))
+d636 1
+a636 1
+            if (!cName.equals(c.getName()) && ct.get_class_c(cName).containsAttr(name, ct))
+d687 1
+a687 1
+    public void validate(SymbolTable o, method m, class_c c, ClassTable ct) {
+d689 1
+a689 1
+        if (!ct.isDefined(type_decl)) {
+d736 1
+a736 1
+    public void validate(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d740 1
+a740 1
+        if (!ct.isDefined(type_decl)) 
+d789 1
+a789 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException {
+d859 1
+a859 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+a871 2
+        // Set the default type in case of error
+
+d886 1
+a886 1
+        if (!ct.get_class_c(type_name).containsMethod(name, ct)) {
+d896 1
+a896 1
+        Formals formals = ct.get_class_c(type_name).getMethod(name, ct).getFormals();
+d923 1
+a923 1
+        method meth = ct.get_class_c(type_name).getMethod(name, ct);
+d976 1
+a976 2
+    // To do : Fix the SELF_TYPE
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) throws PossibleNullDereferenceException {
+a996 1
+//        System.out.println("Type of original invoking expression : " + tExprOrig);
+d1002 1
+a1002 1
+        if (!ct.get_class_c(tExpr).containsMethod(name, ct)) {
+d1012 1
+a1012 1
+        Formals formals = ct.get_class_c(tExpr).getMethod(name, ct).getFormals();
+d1036 2
+a1037 3
+           // All is fine. Set the type information
+        method meth = ct.get_class_c(tExpr).getMethod(name, ct);
+        //System.out.println("Return Type of method " + meth.name + " : " + meth.return_type);
+a1038 1
+  //          System.out.println("As return type is SELF_TYPE, type is that of the ORIGINAL invoking expression : " + tExprOrig);
+a1041 1
+    //        System.out.println("As return type is NOT SELF_TYPE, type is that of the return type itself : " + meth.return_type);
+d1089 1
+a1089 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1142 1
+a1142 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1194 1
+a1194 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1251 1
+a1251 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1307 1
+a1307 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1312 1
+a1312 3
+        //if (type_decl.equals(TreeConstants.SELF_TYPE))
+         //   type_decl = c.getName();
+        if (!ct.isDefined(type_decl))
+d1320 1
+a1320 1
+            if (!ct.supertypes(init.get_type(), c).contains(type_decl))
+d1392 1
+a1392 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1443 1
+a1443 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1494 1
+a1494 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1545 1
+a1545 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1591 1
+a1591 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1633 1
+a1633 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1676 1
+a1676 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1729 1
+a1729 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1767 1
+a1767 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d1914 1
+a1914 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1916 1
+a1916 1
+        if (!ct.isDefined(type_name)) 
+a1919 4
+        // to do : Understand this
+    //    if (type_name.equals(TreeConstants.SELF_TYPE)) 
+      //      set_type(c.getName());
+       // else
+d1955 1
+a1955 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d2023 1
+a2023 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d2034 1
+a2034 1
+    public static AbstractSymbol getType(AbstractSymbol name, SymbolTable o, method m, class_c c, ClassTable ct)  throws PossibleNullDereferenceException {
+d2050 4
+a2053 6
+class PossibleNullDereferenceException extends Exception
+{
+            PossibleNullDereferenceException(String s)
+             {
+                                        super(s);
+                                            }
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d1110 1
+a1110 1
+    set_type(ct.lub(then_type, else_type));
+d1219 1
+a1219 1
+            lub = ct.lub(lub, b.getExpr().get_type());
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d728 1
+d1207 1
+a1207 1
+        AbstractSymbol pre = TreeConstants.No_type;
+d1218 2
+a1219 2
+            // type of typecase is the lub of all the types of its branches
+            set_type(ct.lub(pre, b.getTypeDecl()));
+a1220 1
+            pre = b.getTypeDecl();
+d1222 1
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d978 1
+d998 3
+a1000 1
+        AbstractSymbol tExpr = expr.get_type();
+d1039 1
+d1042 7
+a1048 3
+        if (meth.getReturnType().equals(TreeConstants.SELF_TYPE))
+            set_type(tExpr);
+        else
+d1050 1
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d1920 4
+a1923 3
+        if (type_name.equals(TreeConstants.SELF_TYPE)) 
+            set_type(c.getName());
+        else
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d1250 1
+d1315 1
+d1317 3
+a1319 1
+        if (!init.get_type().equals(TreeConstants.No_type)) { // let with init
+d1324 1
+a1324 1
+        o.enterScope();
+d1330 1
+a1330 1
+        o.exitScope();
+d1334 6
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d461 2
+d488 1
+a488 1
+            Enumeration eOriginal = getOriginalMethod(c, ct).formals.getElements();
+d493 2
+a494 2
+                if (!fOriginal.type_decl.equals(fRedefined.type_decl))
+                    ct.semantError(c).println("In redefined method " + name + ", parameter type " + fRedefined.type_decl + " is different from original type " + fOriginal.type_decl);
+d606 1
+d608 2
+d727 1
+a727 1
+    
+d863 3
+a889 1
+            set_type(TreeConstants.Object_);
+d898 1
+a898 1
+        Formals formals = ct.get_class_c(type_name).getMethod(name, ct).formals;
+d903 1
+a903 1
+            tFormal.add(param.type_decl);
+d926 1
+a926 1
+        if (meth.return_type.equals(TreeConstants.SELF_TYPE))
+d929 1
+a929 1
+            set_type(meth.return_type);
+d979 1
+d981 5
+a990 3
+        // Set the default type in case of error
+        set_type(TreeConstants.Object_);
+
+d1001 1
+d1003 32
+a1034 31
+        if (ct.get_class_c(tExpr).containsMethod(name, ct)) {
+	        // Get types of formal arguments
+	        Formals formals = ct.get_class_c(tExpr).getMethod(name, ct).formals;
+	        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+	        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+	        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+	            formalc param = ((formalc)e.nextElement());
+	            tFormal.add(param.type_decl);
+	            paramName.add(param.getName());
+	        }
+       		// Wrong number of arguments
+	        if (tActual.size() != tFormal.size()) {
+	             ct.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+	             return;
+	        }
+	        // Non conforming type of arguments
+	        for (int i = 0; i < tActual.size(); i++) {
+	            if (!ct.supertypes(tActual.get(i), c).contains(tFormal.get(i))) {
+	                ct.semantError(c).println("In call of method " + name
+	                        + ", type " + tActual.get(i) + " of parameter "
+	                        +  paramName.get(i) + " does not conform to declared type "
+	                        + tFormal.get(i) + ".");
+	                return;
+	            }
+	        }
+            // All is fine. Set the type information
+	        method meth = ct.get_class_c(tExpr).getMethod(name, ct);
+	        if (meth.return_type.equals(TreeConstants.SELF_TYPE))
+	            set_type(tExpr);
+	        else
+	            set_type(meth.return_type);
+d1036 4
+d1041 1
+a1041 1
+            ct.semantError(c).println("Dispatch to undefined method " + name + ".");
+d1088 1
+d1093 1
+d1097 1
+d1141 1
+d1145 1
+d1149 1
+d1193 1
+d1196 3
+a1198 2
+        AbstractSymbol pre = null;
+        Vector<AbstractSymbol> types = new Vector<AbstractSymbol>();
+d1202 2
+a1203 2
+            if (types.contains(b.type_decl)) {
+                ct.semantError(c).println("Duplicate branch " + b.type_decl + " in case statement.");
+d1206 6
+a1211 3
+                types.add(b.type_decl);
+            set_type(ct.lub(pre, b.type_decl));
+            pre = b.type_decl;
+d2033 1
+a2033 1
+            return m.getFormal(name).type_decl;
+d2035 1
+a2035 1
+            return c.getAttr(name, ct).type_decl;
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d192 1
+a192 1
+    public abstract void validate(SymbolTable o, method m, class_c c, ClassTable ct, Expression expr) throws PossibleNullDereferenceException ;
+d622 2
+a623 2
+        // check if attr type is known
+        if (!ct.isDefined(type_decl)) {
+a624 1
+        }
+d630 1
+d635 1
+a682 1
+    
+d684 1
+a684 1
+        // check if formal type is known
+a687 1
+        
+d731 4
+a734 3
+    public void validate(SymbolTable o, method m, class_c c, ClassTable ct, Expression expr0)  throws PossibleNullDereferenceException {
+        o.enterScope();
+         // check if type is known
+d738 1
+d740 2
+d743 2
+a744 1
+        o.exitScope();
+d785 1
+d789 1
+d793 3
+a795 3
+        AbstractSymbol t1 = expr.get_type();
+        AbstractSymbol t = Type.getType(name, o, m, c, ct);
+        if (!ct.supertypes(t1, c).contains(t)) {
+d797 1
+a797 1
+            ct.semantError(c).println("Type " + t1 + " of assigned expression does not conform to declared type " +  t + " of identifier " + name + ".");
+d800 1
+a800 1
+            set_type(t1);
+d855 1
+d857 2
+a864 1
+        set_type(TreeConstants.Object_);
+d880 35
+a914 34
+        if (ct.get_class_c(type_name).containsMethod(name, ct)) {
+	        // Get types of formal arguments
+	        Formals formals = ct.get_class_c(type_name).getMethod(name, ct).formals;
+	        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+	        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+	        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+	            formalc param = ((formalc)e.nextElement());
+	            tFormal.add(param.type_decl);
+	            paramName.add(param.getName());
+	        }
+	
+	        // wrong number of arguments
+	        if (tActual.size() != tFormal.size()) {
+	             ct.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+	             return;
+	        }
+	        
+	        // non-conforming type of arguments    
+	        for (int i = 0; i < tActual.size(); i++) {
+	            if (!ct.supertypes(tActual.get(i), c).contains(tFormal.get(i))) {
+	                ct.semantError(c).println("In call of method " + name
+	                        + ", type " + tActual.get(i) + " of parameter "
+	                        +  paramName.get(i) + " does not conform to declared type "
+	                        + tFormal.get(i) + ".");
+	                return;
+	            }
+	        }
+	
+	         // All is fine. Set the type information
+	        method meth = ct.get_class_c(type_name).getMethod(name, ct);
+	        if (meth.return_type.equals(TreeConstants.SELF_TYPE))
+	            set_type(tExpr);
+	        else
+	            set_type(meth.return_type);
+d916 7
+a922 2
+        else 
+            ct.semantError(c).println("Static dispatch to undefined method " + name + ".");
+d1177 1
+a1177 1
+	        b.validate(o, m, c, ct, expr);
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d360 1
+a360 1
+    public boolean containsAttr(AbstractSymbol name, ClassTable ct){
+d375 1
+a375 1
+    public attr getAttr(AbstractSymbol name, ClassTable ct){
+d386 1
+a386 3
+        System.out.println("Internal Error : getAttr : No attribute called " + name + ". Use containsAttr() first");
+        System.exit(2);
+        return null;
+d389 1
+a389 1
+    public boolean containsMethod(AbstractSymbol name, ClassTable ct) {
+d402 1
+a402 1
+    public method getMethod(AbstractSymbol name, ClassTable ct){
+d426 1
+a426 3
+        System.out.println("Internal Error : getMethod : No attribute called " + name + ". Use containsMethod() first");
+        System.exit(2);
+	    return null;
+d543 1
+a543 1
+    public boolean isOriginalMethod(class_c c, ClassTable ct) {
+a574 2
+        //System.out.println("Internal Error : getOriginalMethod : Trying to get the original method when this one is the one. Use isOriginalMethod() before.");
+        //System.exit(2);
+d1975 1
+a1975 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1986 1
+a1986 1
+    public static AbstractSymbol getType(AbstractSymbol name, SymbolTable o, method m, class_c c, ClassTable ct) {
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+    public abstract void semant() throws PossibleNullPointerException ;
+    public abstract void validate(SymbolTable o, ClassTable ct) throws PossibleNullPointerException;
+d31 1
+a31 1
+    public abstract void validate(SymbolTable o, ClassTable ct) throws PossibleNullPointerException;
+d68 1
+a68 1
+    public abstract void validate(SymbolTable o, class_c c, ClassTable ct) throws PossibleNullPointerException;
+d142 3
+a144 5
+    public AbstractSymbol get_type() { 
+        if (type == null) {
+            System.out.println("Internal Error: get_type : Attempting to retrieve type before it is set.");
+            System.exit(2);
+        }
+d155 1
+a155 1
+    public abstract void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct);
+d192 1
+a192 1
+    public abstract void validate(SymbolTable o, method m, class_c c, ClassTable ct, Expression expr);
+d270 1
+a270 1
+    public void semant() throws PossibleNullPointerException {
+d287 1
+a287 1
+    public void validate(SymbolTable o, ClassTable ct) throws PossibleNullPointerException {
+d353 1
+a353 1
+    public void validate(SymbolTable o, ClassTable ct) throws PossibleNullPointerException {
+d486 1
+a486 1
+    public void validate(SymbolTable o, class_c c, ClassTable ct) throws PossibleNullPointerException {
+d564 1
+a564 1
+    public method getOriginalMethod(class_c c, ClassTable ct) throws PossibleNullPointerException {
+d578 1
+a578 1
+        throw new PossibleNullPointerException("Internal Error : getOriginalMethod : Trying to get the original method when this one is the one. Use isOriginalMethod() before.");
+d627 1
+a627 1
+    public void validate(SymbolTable o, class_c c, ClassTable ct) {
+d738 1
+a738 1
+    public void validate(SymbolTable o, method m, class_c c, ClassTable ct, Expression expr0) {
+d786 1
+a786 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d854 1
+a854 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d963 1
+a963 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct){
+d1063 1
+a1063 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1113 1
+a1113 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1162 1
+a1162 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1214 1
+a1214 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1269 1
+a1269 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1347 1
+a1347 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1398 1
+a1398 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1449 1
+a1449 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1500 1
+a1500 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1546 1
+a1546 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1588 1
+a1588 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1631 1
+a1631 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1684 1
+a1684 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1722 1
+a1722 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1913 1
+a1913 1
+    public void validateAndSetType(SymbolTable o, method m, class_c c, ClassTable ct) {
+d2008 1
+a2008 1
+class PossibleNullPointerException extends Exception
+d2010 1
+a2010 1
+            PossibleNullPointerException(String s)
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+    public abstract void semant();
+    public abstract void validate(SymbolTable o, ClassTable ct);
+d31 1
+a31 1
+    public abstract void validate(SymbolTable o, ClassTable ct);
+d68 1
+a68 1
+    public abstract void validate(SymbolTable o, class_c c, ClassTable ct);
+d272 1
+a272 1
+    public void semant() {
+d289 1
+a289 1
+    public void validate(SymbolTable o, ClassTable ct) {
+d355 1
+a355 1
+    public void validate(SymbolTable o, ClassTable ct) {
+d365 1
+a365 1
+            for (Enumeration e = ct.get_class_c(supertype).features.getElements(); e.hasMoreElements(); )
+d379 1
+a379 1
+            for (Enumeration e = ct.get_class_c(supertype).features.getElements(); e.hasMoreElements(); )
+d395 1
+a395 1
+	        for (Enumeration e = ct.get_class_c(supertype).features.getElements(); e.hasMoreElements(); )
+d421 1
+a421 1
+	        for (Enumeration e = ct.get_class_c(supertype).features.getElements(); e.hasMoreElements(); )
+d467 1
+d488 1
+a488 1
+    public void validate(SymbolTable o, class_c c, ClassTable ct) {
+d566 1
+a566 1
+    public method getOriginalMethod(class_c c, ClassTable ct) {
+d570 1
+a570 1
+	        for (Enumeration e = ct.get_class_c(supertype).features.getElements(); e.hasMoreElements(); )
+d572 1
+a572 1
+                    method m = (method)e.nextElement();
+d580 3
+a582 1
+	    return null;
+a583 3
+
+
+
+d2010 7
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d339 1
+d367 1
+a367 1
+                    if (((attr)e.nextElement()).name.equals(name))
+d382 1
+a382 1
+                    if (a.name.equals(name))
+d397 1
+a397 1
+	                if (((method)e.nextElement()).name.equals(name))
+d412 1
+a412 1
+	                if (m.name.equals(name))
+d424 1
+a424 1
+	                if (m.name.equals(name))
+d465 2
+d490 1
+a490 1
+        if (isRedefinedMethod(c, ct)) {
+d497 1
+a497 1
+                    ct.semantError(c).println("In redefined method " + this.name + ", parameter type " + fRedefined.type_decl + " is different from original type " + fOriginal.type_decl);
+d507 1
+a507 1
+            if (f.name.equals(TreeConstants.self)) // to do : why?
+d509 4
+a512 4
+            if (f.type_decl.equals(TreeConstants.SELF_TYPE)) // to do : Why?
+                ct.semantError(c).println("Formal parameter " + f.name + " cannot have type SELF_TYPE.");
+            if (lst.contains(f.name))
+                ct.semantError(c).println("Formal parameter " + f.name + " is multiply defined.");
+d514 1
+a514 1
+                lst.add(f.name);
+d532 1
+a532 1
+      	    if (((formalc)e.nextElement()).name.equals(name)) 
+d541 1
+a541 1
+      	    if (f.name.equals(name)) 
+d547 4
+a550 4
+    public boolean isRedefinedMethod(class_c c, ClassTable ct) {
+
+        for (AbstractSymbol supertype : ct.supertypes(c.name, c)) {
+            if (supertype.equals(c.name))
+d552 1
+a552 1
+	        for (Enumeration e = ct.get_class_c(supertype).features.getElements(); e.hasMoreElements(); )
+d554 2
+a555 2
+	                if (((method)e.nextElement()).name.equals(name))
+	                    return true;
+d561 1
+a561 1
+	    return false;
+d564 1
+d566 2
+a567 3
+
+        for (AbstractSymbol supertype : ct.supertypes(c.name, c)) {
+            if (supertype.equals(c.name))
+d572 1
+a572 1
+	                if (m.name.equals(name))
+d612 1
+d681 9
+d888 1
+a888 1
+	            paramName.add(param.name);
+d983 1
+a983 1
+            tExpr = c.name;
+d994 1
+a994 1
+	            paramName.add(param.name);
+d1878 1
+a1878 1
+            set_type(c.name);
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@a514 3
+        // Validate the body of the method
+        expr.validateAndSetType(o, this, c, ct);
+
+d518 1
+d520 3
+a522 1
+        else if (!ct.supertypes(expr.get_type(), c).contains(return_type))
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d142 7
+a148 1
+    public AbstractSymbol get_type() { return type; }           
+d290 3
+a292 1
+        o.enterScope(); // dummy scope
+d295 2
+a296 1
+        o.exitScope();
+d355 4
+a358 3
+        for (Enumeration e = features.getElements(); e.hasMoreElements();) {
+	    ((Feature)e.nextElement()).validate(o, this, ct);
+        }
+d485 2
+a486 1
+        // is this a redefined method?
+d500 1
+a500 1
+        // Check the formal parameters
+d503 2
+a504 2
+            formalc formal = (formalc)e.nextElement();
+            if (formal.name.equals(TreeConstants.self)) // to do : why?
+d506 4
+a509 4
+            if (formal.type_decl.equals(TreeConstants.SELF_TYPE)) // to do : Why?
+                ct.semantError(c).println("Formal parameter " + formal.name + " cannot have type SELF_TYPE.");
+            if (lst.contains(formal.name))
+                ct.semantError(c).println("Formal parameter " + formal.name + " is multiply defined.");
+d511 2
+a512 2
+                lst.add(formal.name);
+	        formal.validate(o, this, c, ct);
+d515 1
+d517 1
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+    public abstract void check(SymbolTable o, ClassTable ct);
+d31 1
+a31 1
+    public abstract void check(SymbolTable o, ClassTable ct);
+d68 1
+a68 1
+    public abstract void check(SymbolTable o, class_c c, ClassTable ct);
+d105 1
+a105 1
+    public abstract void check(SymbolTable o, method m, class_c c, ClassTable ct);
+d151 1
+a151 1
+    public abstract void check(SymbolTable o, method m, class_c c, ClassTable ct);
+d188 1
+a188 1
+    public abstract void check(SymbolTable o, method m, class_c c, ClassTable ct, Expression expr);
+d252 1
+a252 2
+        /** This method is the entry point to the semantic checker.  You will
+        need to complete it in programming assignment 4.
+d267 1
+a267 1
+		/* ClassTable constructor may do some semantic analysis */
+d276 1
+a276 1
+	    check(o, ct);
+d283 1
+a283 1
+    public void check(SymbolTable o, ClassTable ct) {
+d286 1
+a286 1
+    	    ((Class_)e.nextElement()).check(o, ct);
+d345 1
+a345 1
+    public void check(SymbolTable o, ClassTable ct) {
+d347 1
+a347 1
+	    ((Feature)e.nextElement()).check(o, this, ct);
+d351 1
+a352 1
+    public boolean containsAttr(AbstractSymbol name, ClassTable ct){
+d377 2
+a382 1
+
+d408 1
+d419 2
+d474 2
+a475 2
+    public void check(SymbolTable o, class_c c, ClassTable ct) {
+        // is this a redefined method
+d493 1
+a493 1
+            if (formal.name.equals(TreeConstants.self))
+d495 1
+a495 1
+            if (formal.type_decl.equals(TreeConstants.SELF_TYPE))
+d501 1
+a501 1
+	        formal.check(o, this, c, ct);
+a502 1
+        expr.check(o, this, c, ct);
+d504 1
+d612 1
+a612 1
+    public void check(SymbolTable o, class_c c, ClassTable ct) {
+d626 1
+a626 1
+        init.check(o, dummy, c, ct);
+d665 1
+a665 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d714 1
+a714 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct, Expression expr0) {
+d721 1
+a721 1
+        expr.check(o, m, c, ct);
+d762 1
+a762 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d766 1
+a766 1
+        expr.check(o, m, c, ct);
+d830 2
+a831 2
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        expr.check(o, m, c, ct);
+d833 1
+a833 1
+            ((Expression)e.nextElement()).check(o, m, c, ct);
+d939 2
+a940 2
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct){
+        expr.check(o, m, c, ct);
+d942 1
+a942 1
+            ((Expression)e.nextElement()).check(o, m, c, ct);
+d994 1
+a994 1
+   } // void check(...)
+d1039 4
+a1042 4
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+	pred.check(o, m, c, ct);
+	then_exp.check(o, m, c, ct);
+	else_exp.check(o, m, c, ct);
+d1089 3
+a1091 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+	pred.check(o, m, c, ct);
+	body.check(o, m, c, ct);
+d1138 2
+a1139 2
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        expr.check(o, m, c, ct);
+d1145 1
+a1145 1
+	        b.check(o, m, c, ct, expr);
+d1190 1
+a1190 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1193 1
+a1193 1
+    	    expr.check(o, m, c, ct);
+d1245 1
+a1245 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1255 1
+a1255 1
+        init.check(o, m, c, ct);
+d1264 1
+a1264 1
+        body.check(o, m, c, ct);
+d1323 3
+a1325 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1374 3
+a1376 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1425 3
+a1427 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1476 3
+a1478 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1522 2
+a1523 2
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+d1564 3
+a1566 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1607 3
+a1609 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1660 3
+a1662 3
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+        e2.check(o, m, c, ct);
+d1698 2
+a1699 2
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+d1735 1
+a1735 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1771 1
+a1771 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1809 1
+a1809 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1845 1
+a1845 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1889 2
+a1890 2
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+        e1.check(o, m, c, ct);
+d1921 1
+a1921 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+d1957 1
+a1957 1
+    public void check(SymbolTable o, method m, class_c c, ClassTable ct) {
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@a58 1
+    
+d278 1
+a278 1
+		if (SemantError.semantErrors() > 0) {
+a346 1
+
+a349 3
+        // To do: check if the parent is a defined type.
+        // Should this be done in ClassTable?
+
+d480 1
+a480 1
+                    SemantError.semantError(c).println("In redefined method " + this.name + ", parameter type " + fRedefined.type_decl + " is different from original type " + fOriginal.type_decl);
+d483 1
+a483 1
+                SemantError.semantError(c).println("Incompatible number of formal parameters in redefined method " + name + ".");
+d491 1
+a491 1
+                SemantError.semantError(c).println("'self' cannot be the name of a formal parameter.");
+d493 1
+a493 1
+                SemantError.semantError(c).println("Formal parameter " + formal.name + " cannot have type SELF_TYPE.");
+d495 1
+a495 1
+                SemantError.semantError(c).println("Formal parameter " + formal.name + " is multiply defined.");
+d504 1
+a504 1
+            SemantError.semantError(c).println("Return type " + return_type + " not defined.");
+d507 1
+a507 1
+            SemantError.semantError(c).println("Inferred return type " + expr.get_type() + " of method " + name + " does not conform to declared return type " + return_type +".");
+d612 1
+a612 1
+            SemantError.semantError(c).println("Type " + type_decl + " of attribute " + name + " not defined.");
+d617 1
+a617 1
+            SemantError.semantError(c).println("'self' cannot be the name of an attribute.");
+d621 1
+a621 1
+                SemantError.semantError(c).println("Attribute " + name + " is an attribute of an inherited class.");
+d665 1
+a665 1
+            SemantError.semantError(c).println("Type " + type_decl + " of formal parameter " + name + " not defined.");
+d715 1
+a715 1
+            SemantError.semantError(c).println("Type " + type_decl + " of branch " + name + " not defined.");
+d761 1
+a761 1
+            SemantError.semantError(c).println("Assignment to unndeclared variable " + name + ".");
+d770 1
+a770 1
+            SemantError.semantError(c).println("Type " + t1 + " of assigned expression does not conform to declared type " +  t + " of identifier " + name + ".");
+d847 1
+a847 1
+            SemantError.semantError(c).println("Expression type " + tExpr + " does not conform to declared static dispatch type " + type_name + ".");
+d864 1
+a864 1
+	             SemantError.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+d871 1
+a871 1
+	                SemantError.semantError(c).println("In call of method " + name
+d887 1
+a887 1
+            SemantError.semantError(c).println("Static dispatch to undefined method " + name + ".");
+d969 1
+a969 1
+	             SemantError.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+d975 1
+a975 1
+	                SemantError.semantError(c).println("In call of method " + name
+d990 1
+a990 1
+            SemantError.semantError(c).println("Dispatch to undefined method " + name + ".");
+d1042 1
+a1042 1
+        SemantError.semantError(c).println("Predicate of 'if' does not have type Bool.");
+d1091 1
+a1091 1
+        SemantError.semantError(c).println("Predicate of 'while' does not have type Bool.");
+d1144 1
+a1144 1
+                SemantError.semantError(c).println("Duplicate branch " + b.type_decl + " in case statement.");
+d1245 1
+a1245 1
+            SemantError.semantError(c).println("'self' cannot be bound in a 'let' expression.");
+d1250 1
+a1250 1
+            SemantError.semantError(c).println("Type " + type_decl + " of let not defined.");
+d1255 1
+a1255 1
+                SemantError.semantError(c).println("Inferred type " + init.get_type() + " of initialization of " + identifier + " does not conform to identifier's declared type " + type_decl + ".");
+d1331 1
+a1331 1
+            SemantError.semantError(c).println("Non-Int arguments: " + t1 + " + " + t2);
+d1382 1
+a1382 1
+            SemantError.semantError(c).println("Non-Int arguments: " + t1 + " - " + t2);
+d1433 1
+a1433 1
+            SemantError.semantError(c).println("Non-Int arguments: " + t1 + " * " + t2);
+d1484 1
+a1484 1
+            SemantError.semantError(c).println("Non-Int arguments: " + t1 + " / " + t2);
+d1613 1
+a1613 1
+            SemantError.semantError(c).println("Illegal comparison with a basic type.");
+d1845 1
+a1845 1
+            SemantError.semantError(c).println("'new' used with undefined class " + type_name + ".");
+a1958 14
+final class SemantError {
+    private SemantError() {}
+    private static int semantErrors = 0;
+    public static PrintStream semantError(class_c c) {
+        semantErrors++;
+        System.err.print(c.getFilename() + ":" + c.getLineNumber() + ": ");
+        return System.err;
+    }
+    public static int semantErrors() {
+        return semantErrors;
+    }
+}
+
+
+d1975 1
+a1975 1
+            SemantError.semantError(c).println("Undeclared identifier " + name + ".");
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@a59 18
+    /**
+     *  Is c defined in this list of classes?
+     **/
+    public boolean isDefined(AbstractSymbol c) {
+        for (Enumeration e = getElements(); e.hasMoreElements(); )
+	        if (((class_c)e.nextElement()).getName().equals(c))
+                return true;
+        return false;
+    }
+// to do : getClass(AbstractSymbol c)
+    public class_c get_class_c(AbstractSymbol name) {
+        for (Enumeration<class_c> e = getElements(); e.hasMoreElements();) {
+            class_c c = e.nextElement();
+            if (c.getName().equals(name)) 
+                    return c;
+        }
+        return null;
+    }
+d508 1
+a508 1
+        if (!ct.defined(return_type)) {
+d616 1
+a616 1
+        if (!ct.defined(type_decl)) {
+d669 1
+a669 1
+        if (!ct.defined(type_decl)) {
+d719 1
+a719 1
+        if (!ct.defined(type_decl)) 
+d1254 1
+a1254 1
+        if (!ct.defined(type_decl))
+d1849 1
+a1849 1
+        if (!ct.defined(type_name)) 
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d60 4
+a63 2
+    /* Does c belong to this list? */
+    public boolean defined(AbstractSymbol c) {
+d69 2
+a70 2
+
+    public class_c getByName(String s) {
+d73 1
+a73 1
+            if (c.getName().toString() == s) 
+d378 1
+a378 1
+            for (Enumeration e = ct.getByName(supertype.toString()).features.getElements(); e.hasMoreElements(); )
+d392 1
+a392 1
+            for (Enumeration e = ct.getByName(supertype.toString()).features.getElements(); e.hasMoreElements(); )
+d407 1
+a407 1
+	        for (Enumeration e = ct.getByName(supertype.toString()).features.getElements(); e.hasMoreElements(); )
+d432 1
+a432 1
+	        for (Enumeration e = ct.getByName(supertype.toString()).features.getElements(); e.hasMoreElements(); )
+d556 1
+a556 1
+	        for (Enumeration e = ct.getByName(supertype.toString()).features.getElements(); e.hasMoreElements(); )
+d573 1
+a573 1
+	        for (Enumeration e = ct.getByName(supertype.toString()).features.getElements(); e.hasMoreElements(); )
+d643 1
+a643 1
+            if (!cName.equals(c.getName()) && ct.getByName(cName.toString()).containsAttr(name, ct))
+d874 1
+a874 1
+        if (ct.getByName(type_name.toString()).containsMethod(name, ct)) {
+d876 1
+a876 1
+	        Formals formals = ct.getByName(type_name.toString()).getMethod(name, ct).formals;
+d903 1
+a903 1
+	        method meth = ct.getByName(type_name.toString()).getMethod(name, ct);
+d980 1
+a980 1
+        if (ct.getByName(tExpr.toString()).containsMethod(name, ct)) {
+d982 1
+a982 1
+	        Formals formals = ct.getByName(tExpr.toString()).getMethod(name, ct).formals;
+d1006 1
+a1006 1
+	        method meth = ct.getByName(tExpr.toString()).getMethod(name, ct);
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d733 1
+d738 1
+a738 1
+        o.addId(name, new TypeAndInit(expr0.get_type(), expr0));
+d740 1
+a1157 1
+        o.enterScope();
+d1164 2
+a1165 2
+            if (types.contains(b.expr.get_type())) {
+                SemantError.semantError(c).println("Duplicate branch " + b.expr.get_type() + " in case statement.");
+d1168 3
+a1170 3
+                types.add(b.expr.get_type());
+            set_type(ct.lub(pre, b.expr.get_type()));
+            pre = b.expr.get_type();
+a1171 1
+        o.exitScope();
+d2003 1
+a2003 1
+        else if ((TypeAndInit)o.lookup(name) != null) {
+a2004 1
+        }
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d441 2
+d493 13
+d522 2
+a523 1
+        // Is return type of method is defined
+d526 2
+a527 1
+        } else if (!ct.supertypes(expr.get_type(), c).contains(return_type))
+d548 38
+a642 1
+
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d402 1
+a402 11
+    public boolean containsMethod(AbstractSymbol name) {
+        for (Enumeration e = features.getElements(); e.hasMoreElements(); )
+            try { 
+                if (((method)e.nextElement()).name.equals(name))
+                    return true;
+            } catch(ClassCastException ex) {
+                 continue;
+                 // if e.nextElement() turns out to be a attribute, there are no name to compare. so ignore
+            }
+        return false;
+    }
+d404 15
+a418 1
+    public method getMethod(AbstractSymbol name){
+d420 20
+a439 9
+            try { 
+                method m = (method)e.nextElement();
+                if (m.name.equals(name))
+                    return m;
+            } catch(ClassCastException ex) {
+                 continue;
+                 // if e.nextElement() turns out to be an attribute , there are no name to compare. so ignore
+            }
+        return null;
+d815 37
+a851 2
+        // is the method a member of the class of the invoking object
+        if (!ct.getByName(type_name.toString()).containsMethod(name)) {
+a852 35
+            return;
+        }
+
+        // Get types of formal arguments
+        Formals formals = ct.getByName(type_name.toString()).getMethod(name).formals;
+        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+            formalc param = ((formalc)e.nextElement());
+            tFormal.add(param.type_decl);
+            paramName.add(param.name);
+        }
+
+        if (tActual.size() != tFormal.size()) {
+             SemantError.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+             return;
+        }
+            
+        for (int i = 0; i < tActual.size(); i++) {
+            if (!ct.supertypes(tActual.get(i), c).contains(tFormal.get(i))) {
+                SemantError.semantError(c).println("In call of method " + name
+                        + ", type " + tActual.get(i) + " of parameter "
+                        +  paramName.get(i) + " does not conform to declared type "
+                        + tFormal.get(i) + ".");
+                return;
+            }
+        }
+
+         // All is fine. Set the type information
+        method meth = ct.getByName(type_name.toString()).getMethod(name);
+        if (meth.return_type.equals(TreeConstants.SELF_TYPE))
+            set_type(tExpr);
+        else
+            set_type(meth.return_type);
+ 
+d922 31
+a952 36
+        for (AbstractSymbol supertype : ct.supertypes(tExpr, c)) {
+            if (ct.getByName(supertype.toString()).containsMethod(name)) {
+		        // Get types of formal arguments
+		        Formals formals = ct.getByName(supertype.toString()).getMethod(name).formals;
+		        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+		        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+		        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+		            formalc param = ((formalc)e.nextElement());
+		            tFormal.add(param.type_decl);
+		            paramName.add(param.name);
+		        }
+        		// Wrong number of arguments
+		        if (tActual.size() != tFormal.size()) {
+		             SemantError.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+		             return;
+		        }
+		        // Non conforming type of arguments
+		        for (int i = 0; i < tActual.size(); i++) {
+		            if (!ct.supertypes(tActual.get(i), c).contains(tFormal.get(i))) {
+		                SemantError.semantError(c).println("In call of method " + name
+		                        + ", type " + tActual.get(i) + " of parameter "
+		                        +  paramName.get(i) + " does not conform to declared type "
+		                        + tFormal.get(i) + ".");
+		                return;
+		            }
+		        }
+
+		         // All is fine. Set the type information
+		        method meth = ct.getByName(supertype.toString()).getMethod(name);
+		        if (meth.return_type.equals(TreeConstants.SELF_TYPE))
+		            set_type(tExpr);
+		        else
+		            set_type(meth.return_type);
+		 
+                return;
+            }
+d954 2
+a955 1
+        SemantError.semantError(c).println("Dispatch to undefined method " + name + ".");
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d375 1
+a375 1
+        for (AbstractSymbol supertype : ct.supertypes(this.getName())) 
+d389 1
+a389 1
+        for (AbstractSymbol supertype : ct.supertypes(this.getName())) 
+d475 1
+a475 6
+    public void check(SymbolTable o, class_c c, ClassTable ct)
+    {
+        // Check if return type of method is defined
+        if (!ct.defined(return_type)) {
+            SemantError.semantError(c).println("Return type " + return_type + " not defined.");
+        }
+d477 2
+a478 1
+        // Continue the checks
+d480 10
+a489 1
+	    ((Formal)e.nextElement()).check(o, this, c, ct);
+d492 5
+d570 1
+a570 1
+        for (AbstractSymbol cName : ct.supertypes(c.getName()))
+d718 1
+a718 1
+        if (!ct.supertypes(t1).contains(t)) {
+a777 2
+
+
+d793 1
+a793 1
+        AbstractSymbol t = expr.get_type();
+d796 2
+a797 2
+        if (!ct.supertypes(t).contains(type_name)) {
+            SemantError.semantError(c).println("Expression type " + t + " does not conform to declared static dispatch type " + type_name + ".");
+d822 1
+a822 1
+            if (!ct.supertypes(tActual.get(i)).contains(tFormal.get(i))) {
+d834 1
+a834 1
+            set_type(t);
+d907 1
+a907 1
+        for (AbstractSymbol supertype : ct.supertypes(tExpr)) {
+d925 1
+a925 1
+		            if (!ct.supertypes(tActual.get(i)).contains(tFormal.get(i))) {
+d1199 6
+a1204 2
+        if (type_decl.equals(TreeConstants.SELF_TYPE))
+            type_decl = c.getName();
+d1210 1
+a1210 1
+            if (!ct.supertypes(init.get_type()).contains(type_decl))
+d1801 1
+a1801 1
+            SemantError.semantError(c).println("Type " + type_name + " of new_ not defined.");
+d1938 1
+a1938 1
+        else if ((TypeAndInit)o.lookup(name) != null) 
+d1940 1
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d374 10
+a383 9
+    public boolean containsAttr(AbstractSymbol name){
+        for (Enumeration e = features.getElements(); e.hasMoreElements(); )
+            try { 
+                if (((attr)e.nextElement()).name.equals(name))
+                    return true;
+            } catch(ClassCastException ex) {
+                 continue;
+                 // if e.nextElement() turns out to be a method, there are no name to compare. so ignore
+            }
+d388 11
+a398 10
+    public attr getAttr(AbstractSymbol name){
+        for (Enumeration e = features.getElements(); e.hasMoreElements(); )
+            try { 
+                attr a = (attr)e.nextElement();
+                if (a.name.equals(name))
+                    return a;
+            } catch(ClassCastException ex) {
+                 continue;
+                 // if e.nextElement() turns out to be a method, there are no name to compare. so ignore
+            }
+d561 1
+a561 1
+            if (!cName.equals(c.getName()) && ct.getByName(cName.toString()).containsAttr(name))
+d700 1
+a700 1
+        if (o.lookup(name) == null && !m.containsFormal(name) && !c.containsAttr(name))
+d707 1
+a707 1
+        AbstractSymbol t = Type.getType(name, o, m, c);
+d1899 1
+a1899 1
+       set_type(Type.getType(name, o, m, c));
+d1923 1
+a1923 1
+    public static AbstractSymbol getType(AbstractSymbol name, SymbolTable o, method m, class_c c) {
+d1930 2
+a1931 2
+        else if (c.containsAttr(name))
+            return c.getAttr(name).type_decl;
+d1933 1
+a1933 1
+            SemantError.semantError(c).println("GetType - Fix this: Undeclared identifier " + name + ".");
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d387 1
+a387 1
+    public AbstractSymbol getAttrType(AbstractSymbol name){
+d392 1
+a392 1
+                    return a.type_decl;
+d488 1
+a488 1
+    public boolean formalExists(AbstractSymbol name) {
+d496 1
+a496 1
+    public AbstractSymbol getFormalType(AbstractSymbol name) {
+d500 1
+a500 1
+                return f.type_decl;
+d656 1
+a656 1
+        o.addId(name, expr0);
+d698 1
+a698 1
+        if (o.lookup(name) == null && !m.formalExists(name) && !c.containsAttr(name))
+d892 39
+a930 33
+        AbstractSymbol t = expr.get_type();
+        if (t == TreeConstants.SELF_TYPE)
+            t = c.name;
+
+        // is the method a member of the class of the invoking object
+        if (!ct.getByName(t.toString()).containsMethod(name)) {
+            SemantError.semantError(c).println("Dispatch to undefined method " + name + ".");
+            return;
+        }
+
+        // If the method is a valid member get types of formal arguments
+        Formals formals = ct.getByName(t.toString()).getMethod(name).formals;
+        Vector<AbstractSymbol> tFormal = new Vector<AbstractSymbol>();
+        Vector<AbstractSymbol>  paramName = new Vector<AbstractSymbol>();
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+            formalc param = ((formalc)e.nextElement());
+            tFormal.add(param.type_decl);
+            paramName.add(param.name);
+        }
+        
+        // Wrong number of arguments
+        if (tActual.size() != tFormal.size()) {
+             SemantError.semantError(c).println("Method " + name + " called with wrong number of arguments.");
+             return;
+        }
+            
+        // Non conforming type of arguments
+        for (int i = 0; i < tActual.size(); i++) {
+            if (!ct.supertypes(tActual.get(i)).contains(tFormal.get(i))) {
+                SemantError.semantError(c).println("In call of method " + name
+                        + ", type " + tActual.get(i) + " of parameter "
+                        +  paramName.get(i) + " does not conform to declared type "
+                        + tFormal.get(i) + ".");
+d934 2
+a935 8
+
+         // All is fine. Set the type information
+        method meth = ct.getByName(t.toString()).getMethod(name);
+        if (meth.return_type.equals(TreeConstants.SELF_TYPE))
+            set_type(t);
+        else
+            set_type(meth.return_type);
+    } // void check(...)
+d1084 1
+d1088 5
+d1914 1
+d1917 4
+d1924 7
+a1930 5
+
+       AbstractSymbol type = null;
+       TypeAndInit typeAndInit = (TypeAndInit)o.lookup(name);
+
+       if (typeAndInit == null && !m.formalExists(name) && !c.containsAttr(name))  
+d1932 1
+a1932 9
+
+        if (typeAndInit == null) {
+            type = m.getFormalType(name);
+            if (type == null) {
+                type = c.getAttrType(name);
+                if (type == null) {
+                    type = TreeConstants.Object_;
+                }
+            }
+a1933 3
+        else
+            type = typeAndInit.getType();
+        return type;
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d1543 11
+a1553 1
+        set_type(TreeConstants.Bool);
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d374 1
+a374 1
+    public boolean attrExists(AbstractSymbol name){
+d554 9
+d698 1
+a698 1
+        if (o.lookup(name) == null && !m.formalExists(name) && !c.attrExists(name))
+d790 6
+a805 5
+        if (!ct.getByName(type_name.toString()).containsMethod(name)) {
+            SemantError.semantError(c).println("Static dispatch to undefined method " + name + ".");
+            return;
+        }
+
+d896 7
+a902 1
+        // Get types of formal arguments
+d911 2
+a912 6
+
+        if (!ct.getByName(t.toString()).containsMethod(name)) {
+            SemantError.semantError(c).println("Dispatch to undefined method " + name + ".");
+            return;
+        }
+
+d918 1
+d934 1
+a934 1
+            set_type(tFormal.get(tFormal.size() - 1));
+d1082 2
+d1085 4
+a1088 1
+	        ((Case)e.nextElement()).check(o, m, c, ct, expr);
+d1188 2
+a1189 3
+        //if (!init.get_type().equals(TreeConstants.No_type)) { // let with init
+        if (init != null) {
+            init.check(o, m, c, ct);
+d1907 1
+a1907 1
+       if (typeAndInit == null && !m.formalExists(name) && !c.attrExists(name))  
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d1165 2
+a1166 1
+        // Check if type of identifier is known
+d1170 6
+a1175 1
+        init.check(o, m, c, ct);
+d1181 1
+a1183 3
+        
+        // type check
+
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d777 1
+a777 1
+        if (!ct.supertypes(t).contains(type_name))
+d779 1
+d802 1
+a802 1
+            if (!tActual.get(i).equals(tFormal.get(i))) {
+d907 1
+a907 1
+            if (!tActual.get(i).equals(tFormal.get(i))) {
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d757 31
+a787 4
+            // To do
+  //          SemantError.semantError(c).println("Static dispatch to undefined method " + name + ".");
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).check(o, m, c, ct);
+d790 4
+d795 22
+d916 2
+a917 1
+        if (tFormal.get(tFormal.size() - 1).equals(TreeConstants.SELF_TYPE))
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d380 1
+d385 39
+a480 1
+
+a484 1
+
+d494 10
+d689 1
+a689 3
+        if (o.lookup(name) == null &&
+                !m.formalExists(name) &&
+                !c.attrExists(name))
+d694 6
+a699 5
+        /*
+        // lookup in object environment 
+        if (o.lookup(name) != null) {
+        	expr.check(o, m, c, ct);
+            return;
+d701 2
+a702 3
+
+       SemantError.semantError(c).println("Assignment to unndeclared variable " + name + ".");
+        */
+a757 1
+//        if (methodSymTab.lookup(name) == null)
+d762 2
+a763 1
+        // check if method name is known type
+d813 47
+a859 4
+        // Check if method is defined
+    //        SemantError.semantError(c).println("Dispatch to undefined method " + name + ".");
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).check(o, m, c, ct);
+d861 8
+a868 2
+    }
+}
+d916 7
+d965 5
+d1015 1
+a1015 1
+	    ((Case)e.nextElement()).check(o, m, c, ct, expr);
+d1051 1
+a1051 1
+	dump_type(out, n);
+d1056 3
+a1058 1
+	    ((Expression)e.nextElement()).check(o, m, c, ct);
+d1118 1
+a1118 1
+        o.addId(identifier, init);
+d1123 2
+d1128 17
+d1183 9
+d1234 9
+d1285 9
+d1336 9
+d1381 1
+d1424 1
+d1467 1
+d1510 1
+d1547 1
+d1583 1
+d1619 1
+d1657 1
+d1696 6
+d1738 1
+d1769 1
+d1805 1
+a1805 2
+        if (o.lookup(name) == null && !m.formalExists(name) && !c.attrExists(name))  
+            SemantError.semantError(c).println("Undeclared identifier " + name + ".");
+d1821 28
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@a1043 1
+    
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d60 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d60 1
+a60 1
+    public boolean defined(String className) {
+d62 1
+a62 1
+	        if (((class_c)e.nextElement()).getName().toString() == className)
+a1624 1
+        // lookup in object environment 
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d371 12
+d447 8
+d640 16
+a655 3
+        if (o.lookup(name) == null)
+           SemantError.semantError(c).println("Assignment to unndeclared variable " + name + ".");
+    	expr.check(o, m, c, ct);
+d766 1
+a766 2
+            // to do
+   //     if (methodSymTab.lookup(name) == null)
+d1626 2
+a1627 24
+        try {
+        if (o.lookup(name) != null)  
+            return;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+         // look in method env
+        for (Enumeration e = m.formals.getElements(); e.hasMoreElements(); )
+    	    if (((formalc)e.nextElement()).name.equals(name))
+                    return;
+
+         // look in class env
+        for (Enumeration e = c.features.getElements(); e.hasMoreElements(); ) {
+    	    try { 
+                    if (((attr)e.nextElement()).name.equals(name))
+                        return;
+            } catch(ClassCastException ex) {
+            // if e.nextElement() turns out to be a method, there are no name to compare. so ignore
+            }
+        }
+
+        
+        SemantError.semantError(c).println("Undeclared identifier " + name + ".");
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+    public abstract void check(SymbolTable objSymTab, SymbolTable methodSymTab);
+d31 1
+a31 1
+    public abstract void check(SymbolTable objSymTab, SymbolTable methodSymTab);
+d59 16
+d84 1
+a84 2
+    public abstract void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+    public abstract void populateSymTabInAdvance(SymbolTable objSymTab, SymbolTable methodSymTab);
+d121 1
+a121 1
+    public abstract void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d167 1
+a167 1
+    public abstract void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d204 1
+a204 1
+    public abstract void check(SymbolTable objSymTab, SymbolTable methodSymTab, Expression expr0, String filename);
+d284 21
+a304 21
+	/* ClassTable constructor may do some semantic analysis */
+	ClassTable classTable = new ClassTable(classes);
+	if (classTable.errors()) {
+	    System.err.println("Compilation halted due to static semantic errors.");
+	    System.exit(1);
+	}
+
+	/* some semantic analysis code may go here */
+    SymbolTable objSymTab = new SymbolTable();
+    SymbolTable methodSymTab = new SymbolTable();
+    check(objSymTab, methodSymTab);
+	if (SemantError.semantErrors() > 0) {
+	    System.err.println("Compilation halted due to static semantic errors.");
+	    System.exit(1);
+	}
+    }
+
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab) {
+        for (Enumeration e = classes.getElements(); e.hasMoreElements(); ) {
+	    ((Class_)e.nextElement()).check(objSymTab, methodSymTab);
+        }
+d362 1
+a362 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab) {
+        objSymTab.enterScope();
+        methodSymTab.enterScope();
+a363 2
+        // Method Names and Attribute names need not be decalred before use
+        // So populate them into the respective symtabs in advance
+d365 1
+a365 1
+	    ((Feature)e.nextElement()).populateSymTabInAdvance(objSymTab, methodSymTab);
+d367 2
+a369 9
+         //Now match the identifier uses with declarations
+        for (Enumeration e = features.getElements(); e.hasMoreElements();) {
+	    ((Feature)e.nextElement()).check(objSymTab, methodSymTab, filename.toString());
+        }
+        // To do: check if the parent is a defined type
+
+        methodSymTab.exitScope();
+        objSymTab.exitScope();
+        
+d420 6
+a425 2
+    public void populateSymTabInAdvance(SymbolTable objSymTab, SymbolTable methodSymTab) {
+        methodSymTab.addId(name, name);
+d427 1
+a427 4
+    }
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename)
+    {
+        objSymTab.enterScope();
+d430 1
+a430 1
+	    ((Formal)e.nextElement()).check(objSymTab, methodSymTab, filename);
+d432 1
+a432 3
+        expr.check(objSymTab, methodSymTab, filename);
+
+        // To do : check if return type of method is a known type
+a433 1
+        objSymTab.exitScope();
+d445 1
+d458 1
+d479 5
+a483 4
+    public void populateSymTabInAdvance(SymbolTable objSymTab, SymbolTable methodSymTab) {
+        objSymTab.addId(name, init);
+
+    }
+d485 1
+a485 5
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename)
+    {
+        init.check(objSymTab, methodSymTab, filename);
+        
+        // to do : check if attr type is known
+d524 6
+a529 4
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename)
+    {
+        objSymTab.addId(name, name);
+            // to do : check if type is known
+d573 4
+a576 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, Expression expr0, String filename) {
+        objSymTab.addId(name, expr0);
+        expr.check(objSymTab, methodSymTab, filename);
+d578 2
+a579 1
+        // to do : check if type is known
+d619 4
+a622 4
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        if (objSymTab.lookup(name) == null)
+           SemantError.semantError(filename, lineNumber).println("Assignment to unndeclared variable " + name + ".");
+    	expr.check(objSymTab, methodSymTab, filename);
+d676 4
+a679 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        if (methodSymTab.lookup(name) == null)
+            SemantError.semantError(filename, lineNumber).println("Static dispatch to unknown method " + name + ".");
+d681 1
+a681 1
+	    ((Expression)e.nextElement()).check(objSymTab, methodSymTab, filename);
+d683 1
+a683 1
+        // to do : check if method name is known type
+d732 4
+a735 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename){
+        if (methodSymTab.lookup(name) == null)
+            SemantError.semantError(filename, lineNumber).println("Dispatch to unknown method " + name + ".");
+d737 1
+a737 1
+	    ((Expression)e.nextElement()).check(objSymTab, methodSymTab, filename);
+d784 4
+a787 4
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+	pred.check(objSymTab, methodSymTab, filename);
+	then_exp.check(objSymTab, methodSymTab, filename);
+	else_exp.check(objSymTab, methodSymTab, filename);
+d827 3
+a829 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+	pred.check(objSymTab, methodSymTab, filename);
+	body.check(objSymTab, methodSymTab, filename);
+d871 3
+a873 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        expr.check(objSymTab, methodSymTab, filename);
+        objSymTab.enterScope();
+d875 1
+a875 1
+	    ((Case)e.nextElement()).check(objSymTab, methodSymTab, expr, filename);
+d877 1
+a877 1
+        objSymTab.exitScope();
+d914 1
+a914 1
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d916 1
+a916 1
+	    ((Expression)e.nextElement()).check(objSymTab, methodSymTab, filename);
+d967 13
+a979 9
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        init.check(objSymTab, methodSymTab, filename);
+        objSymTab.enterScope();
+        objSymTab.addId(identifier, init);
+        body.check(objSymTab, methodSymTab, filename);
+
+        // pass
+        // - To do - check if type of identifier is known
+        objSymTab.exitScope();
+d1020 3
+a1022 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1062 3
+a1064 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1104 3
+a1106 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1146 3
+a1148 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1183 2
+a1184 2
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+d1224 3
+a1226 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1266 3
+a1268 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1308 3
+a1310 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+        e2.check(objSymTab, methodSymTab, filename);
+d1345 2
+a1346 2
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+d1381 1
+a1381 1
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1416 1
+a1416 1
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1453 1
+a1453 1
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1488 4
+a1491 2
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+            // To do : check if name is known type
+d1526 2
+a1527 2
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.check(objSymTab, methodSymTab, filename);
+d1557 1
+a1557 1
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1592 26
+a1617 3
+    public void check(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        if (objSymTab.lookup(name) == null)
+                SemantError.semantError(filename, lineNumber).println("Undeclared identifier " + name + ".");
+d1624 1
+a1624 1
+    public static PrintStream semantError(String filename, int lineNumber) {
+d1626 1
+a1626 1
+        System.err.print(filename + ":" + lineNumber + ": ");
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@a525 1
+
+d672 2
+d727 2
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+    public abstract void pass(SymbolTable objSymTab, SymbolTable methodSymTab);
+d31 1
+a31 1
+    public abstract void pass(SymbolTable objSymTab, SymbolTable methodSymTab);
+d68 2
+a69 2
+    public abstract void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+
+d106 1
+a106 2
+    public abstract void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+
+d152 1
+a152 2
+    public abstract void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+
+d189 1
+a189 2
+    public abstract void pass(SymbolTable objSymTab, SymbolTable methodSymTab, Expression expr0, String filename);
+
+d279 1
+a279 1
+    pass(objSymTab, methodSymTab);
+d286 1
+a286 2
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab) {
+         // pass-1 : Populate the symbol table and establish scopes
+d288 1
+a288 6
+	    ((Class_)e.nextElement()).pass(objSymTab, methodSymTab);
+        }
+        
+        // pass-2 : Match identifier usage with declaration
+        for (Enumeration e = classes.getElements(); e.hasMoreElements(); ) {
+	    ((Class_)e.nextElement()).pass(objSymTab, methodSymTab);
+d347 1
+a347 1
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab) {
+d351 2
+a352 1
+        // pass 1
+d354 1
+a354 1
+	    ((Feature)e.nextElement()).pass(objSymTab, methodSymTab, filename.toString());
+d357 1
+a357 1
+        // pass 2
+d359 1
+a359 1
+	    ((Feature)e.nextElement()).pass(objSymTab, methodSymTab, filename.toString());
+d416 5
+a420 1
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename)
+a421 1
+        methodSymTab.addId(name, name);
+a423 1
+        // pass 1
+d425 1
+a425 1
+	    ((Formal)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+d427 1
+a427 1
+        expr.pass(objSymTab, methodSymTab, filename);
+a428 5
+        // pass 2
+        for (Enumeration e = formals.getElements(); e.hasMoreElements();) {
+	    ((Formal)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+        }
+        expr.pass(objSymTab, methodSymTab, filename);
+d475 6
+a480 1
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename)
+d482 1
+a482 3
+        // pass 1
+        objSymTab.addId(name, init);
+        init.pass(objSymTab, methodSymTab, filename);
+a483 1
+        // pass
+a484 1
+        init.pass(objSymTab, methodSymTab, filename);
+d523 1
+a523 1
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename)
+a524 1
+        // pass 1
+a526 1
+        // pass
+d571 1
+a571 2
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, Expression expr0, String filename) {
+            // pass 1
+d573 1
+a573 1
+        expr.pass(objSymTab, methodSymTab, filename);
+a574 1
+        // pass 2
+a575 1
+        expr.pass(objSymTab, methodSymTab, filename);
+d615 1
+a615 5
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+            // pass 1
+    	expr.pass(objSymTab, methodSymTab, filename);
+        
+        //pass 2
+d618 1
+d672 1
+a672 2
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        // pass 1
+d674 1
+a674 1
+	    ((Expression)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+a675 1
+        // pass 2
+a676 5
+        
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+        }
+        
+d725 1
+a725 1
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename){
+d727 1
+a727 6
+	    ((Expression)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+        }
+
+        // pass 2
+        for (Enumeration e = actual.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+d774 4
+a777 9
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+	pred.pass(objSymTab, methodSymTab, filename);
+	then_exp.pass(objSymTab, methodSymTab, filename);
+	else_exp.pass(objSymTab, methodSymTab, filename);
+        
+	pred.pass(objSymTab, methodSymTab, filename);
+	then_exp.pass(objSymTab, methodSymTab, filename);
+	else_exp.pass(objSymTab, methodSymTab, filename);
+        
+d817 3
+a819 8
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+	pred.pass(objSymTab, methodSymTab, filename);
+	body.pass(objSymTab, methodSymTab, filename);
+
+	pred.pass(objSymTab, methodSymTab, filename);
+	body.pass(objSymTab, methodSymTab, filename);
+        
+d861 2
+a862 3
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        // pass 1 populate the symbol table
+        expr.pass(objSymTab, methodSymTab, filename);
+d865 1
+a865 7
+	    ((Case)e.nextElement()).pass(objSymTab, methodSymTab, expr, filename);
+        }
+
+        // pass 2
+        // Match ID usage with declaration
+        for (Enumeration e = cases.getElements(); e.hasMoreElements();) {
+	    ((Case)e.nextElement()).pass(objSymTab, methodSymTab, expr, filename);
+d904 1
+a904 6
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+        for (Enumeration e = body.getElements(); e.hasMoreElements();) {
+	    ((Expression)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+        }
+
+d906 1
+a906 1
+	    ((Expression)e.nextElement()).pass(objSymTab, methodSymTab, filename);
+a907 1
+        
+d957 2
+a958 3
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        // pass populate symbol tables
+        init.pass(objSymTab, methodSymTab, filename);
+d961 1
+a961 1
+        body.pass(objSymTab, methodSymTab, filename);
+a964 3
+
+        // - check if ID usage can be matched with declarations in the body
+        body.pass(objSymTab, methodSymTab, filename);
+d1006 3
+a1008 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1048 3
+a1050 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1090 3
+a1092 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1132 3
+a1134 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1169 2
+a1170 5
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        
+d1210 3
+a1212 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1252 3
+a1254 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1294 3
+a1296 7
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e2.pass(objSymTab, methodSymTab, filename);
+        
+d1331 2
+a1332 5
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass(objSymTab, methodSymTab, filename);
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        
+d1367 1
+a1367 3
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+        
+d1402 1
+a1402 3
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+        
+d1439 1
+a1439 3
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+        
+d1474 1
+a1474 2
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+a1475 1
+            
+d1510 2
+a1511 5
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+        e1.pass(objSymTab, methodSymTab, filename);
+        e1.pass(objSymTab, methodSymTab, filename);
+        
+d1541 1
+a1541 3
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        
+            
+d1576 1
+a1576 1
+    public void pass(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 3
+    public abstract void pass1(SymbolTable objSymTab, SymbolTable methodSymTab);
+    public abstract int pass2(SymbolTable objSymTab, SymbolTable methodSymTab);
+
+d31 1
+a31 2
+    public abstract void pass1(SymbolTable objSymTab, SymbolTable methodSymTab);
+    public abstract int pass2(SymbolTable objSymTab, SymbolTable methodSymTab);
+d68 1
+a68 2
+    public abstract void pass1(SymbolTable objSymTab, SymbolTable methodSymTab);
+    public abstract int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d106 1
+a106 2
+    public abstract void pass1(SymbolTable objSymTab, SymbolTable methodSymTab);
+    public abstract int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d153 1
+a153 2
+    public abstract void pass1(SymbolTable objSymTab,SymbolTable methodSymTab);
+    public abstract int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d191 1
+a191 2
+    public abstract void pass1(SymbolTable objSymTab, SymbolTable methodSymTab, Expression expr0);
+    public abstract int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d282 2
+a283 3
+    pass1(objSymTab, methodSymTab); // Populate the symbol table and establish scopes
+    int semantErrors = pass2(objSymTab, methodSymTab);
+	if (semantErrors > 0) {
+d289 2
+a290 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab) {
+d292 1
+a292 1
+	    ((Class_)e.nextElement()).pass1(objSymTab, methodSymTab);
+d294 2
+a295 4
+    }
+
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab) {
+        int semantErrors = 0;
+d297 1
+a297 1
+	    semantErrors += ((Class_)e.nextElement()).pass2(objSymTab, methodSymTab);
+a298 1
+        return semantErrors;
+a299 1
+
+d356 1
+a356 2
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab)
+    {
+a357 1
+        objSymTab.addId(name, name);
+d360 1
+d362 1
+a362 1
+	    ((Feature)e.nextElement()).pass1(objSymTab, methodSymTab);
+d365 1
+a365 10
+        methodSymTab.exitScope();
+        objSymTab.exitScope();
+    }
+
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab) {
+        int semantErrors = 0;
+        // To do: check if the parent is a defined type
+        objSymTab.enterScope();
+        methodSymTab.enterScope();
+
+d367 1
+a367 2
+	    semantErrors += ((Feature)e.nextElement()).pass2(objSymTab, methodSymTab, filename.toString());
+        return semantErrors;
+d369 1
+d373 1
+a373 1
+        return semantErrors;
+d424 1
+a424 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab)
+d429 1
+d431 1
+a431 1
+	    ((Formal)e.nextElement()).pass1(objSymTab, methodSymTab);
+d433 1
+a433 1
+        expr.pass1(objSymTab, methodSymTab);
+d435 1
+a435 7
+        objSymTab.exitScope();
+    }
+
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        // To do : check if return type of method is a known type
+        int semantErrors = 0;
+        objSymTab.enterScope();
+d437 1
+a437 1
+	    semantErrors += ((Formal)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d439 3
+a441 1
+        semantErrors += expr.pass2(objSymTab, methodSymTab, filename);
+a442 1
+        return semantErrors;
+d486 1
+a486 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab)
+d488 1
+d490 3
+a492 4
+        init.pass1(objSymTab, methodSymTab);
+    }
+
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d494 1
+a494 3
+        int semantErrors = 0;
+        semantErrors += init.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d533 1
+a533 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab)
+d535 1
+a536 1
+    }
+d538 1
+a538 1
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+a539 2
+        int semantErrors = 0;
+        return semantErrors;
+d583 2
+a584 2
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab, Expression expr0)
+    {
+d586 3
+a588 3
+        expr.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d590 1
+a590 3
+        int semantErrors = 0;
+        semantErrors += expr.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d629 8
+a636 11
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+    	expr.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        if (objSymTab.lookup(name) == null) {
+           semantErrors++;
+           System.err.println(filename + ":" + lineNumber + ": Assignment to unndeclared variable " + name);
+        }
+    	semantErrors += expr.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d690 2
+a691 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+d693 1
+a693 1
+	    ((Expression)e.nextElement()).pass1(objSymTab, methodSymTab);
+d695 1
+a695 2
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d697 1
+a697 1
+        int semantErrors = 0;
+d699 1
+a699 1
+	    semantErrors += ((Expression)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d701 1
+a701 1
+        return semantErrors;
+d750 1
+a750 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+d752 6
+a757 1
+	    ((Expression)e.nextElement()).pass1(objSymTab, methodSymTab);
+a759 4
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+       return semantErrors; 
+    }
+a802 5
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+	pred.pass1(objSymTab, methodSymTab);
+	then_exp.pass1(objSymTab, methodSymTab);
+	else_exp.pass1(objSymTab, methodSymTab);
+    }
+d804 9
+a812 6
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+	semantErrors += pred.pass2(objSymTab, methodSymTab, filename);
+	semantErrors += then_exp.pass2(objSymTab, methodSymTab, filename);
+	semantErrors += else_exp.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d852 8
+a859 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+	pred.pass1(objSymTab, methodSymTab);
+	body.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+	semantErrors += pred.pass2(objSymTab, methodSymTab, filename);
+	semantErrors += body.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d901 3
+a903 3
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab)
+    {
+        expr.pass1(objSymTab, methodSymTab);
+d906 1
+a906 1
+	    ((Case)e.nextElement()).pass1(objSymTab, methodSymTab, expr);
+a907 2
+        objSymTab.exitScope();
+    }
+d909 2
+a910 4
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += expr.pass2(objSymTab, methodSymTab, filename);
+        objSymTab.enterScope();
+d912 1
+a912 1
+	    semantErrors += ((Case)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+a914 1
+        return semantErrors;
+d951 2
+a952 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+d954 1
+a954 1
+	    ((Expression)e.nextElement()).pass1(objSymTab, methodSymTab);
+d956 1
+a956 3
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+d958 1
+a958 1
+	    semantErrors += ((Expression)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d960 1
+a960 1
+        return semantErrors;
+d1010 3
+a1012 2
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        init.pass1(objSymTab, methodSymTab);
+d1015 7
+a1021 1
+        body.pass1(objSymTab, methodSymTab);
+d1023 1
+a1023 8
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += init.pass2(objSymTab, methodSymTab, filename);
+        objSymTab.enterScope();
+        semantErrors += body.pass2(objSymTab, methodSymTab, filename);
+        objSymTab.exitScope();
+        return semantErrors;
+d1063 7
+a1069 10
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1109 7
+a1115 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1155 7
+a1161 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1201 7
+a1207 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1242 5
+a1246 7
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1286 7
+a1292 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1332 7
+a1338 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1378 7
+a1384 9
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+        e2.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        semantErrors += e2.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1419 5
+a1423 7
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1458 3
+a1460 5
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        return semantErrors;
+d1495 3
+a1497 5
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        return semantErrors;
+d1534 3
+a1536 5
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        return semantErrors;
+d1571 2
+a1572 4
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+d1574 1
+a1574 1
+            return semantErrors;
+d1609 5
+a1613 7
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+        e1.pass1(objSymTab, methodSymTab);
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        semantErrors += e1.pass2(objSymTab, methodSymTab, filename);
+        return semantErrors;
+d1643 3
+a1645 5
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+    }
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+            return semantErrors;
+d1680 3
+a1682 1
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab){
+d1684 12
+a1695 7
+    public int pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        int semantErrors = 0;
+        if (objSymTab.lookup(name) == null) {
+                semantErrors++;
+           System.err.println(filename + ":" + lineNumber + ": Undeclared identifier " + name + ".");
+        }
+            return semantErrors;
+a1697 2
+
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+    public abstract void pass2(SymbolTable objSymTab, SymbolTable methodSymTab);
+d34 1
+a34 2
+    public abstract void pass2(SymbolTable objSymTab, SymbolTable methodSymTab);
+
+d72 1
+a72 1
+    public abstract void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d111 1
+a111 1
+    public abstract void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d159 1
+a159 1
+    public abstract void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d198 1
+a198 1
+    public abstract void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename);
+d289 6
+a294 3
+    pass1(objSymTab, methodSymTab);
+    pass2(objSymTab, methodSymTab);
+    if
+d303 2
+a304 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab) {
+d306 1
+a306 1
+	    ((Class_)e.nextElement()).pass2(objSymTab, methodSymTab);
+d308 1
+d381 2
+a382 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab) {
+d388 2
+a389 1
+	    ((Feature)e.nextElement()).pass2(objSymTab, methodSymTab, filename.toString());
+d394 1
+d458 1
+a458 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d460 1
+d463 1
+a463 1
+	    ((Formal)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d465 1
+a465 1
+        expr.pass2(objSymTab, methodSymTab, filename);
+d467 1
+d517 1
+a517 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d519 3
+a521 1
+        init.pass2(objSymTab, methodSymTab, filename);
+d565 1
+a565 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d567 2
+d617 1
+a617 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d619 3
+a621 1
+        expr.pass2(objSymTab, methodSymTab, filename);
+d663 2
+a664 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d666 1
+d669 2
+a670 1
+    	expr.pass2(objSymTab, methodSymTab, filename);
+d729 1
+a729 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d731 1
+d733 1
+a733 1
+	    ((Expression)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d735 1
+d789 3
+a791 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d842 6
+a847 4
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+	pred.pass2(objSymTab, methodSymTab, filename);
+	then_exp.pass2(objSymTab, methodSymTab, filename);
+	else_exp.pass2(objSymTab, methodSymTab, filename);
+d891 5
+a895 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+	pred.pass2(objSymTab, methodSymTab, filename);
+	body.pass2(objSymTab, methodSymTab, filename);
+d947 3
+a949 2
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        expr.pass2(objSymTab, methodSymTab, filename);
+d952 1
+a952 1
+	    ((Case)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d955 1
+d997 2
+a998 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1000 1
+a1000 1
+	    ((Expression)e.nextElement()).pass2(objSymTab, methodSymTab, filename);
+d1002 1
+d1059 3
+a1061 2
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        init.pass2(objSymTab, methodSymTab, filename);
+d1063 1
+a1063 1
+        body.pass2(objSymTab, methodSymTab, filename);
+d1065 1
+d1110 5
+a1114 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1158 5
+a1162 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1206 5
+a1210 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1254 5
+a1258 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1296 4
+a1299 2
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+d1343 5
+a1347 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1391 5
+a1395 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1439 5
+a1443 3
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+        e2.pass2(objSymTab, methodSymTab, filename);
+d1481 4
+a1484 2
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+d1521 3
+a1523 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1560 3
+a1562 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1601 3
+a1603 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1640 2
+a1641 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1643 1
+d1681 4
+a1684 2
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+        e1.pass2(objSymTab, methodSymTab, filename);
+d1716 3
+a1718 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1755 2
+a1756 1
+    public void pass2(SymbolTable objSymTab, SymbolTable methodSymTab, String filename) {
+d1758 2
+a1759 1
+           System.err.println(lineNumber + " : Undeclared identifier " + name + ".");
+d1761 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d22 1
+d34 1
+d73 1
+d112 1
+d160 1
+d199 1
+d236 1
+d264 1
+a264 8
+    public void pass1(SymbolTable objSymTab, SymbolTable methodSymTab)
+    {
+        for (Enumeration e = classes.getElements(); e.hasMoreElements(); ) {
+	    ((Class_)e.nextElement()).pass1(objSymTab, methodSymTab);
+        }
+    }
+
+    /** This method is the entry point to the semantic checker.  You will
+d282 5
+a286 1
+	
+d290 4
+d295 10
+a304 4
+	if (classTable.errors()) {
+	    System.err.println("Compilation halted due to static semantic errors.");
+	    System.exit(1);
+	}
+d366 1
+a366 1
+        objSymTab.addId(name, null);
+d377 12
+d440 1
+a440 1
+        methodSymTab.addId(name, null);
+d450 10
+d505 1
+d508 4
+d551 1
+a551 1
+        objSymTab.addId(name, null);
+d554 3
+d604 4
+d646 7
+a653 1
+
+d707 9
+d765 5
+d815 9
+d864 6
+d921 8
+d969 5
+d1029 6
+d1078 4
+d1124 4
+d1170 4
+d1216 4
+d1256 3
+d1301 4
+d1347 4
+d1393 4
+d1433 3
+d1471 2
+d1508 2
+d1547 2
+d1584 3
+d1623 3
+d1656 2
+d1692 5
+@
