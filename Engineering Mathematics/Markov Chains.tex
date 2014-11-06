@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+
+\usepackage{soul} % for text highlighting
+\usepackage{amsmath} % for math
+ \usepackage{amsthm} % for Proofs
+ 
+% For theorems
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+
+% Shorthands for various norms
+\newcommand{\norm}[1]{||{#1}||}
+\newcommand{\fnorm}[1]{||{#1}||_F}
+\newcommand{\snorm}[1]{||{#1}||_2}
+
+\title{\textbf{Markhov Chains}}
+\author{Abhijith Madhav}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\subsection{Stochastic Process}
+In a stochastic system/process contains one or more states. The system can be in any one of the states at a particular time and transitions to others in due course. The probability of it being in each of states is known. Its transition is not deterministic. This means that the system could start in the same state at tow different time instances and could end up in different final states.
+
+\subsection{Markhov chain}
+This is a special kind of a stochastic system with limited history. In a k-Markov chain the current state of the system is dependent on the previous k states in which the system was. As a special case the a 1-Markov chain depends only on the current state. It can be compared to a finite automata. The 1-Markov chain is also called the standard Markov chain.
+
+
+\subsection{Modeling natural language processing using a Markov chain}
+Natural language processing consists of fitting language to a grammar. Using Markov chain, given a phrase(a sequence of previous states) can put a probability on what the part of speech of the next word is going to be which helps in picking the right grammar rule. Note a simplistic standard Markov model is not sufficient to model here.
+
+%----------------------------------------------------
+
+\section{Standard Markov Chain}
+The system can be in any one of the n states. Starts at some state and keeps transitioning. $T_{n \times n}$ represents the transition matrix where the $ij^{th}$ entry is $T_{ij}$.
+$$ T_{ij} = Pr(S_{t+1} = s_j | S_t = s_i)$$
+
+Note:
+\begin{itemize}
+\item $S_k$ is the state of the Markov chain at time instant $k$ and is the random variable.
+\item $s_k$ is the $k'th$ state(of the $n$ states) of the Markov chain.
+\item $\sum_j T_{ij} = 1$
+\end{itemize}
+
+
+\noindent
+Standard markov chain can be static or time variant. The transition matrix in case of the former is fixed(Need to verify)
+
+\begin{thm}
+The probability of a standard Markov chain transitioning from $s_i$ to $s_j$ in exactly $k$ time step is $T_{ij}^k$
+\end{thm}
+\noindent \emph {Insight.} \\
+\noindent $T_{ij}$ gives the probability of the system transitioning from $s_i$ to $s_j$ in one step.
+To see that $T_{ij}^2$ is the transitive closure from $s_i$ to $s_j$ in two steps note that
+$$T_{ij} = T_{i1}T_{1j} + ... + T_{in}T_{nj}$$
+which is the sum of the transition probabilites of all ways of transitioning from $i$ to $j$ in two steps.
+By the same argument $T_{ij}^k$ gives the transition probability from $s_i$ to $s_j$.
+\begin{proof}
+Proof is by an induction argument. The base case is true by definition, $T_{ij}$ gives the probability of transitioning from $s_i$ to $s_j$ in exactly one step.\\
+
+\noindent Assuming that the premise is true for $k$, below is the proof that the premise holds good for $k + 1$.
+
+\noindent Let $s_r$ be the state previous to $s_j$. Probability of going from $s_i$ to $s_j$ through $r$ in exactly $k + 1$ states is 
+$$T_{ir}^k * T_{rj}$$
+Since $s_r$ can be any one of the $n$ states, probability of going from $s_i$ to $s_j$ in exactly $k + 1$ states is
+$$\sum_{r = 1}^n (T_{ir}^k * T_{rj}) = T_{ij}^{k + 1}$$
+\end{proof}
+
+\subsection{Mathematically stating that a Markov chain can transition from $s_i$ to $s_j$}
+$$\exists k, T_{ij}^k > 0$$
+%----------------------------------------------
+
+
+
+
+
+\end{document}

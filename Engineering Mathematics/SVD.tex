@@ -1,0 +1,187 @@
+\documentclass[12pt]{article}
+
+\usepackage{soul} % for text highlighting
+\usepackage{amsmath} % for math
+
+\newcommand{\norm}[1]{||{#1}||}
+\newcommand{\fnorm}[1]{||{#1}||_F}
+\newcommand{\snorm}[1]{||{#1}||_2}
+
+\title{\textbf{Singular Value Decomposition}}
+\author{Abhijith Madhav}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\begin{itemize}
+
+\item
+Best fitting k-dimentional subspace
+
+\item
+Definition of SVD in terms of algorithm for finding the best fitting k-dimensional subspace
+
+\item
+Application of SVD - Gives the best rank k approximation to $A$
+
+\item
+\hl{SVD of inverse of $A$ - Todo}
+
+\item
+For best-fit subspaces, maximizing the sum of the squared lengths of the projections onto the subspace minimizes the sum of squared distances to the subspace
+
+\item
+Two interpretations of best fit subspace
+
+\begin{itemize}
+
+\item
+Orthogonal distances -  In some sense the subspace contains the maximum 
+content of data among all subspaces of the same dimension
+
+\item
+Vertical distances or least squares – Derivation of regression line equations
+
+\item
+\hl{When is perpendicular distance better than vertical distance?}
+
+\end{itemize}
+
+\item
+Why is the squares of the sum of the distances of the line being minimized instead of just the sum of the distances of the line.
+
+\end{itemize}
+
+%----------------------------------------------------
+
+\section{Singular Vectors}
+\begin{itemize}
+
+\item
+Best fit line w.r.t to the row vectors of $A$
+
+\item
+Interpretation of $A \mathbf v$
+ 
+\item
+Definition of first singular vector
+
+\item
+Singular vectors may not be unique
+
+\item
+First singular value and interpretation
+
+\item
+Definition of singular vectors and algorithm for finding the same.
+
+\item
+\hl{How does the projection of a vector onto a vector space be equal to the sum of the projections of the vector onto the basis of the vector space?}
+
+\item
+Proof of for ``$A_k$ is the best-fit k-dimensional subspace for A''
+
+\item
+ith singular value can be seen as the component of the matrix A along $\mathbf v_i$. Proof : For any matrix A, the sum of squares of the singular values equals the square of the Frobenius norm
+
+\item
+Right singular vectors definition
+
+\item
+Left singular vectors definition
+
+\item
+$\mathbf{u_i}$ maximizes $\norm{u^T  A}$ over all unit length u perpendicular to all  , $j < i$.
+
+\item
+Right singular vectors are the eigenvectors of $A^T A$
+
+\item
+Left singular vectors are the eigenvectors of  $AA^T$
+
+\item
+Left singular vectors are pairwise orthogonal
+
+\item
+Singular values are the square roots of the eigen values of $A^T A$
+
+\item
+Eigen values of $A^T A$ are nonnegative
+
+\item
+Relation between singulars of SVD and singular matrices
+
+\end{itemize}
+
+%----------------------------------------------
+
+
+\section{Singular Value Decomposition}
+\begin{itemize}
+\item
+Definition
+
+\item
+Matrices $A$ and $B$ are identical if and only if for all vectors $\mathbf{v}$, $A\mathbf{v} = B\mathbf{v}$.
+
+\item
+Proof
+
+\item
+SVD is a sum of rank one matrices
+
+\item
+Seeing $A = U D V^T$
+
+\item
+Rank of $A$ is $r$
+
+\item
+Right singular vectors span the row space of A
+
+\item
+\hl {Left singular vectors span the column space of A}
+
+\item
+Sequence of singular values are unique
+
+\item
+Sequence of singular vectors may not be unique
+
+\item
+Left singular vectors of A are the right singular vectors $A^T$
+
+\end{itemize}
+
+%-----------------------------------------------------------------
+
+\section{Best Rank k approximation}
+\begin{itemize}
+\item
+Frobenius norm
+
+\item
+\hl {Motivation for 2nd norm w.r.t the document term model}
+
+\item
+Second norm
+
+\item
+Interpretation of $A_k$
+
+\item
+Interpretation of $A - A_k$
+
+\item
+$A_k$ is the best rank k approximation to A in terms of the Frobenius norm and the second norm
+ 
+ \item
+Interpretation of $\fnorm{A_k}^2$,  $\snorm{A_k}^2$, $\fnorm{A - A_k}^2$, $\snorm{A - A_k}^2$ 
+
+
+\end{itemize}
+\end{document}
