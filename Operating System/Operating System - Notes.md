@@ -1,28 +1,28 @@
 **Operating System**
 
--   [Processes](Processes.md) – [To do](../../To%20do.odt#Processes)
+-   [Processes](Processes.md) – [To do](../../To%20do.md#Processes)
 
-    -   [Context Switching](../Context%20Switching.odt)
-    -   [Threads](../Threads.odt)
-    -   [CPU scheduling](../Process%20Scheduling.odt)
-    -   [Signals](../Signals.odt)
+    -   [Context Switching](../Context%20Switching.md)
+    -   [Threads](../Threads.md)
+    -   [CPU scheduling](../Process%20Scheduling.md)
+    -   [Signals](../Signals.md)
 
--   Inter-process communication – [To do](../../To%20do.odt#IPC)
+-   Inter-process communication – [To do](../../To%20do.md#IPC)
 
-    -   [Shared Memory](../Shared%20Memory.odt) - [Inspecting SHM
+    -   [Shared Memory](../Shared%20Memory.md) - [Inspecting SHM
         Processes](../InspectingSHMProcesses.txt)
-    -   [Message Passing](../Message%20Passing.odt) -
-        [Pipes](../Pipes.odt)
+    -   [Message Passing](../Message%20Passing.md) -
+        [Pipes](../Pipes.md)
 
 -   [Synchronization and concurrency among
-    Processes](../Process%20synchronization.odt)
+    Processes](../Process%20synchronization.md)
 
-    -   [Locks](../Locks.odt)
+    -   [Locks](../Locks.md)
 
     -   [Atomic Hardware
-        primitives](../Atomic%20hardware-primitives%20for%20synchronization.odt)
+        primitives](../Atomic%20hardware-primitives%20for%20synchronization.md)
 
-    -   [Semaphores](../Semaphores.odt)
+    -   [Semaphores](../Semaphores.md)
 
         -   [Bounded buffer using counting
             semaphores](../workspace/Bounded%20Buffer%20using%20counting%20semaphores/main.c)(Figure
@@ -32,7 +32,7 @@
             semaphores](../Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/src/Dining%20Philosophers%20using%20semaphores/main.c)(Figure
             25)
 
-    -   [Monitors](../Monitors.odt)
+    -   [Monitors](../Monitors.md)
 
         -   [Bounded buffer using condition
             variables](../Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20Buffer%20using%20condition%20variables/main.c)
@@ -41,73 +41,73 @@
         -   [Dining Philosophers problem using
             condition-variables](../Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Dining%20Philosophers%20using%20condition%20variables/main.c)
 
--   [Deadlock](../Deadlocks.odt) – [To do](../../To%20do.odt#Deadlock)
+-   [Deadlock](../Deadlocks.md) – [To do](../../To%20do.md#Deadlock)
 
-    -   [Deadlock prevention](../Deadlock%20Prevention.odt)
-    -   [Deadlock avoidance](../Deadlock%20Avoidance.odt)
+    -   [Deadlock prevention](../Deadlock%20Prevention.md)
+    -   [Deadlock avoidance](../Deadlock%20Avoidance.md)
     -   [Deadlock
-        ](../Deadlock%20detection%20and%20recovery.odt)[detection and
-        ](../Deadlock%20detection%20and%20recovery.odt)[recovery](../Deadlock%20detection%20and%20recovery.odt)
+        ](../Deadlock%20detection%20and%20recovery.md)[detection and
+        ](../Deadlock%20detection%20and%20recovery.md)[recovery](../Deadlock%20detection%20and%20recovery.md)
     -   [Handling deadlocks in the concurrency control component of
         database
-        systems](../../Databases/Handling%20deadlocks%20in%20concurrency%20control%20systems.odt)
+        systems](../../Databases/Handling%20deadlocks%20in%20concurrency%20control%20systems.md)
 
 -   Memory management and virtual memory – [To
-    do](../../To%20do.odt#Memory%20management)
+    do](../../To%20do.md#Memory%20management)
 
-    -   [Memory management](../Memory%20management.odt)
+    -   [Memory management](../Memory%20management.md)
 
         -   [Contiguous memory allocation
-            schemes](../Contiguous%20Memory%20Allocation%20Scheme.odt)
-        -   [Paging](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory.odt)
-        -   [Segmentation](../Segmentation.odt)
+            schemes](../Contiguous%20Memory%20Allocation%20Scheme.md)
+        -   [Paging](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory.md)
+        -   [Segmentation](../Segmentation.md)
 
     -   [Virtual
-        memory](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory.odt)
+        memory](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory.md)
 
         -   [Structure of Page
-            Tables](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Structure%20of%20Page%20Tables.odt)
+            Tables](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Structure%20of%20Page%20Tables.md)
         -   [Page
-            Replacement](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Page%20Replacement.odt)
+            Replacement](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Page%20Replacement.md)
         -   [Frame
-            allocation](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Frame%20allocation.odt)
+            allocation](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Frame%20allocation.md)
         -   [Memory usage of Page
-            tables](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20usage%20of%20Page%20tables.odt)
+            tables](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20usage%20of%20Page%20tables.md)
         -   [Translation Lookaside
-            buffer(TLB)](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Translation-Lookaside%20buffer(TLB).odt)
+            buffer(TLB)](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Translation-Lookaside%20buffer(TLB).md)
         -   [Design
-            issues](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Design%20issues.odt)
-        -   [Thrashing](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Thrashing.odt)
+            issues](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Design%20issues.md)
+        -   [Thrashing](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Thrashing.md)
         -   [Memory Mapped
-            Files](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20Mapped%20Files.odt)
+            Files](../../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20Mapped%20Files.md)
 
--   File system – [To do](../../To%20do.odt#File%20System)
+-   File system – [To do](../../To%20do.md#File%20System)
 
-    -   [Binary Files](../Binary%20Files.odt)
+    -   [Binary Files](../Binary%20Files.md)
 
-    -   [File system structure](../File%20System%20Structure.odt)
+    -   [File system structure](../File%20System%20Structure.md)
 
     -   [File system
-        implementation](../File%20System%20Implementation.odt)
+        implementation](../File%20System%20Implementation.md)
 
         -   [Important data structures of a file
-            system](../Important%20data%20structures%20of%20a%20file%20system.odt)
+            system](../Important%20data%20structures%20of%20a%20file%20system.md)
         -   [Directory Structure
-            Implementation](../Directory%20implementation.odt)
+            Implementation](../Directory%20implementation.md)
         -   [File Allocation
-            Methods](../File%20Allocation%20Methods.odt)
-        -   [Free Space Management](../Free%20Space%20Management.odt)
+            Methods](../File%20Allocation%20Methods.md)
+        -   [Free Space Management](../Free%20Space%20Management.md)
         -   [Design considerations of a file
-            system](../Design%20considerations%20of%20a%20file%20system.odt)
-        -   [File System Recovery](../File%20System%20Recovery.odt)
+            system](../Design%20considerations%20of%20a%20file%20system.md)
+        -   [File System Recovery](../File%20System%20Recovery.md)
         -   File System Backup
-        -   [NFS](../Network%20File%20System.odt)
+        -   [NFS](../Network%20File%20System.md)
 
 -   IO
 
-    -   [Application IO interface](../Application%20IO%20interface.odt)
+    -   [Application IO interface](../Application%20IO%20interface.md)
 
--   Protection and security – [To do](../../To%20do.odt#Protection)
+-   Protection and security – [To do](../../To%20do.md#Protection)
 
 ****Gate questions****
 
@@ -201,4 +201,4 @@
 
 -   Protection and security.
 
-[](../Signals.odt)
+[](../Signals.md)
