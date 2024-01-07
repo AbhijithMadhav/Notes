@@ -1,4 +1,4 @@
-Atomic hardware-primitives for synchronization
+# Atomic hardware-primitives for synchronization
 
 Why can't we have processes disable interrupts when entering
 critical-section? Wouldn't this solve the critical-section problem?
@@ -7,7 +7,7 @@ On a multiprocessor system disabling interrupts on one processor would
 not stop another processor from accessing memory and entering the
 critical-section through a different processor at the same time.
 
-Hardware-atomic-primitives
+# Hardware-atomic-primitives
 
 Based on locking the shared memory bus. This will work for
 multi-processor systems.
