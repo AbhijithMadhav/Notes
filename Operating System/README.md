@@ -1,113 +1,113 @@
 **Operating System**
 
--   [Processes](Processes.md) – [To do](g../To%20do.md#Processes)
+-   [Processes](Processes.md) – [To do](To%20do.md#Processes)
 
-    -   [Context Switching](gContext%20Switching.md)
-    -   [Threads](gThreads.md)
-    -   [CPU scheduling](gProcess%20Scheduling.md)
-    -   [Signals](gSignals.md)
+    -   [Context Switching](Context%20Switching.md)
+    -   [Threads](Threads.md)
+    -   [CPU scheduling](Process%20Scheduling.md)
+    -   [Signals](Signals.md)
 
 -   Inter-process communication – [To do](g../To%20do.md#IPC)
 
-    -   [Shared Memory](gShared%20Memory.md) - [Inspecting SHM
-        Processes](gInspectingSHMProcesses.txt)
-    -   [Message Passing](gMessage%20Passing.md) -
-        [Pipes](gPipes.md)
+    -   [Shared Memory](Shared%20Memory.md) - [Inspecting SHM
+        Processes](InspectingSHMProcesses.txt)
+    -   [Message Passing](Message%20Passing.md) -
+        [Pipes](Pipes.md)
 
 -   [Synchronization and concurrency among
-    Processes](gProcess%20synchronization.md)
+    Processes](Process%20synchronization.md)
 
-    -   [Locks](gLocks.md)
+    -   [Locks](Locks.md)
 
     -   [Atomic Hardware
-        primitives](gAtomic%20hardware-primitives%20for%20synchronization.md)
+        primitives](Atomic%20hardware-primitives%20for%20synchronization.md)
 
-    -   [Semaphores](gSemaphores.md)
+    -   [Semaphores](Semaphores.md)
 
         -   [Bounded buffer using counting
-            semaphores](gworkspace/Bounded%20Buffer%20using%20counting%20semaphores/main.c)(Figure
+            semaphores](workspace/Bounded%20Buffer%20using%20counting%20semaphores/main.c)(Figure
             23)
         -   Readers-Writers using counting-semaphores(Figure 24)
         -   [Dining Philosophers problem using
-            semaphores](gOperating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/src/Dining%20Philosophers%20using%20semaphores/main.c)(Figure
+            semaphores](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/src/Dining%20Philosophers%20using%20semaphores/main.c)(Figure
             25)
 
-    -   [Monitors](gMonitors.md)
+    -   [Monitors](Monitors.md)
 
         -   [Bounded buffer using condition
-            variables](gOperating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20Buffer%20using%20condition%20variables/main.c)
+            variables](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20Buffer%20using%20condition%20variables/main.c)
         -   [Bounded buffer using
-            monitors](gOperating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20buffer%20using%20monitors/src/BoundedBuffer.java)
+            monitors](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20buffer%20using%20monitors/src/BoundedBuffer.java)
         -   [Dining Philosophers problem using
-            condition-variables](gOperating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Dining%20Philosophers%20using%20condition%20variables/main.c)
+            condition-variables](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Dining%20Philosophers%20using%20condition%20variables/main.c)
 
--   [Deadlock](gDeadlocks.md) – [To do](../../To%20do.md#Deadlock)
+-   [Deadlock](Deadlocks.md) – [To do](To%20do.md#Deadlock)
 
-    -   [Deadlock prevention](gDeadlock%20Prevention.md)
-    -   [Deadlock avoidance](gDeadlock%20Avoidance.md)
+    -   [Deadlock prevention](Deadlock%20Prevention.md)
+    -   [Deadlock avoidance](Deadlock%20Avoidance.md)
     -   [Deadlock
-        ](gDeadlock%20detection%20and%20recovery.md)[detection and
-        ](gDeadlock%20detection%20and%20recovery.md)[recovery](../Deadlock%20detection%20and%20recovery.md)
+        ](Deadlock%20detection%20and%20recovery.md)[detection and
+        ](Deadlock%20detection%20and%20recovery.md)[recovery](Deadlock%20detection%20and%20recovery.md)
     -   [Handling deadlocks in the concurrency control component of
         database
-        systems](g../Databases/Handling%20deadlocks%20in%20concurrency%20control%20systems.md)
+        systems](Databases/Handling%20deadlocks%20in%20concurrency%20control%20systems.md)
 
 -   Memory management and virtual memory – [To
-    do](g../To%20do.md#Memory%20management)
+    do](To%20do.md#Memory%20management)
 
-    -   [Memory management](gMemory%20management.md)
+    -   [Memory management](Memory%20management.md)
 
         -   [Contiguous memory allocation
-            schemes](gContiguous%20Memory%20Allocation%20Scheme.md)
-        -   [Paging](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory.md)
-        -   [Segmentation](gSegmentation.md)
+            schemes](Contiguous%20Memory%20Allocation%20Scheme.md)
+        -   [Paging](Computer%20Organization%20and%20Architecture/Virtual%20Memory.md)
+        -   [Segmentation](Segmentation.md)
 
     -   [Virtual
-        memory](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory.md)
+        memory](../Computer%20Organization%20and%20Architecture/Virtual%20Memory.md)
 
         -   [Structure of Page
-            Tables](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Structure%20of%20Page%20Tables.md)
+            Tables](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Structure%20of%20Page%20Tables.md)
         -   [Page
-            Replacement](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Page%20Replacement.md)
+            Replacement](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Page%20Replacement.md)
         -   [Frame
-            allocation](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Frame%20allocation.md)
+            allocation](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Frame%20allocation.md)
         -   [Memory usage of Page
-            tables](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20usage%20of%20Page%20tables.md)
+            tables](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20usage%20of%20Page%20tables.md)
         -   [Translation Lookaside
-            buffer(TLB)](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Translation-Lookaside%20buffer(TLB).md)
+            buffer(TLB)](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Translation-Lookaside%20buffer(TLB).md)
         -   [Design
-            issues](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Design%20issues.md)
-        -   [Thrashing](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Thrashing.md)
+            issues](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Design%20issues.md)
+        -   [Thrashing](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Thrashing.md)
         -   [Memory Mapped
-            Files](g../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20Mapped%20Files.md)
+            Files](../Computer%20Organization%20and%20Architecture/Virtual%20Memory%20-%20Memory%20Mapped%20Files.md)
 
--   File system – [To do](g../To%20do.md#File%20System)
+-   File system – [To do](../To%20do.md#File%20System)
 
-    -   [Binary Files](gBinary%20Files.md)
+    -   [Binary Files](Binary%20Files.md)
 
-    -   [File system structure](gFile%20System%20Structure.md)
+    -   [File system structure](File%20System%20Structure.md)
 
     -   [File system
-        implementation](gFile%20System%20Implementation.md)
+        implementation](File%20System%20Implementation.md)
 
         -   [Important data structures of a file
-            system](gImportant%20data%20structures%20of%20a%20file%20system.md)
+            system](Important%20data%20structures%20of%20a%20file%20system.md)
         -   [Directory Structure
-            Implementation](gDirectory%20implementation.md)
+            Implementation](Directory%20implementation.md)
         -   [File Allocation
-            Methods](gFile%20Allocation%20Methods.md)
-        -   [Free Space Management](gFree%20Space%20Management.md)
+            Methods](File%20Allocation%20Methods.md)
+        -   [Free Space Management](Free%20Space%20Management.md)
         -   [Design considerations of a file
-            system](gDesign%20considerations%20of%20a%20file%20system.md)
-        -   [File System Recovery](gFile%20System%20Recovery.md)
+            system](Design%20considerations%20of%20a%20file%20system.md)
+        -   [File System Recovery](File%20System%20Recovery.md)
         -   File System Backup
-        -   [NFS](gNetwork%20File%20System.md)
+        -   [NFS](Network%20File%20System.md)
 
 -   IO
 
-    -   [Application IO interface](gApplication%20IO%20interface.md)
+    -   [Application IO interface](Application%20IO%20interface.md)
 
--   Protection and security – [To do](g../To%20do.md#Protection)
+-   Protection and security – [To do](../To%20do.md#Protection)
 
 ****Gate questions****
 
