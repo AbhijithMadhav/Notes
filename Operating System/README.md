@@ -29,17 +29,17 @@
             23)
         -   Readers-Writers using counting-semaphores(Figure 24)
         -   [Dining Philosophers problem using
-            semaphores](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/src/Dining%20Philosophers%20using%20semaphores/main.c)(Figure
+            semaphores](workspace/Dining%20Philosophers%20using%20semaphores/main.c)(Figure
             25)
 
     -   [Monitors](Monitors.md)
 
         -   [Bounded buffer using condition
-            variables](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20Buffer%20using%20condition%20variables/main.c)
+            variables](workspace/Bounded%20Buffer%20using%20condition%20variables/main.c)
         -   [Bounded buffer using
-            monitors](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Bounded%20buffer%20using%20monitors/src/BoundedBuffer.java)
+            monitors](workspace/Bounded%20buffer%20using%20monitors/src/BoundedBuffer.java)
         -   [Dining Philosophers problem using
-            condition-variables](Operating%20System%20Concepts%20-%208th%20Edition%20-%20Silberschatz,%20Galvin,%20Gagne/Exercises/Dining%20Philosophers%20using%20condition%20variables/main.c)
+            condition-variables](workspace/Dining%20Philosophers%20using%20condition%20variables/main.c)
 
 -   [Deadlock](Deadlocks.md) – [To do](To%20do.md#Deadlock)
 
