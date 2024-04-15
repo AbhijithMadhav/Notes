@@ -73,5 +73,4 @@ Programming
 
 Java
 
-- [Parameter passing-Evaluation strategy]
-  (Parameter%20passing%20-%20Evaluation%20Strategy.md)
+- [Parameter passing-Evaluation strategy](Parameter%20passing%20-%20Evaluation%20Strategy.md)
