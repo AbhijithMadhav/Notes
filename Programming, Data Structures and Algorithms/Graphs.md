@@ -43,7 +43,7 @@ relatively great.
   graphs](Undirected%20Graphs.md)
 
   - DFS -
-    [Implementation](../src/DFS.java)
+    [Implementation](https://github.com/AbhijithMadhav/Data-Structures-And-Algorithms/blob/master/Data%20Structures%20and%20Algorithms/src/ds/graphs/Graph.java)
   - BFS –
     [Implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/BFS.java)
   - Weighted-Quick-Union –
