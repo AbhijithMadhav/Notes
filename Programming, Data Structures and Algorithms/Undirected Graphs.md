@@ -1,7 +1,7 @@
 Undirected Graphs - Common graph processing problems
 
 [Implementation of
-a](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/Graph.java)[n](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/Graph.java)[
+a](https://github.com/AbhijithMadhav/Data-Structures-And-Algorithms/tree/master/Data%20Structures%20and%20Algorithms/src/ds/graphs/Graph.java)[
 adjacency list
 representation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/Graph.java)
 
