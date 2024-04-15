@@ -17,7 +17,7 @@ DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/D
 
 - Application of solution to the directed-graph problem is useful in
   implementing a [garbage
-  collector](../Compiler%20Design/Automatic%20memory%20management.odt)
+  collector](../Compiler%20Design/Automatic%20memory%20management.md)
 
 Multiple-source reachability – [Implementation using
 DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/DirectedDFS.java)
@@ -56,10 +56,10 @@ Single-source shortest directed path
   instead of graphs.
 
 [Precedence-constrained
-scheduling](Precedence-Constrained%20Scheduling.odt)
+scheduling](Precedence-Constrained%20Scheduling.md)
 
 [**Strongly connected
-Components**](Strongly%20connected%20components.odt)
+Components**](Strongly%20connected%20components.md)
 
 All pairs reachability
 
@@ -84,7 +84,7 @@ DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/D
 - Useful in
 
   - [Deadlock detection
-    algorithms](../Operating%20System/Deadlock%20detection%20and%20recovery.odt#Deadlock%20detection%20algorithms)
+    algorithms](../Operating%20System/Deadlock%20detection%20and%20recovery.md#Deadlock%20detection%20algorithms)
   - Semantic analyzer of a object oriented compiler(Is the inheritance
     structure of the program defined cyclically?)
 

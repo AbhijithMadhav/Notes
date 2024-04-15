@@ -21,6 +21,6 @@ solve independently.
 
 Design paradigms
 
-- [Divide and conquer](Divide%20and%20Conquer.odt)
-- [Dynamic programming](Dynamic%20programming.odt)
-- [Greedy strategy](Greedy%20Strategy.odt)
+- [Divide and conquer](Divide%20and%20Conquer.md)
+- [Dynamic programming](Dynamic%20programming.md)
+- [Greedy strategy](Greedy%20Strategy.md)

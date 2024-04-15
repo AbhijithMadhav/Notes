@@ -39,8 +39,8 @@ relatively great.
 
 Graph Traversals
 
-- [Und](Undirected%20Graphs.odt)[irected
-  graphs](Undirected%20Graphs.odt)
+- [Und](Undirected%20Graphs.md)[irected
+  graphs](Undirected%20Graphs.md)
 
   - DFS -
     [Implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/DFS.java)
@@ -49,7 +49,7 @@ Graph Traversals
   - Weighted-Quick-Union –
     [Implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/SearchWQU.java)
 
-- [Directed graphs](Directed%20Graphs.odt)
+- [Directed graphs](Directed%20Graphs.md)
 
   - DFS -
     [Implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/DirectedDFS.java)

@@ -7,7 +7,7 @@ Stacks
 
 Examples of stack clients
 
-- [Infix expression evaluation](Infix%20expression%20evaluation.odt)
+- [Infix expression evaluation](Infix%20expression%20evaluation.md)
 - [Prefix expression
   evaluation](Eclipse%20C++%20Workspace/PrefixEvaluation/PrefixEvaluation.cpp)
 - [Postfix evaluation evaluation](PostfixEvaluation.txt)

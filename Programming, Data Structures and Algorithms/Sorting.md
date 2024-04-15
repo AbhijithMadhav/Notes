@@ -72,13 +72,13 @@ Comparisons of various sorts w.r.t to the number of compares
 <td>C(N) in worst case</td>
 </tr>
 <tr class="even">
-<td><a href="Selection%20Sort.odt">Selection sort</a></td>
+<td><a href="Selection%20Sort.md">Selection sort</a></td>
 <td>= ½(N-1)N ~ O(N<sup>2</sup>)</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Insertion%20sort.odt">Insertion sort</a></td>
+<td><a href="Insertion%20sort.md">Insertion sort</a></td>
 <td>Sorted</td>
 <td>Each element moves halfway to its left</td>
 <td>Reversed </td>
@@ -93,7 +93,7 @@ Comparisons of various sorts w.r.t to the number of compares
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Bubble%20Sort.odt">Bubble sort</a></td>
+<td><a href="Bubble%20Sort.md">Bubble sort</a></td>
 <td>Sorted </td>
 <td>Complicated </td>
 <td>Reversed </td>
@@ -108,7 +108,7 @@ Comparisons of various sorts w.r.t to the number of compares
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Shell%20Sort.odt">Shell sort</a></td>
+<td><a href="Shell%20Sort.md">Shell sort</a></td>
 <td>Sorted</td>
 <td>Not mathematically determined. Empirical studies suggest that it is
 sub-quadratic</td>
@@ -123,7 +123,7 @@ sub-quadratic</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Merge%20Sort.odt">Merge sort</a></td>
+<td><a href="Merge%20Sort.md">Merge sort</a></td>
 <td>Sorted</td>
 <td>Elements are intertwined amongst the two halves such that iterations
 in one half comes to an end when the iteration in the other half is only
@@ -157,7 +157,7 @@ other</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Quick%20Sort.odt">Quick sort</a></td>
+<td><a href="Quick%20Sort.md">Quick sort</a></td>
 <td>The array has distinct elements and the pivot divides the array into
 equal halves</td>
 <td></td>
@@ -187,7 +187,7 @@ case</strong></em></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Heap%20Sort.odt">Heap sort</a></td>
+<td><a href="Heap%20Sort.md">Heap sort</a></td>
 <td>Sorted</td>
 <td></td>
 <td>Descending order</td>
@@ -335,6 +335,6 @@ Comparisons of various algorithms w.r.t to exchanges
 Linear sorting algorithms
 
 - [Counting
-  sort](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Counting%20Sort.odt)
-- [Radix sort](Radix%20Sort.odt)
-- [Bucket sort](Bucket%20Sort.odt)
+  sort](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Counting%20Sort.md)
+- [Radix sort](Radix%20Sort.md)
+- [Bucket sort](Bucket%20Sort.md)

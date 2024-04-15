@@ -132,7 +132,7 @@ Characteristics of a sample search client
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="Sequential-Search%20Symbol%20Table.odt">Unordered linked
+<td><a href="Sequential-Search%20Symbol%20Table.md">Unordered linked
 list implementation</a></td>
 <td><a href="#Inserting into a sequential ST">N comparisons</a></td>
 <td><a href="#Inserting into a sequential ST">N comparisons</a></td>
@@ -142,7 +142,7 @@ list implementation</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Binary%20Search%20Symbol%20Table.odt">Ordered array
+<td><a href="Binary%20Search%20Symbol%20Table.md">Ordered array
 implementation</a></td>
 <td>N array accesses</td>
 <td>2N array access</td>
@@ -153,11 +153,11 @@ implementation</a></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="Binary%20Search%20Trees.odt">Binary </a><a
-href="Binary%20Search%20Trees.odt">search </a><a
-href="Binary%20Search%20Trees.odt">tree</a></p>
+<td><p><a href="Binary%20Search%20Trees.md">Binary </a><a
+href="Binary%20Search%20Trees.md">search </a><a
+href="Binary%20Search%20Trees.md">tree</a></p>
 <p>(BST)</p>
-<p> <a href="../To%20do.odt#Binary%20Search%20Tree">To do</a></p></td>
+<p> <a href="../To%20do.md#Binary%20Search%20Tree">To do</a></p></td>
 <td><p>1.39 lg(N)</p>
 <p>comparisons</p></td>
 <td><p>N</p>
@@ -169,7 +169,7 @@ href="Binary%20Search%20Trees.odt">tree</a></p>
 </tr>
 <tr class="odd">
 <td></td>
-<td><a href="Balanced%20Search%20Trees.odt">Balanced search
+<td><a href="Balanced%20Search%20Trees.md">Balanced search
 trees</a></td>
 <td></td>
 <td></td>
@@ -178,7 +178,7 @@ trees</a></td>
 </tr>
 <tr class="even">
 <td><strong>AVL </strong><a
-href="AVL%20Trees.odt"><strong>T</strong></a><strong>rees</strong></td>
+href="AVL%20Trees.md"><strong>T</strong></a><strong>rees</strong></td>
 <td></td>
 <td>lg(N)</td>
 <td></td>
@@ -233,8 +233,8 @@ href="AVL%20Trees.odt"><strong>T</strong></a><strong>rees</strong></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><a href="Hashing.odt">Has</a><a href="Hashing.odt">h Tables</a> – <a
-href="../To%20do.odt#Hashing"><strong>To do</strong></a></td>
+<td><a href="Hashing.md">Has</a><a href="Hashing.md">h Tables</a> – <a
+href="../To%20do.md#Hashing"><strong>To do</strong></a></td>
 <td></td>
 <td></td>
 <td></td>

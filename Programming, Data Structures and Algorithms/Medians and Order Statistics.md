@@ -20,7 +20,7 @@ Deterministic select
 - Linear worst case performance
 - Implementation
 
-[Applications](Applications%20-%20Linear%20time%20selection.odt)
+[Applications](Applications%20-%20Linear%20time%20selection.md)
 
 To do
 

@@ -80,21 +80,21 @@ Potential method
 Applications
 
 - [Stack
-  operations](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Amortized%20analysis%20of%20stack%20operations.odt)
+  operations](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Amortized%20analysis%20of%20stack%20operations.md)
 - [Binary counter
-  operations](Amortized%20analysis%20of%20Binary%20Counter%20operations.odt)
+  operations](Amortized%20analysis%20of%20Binary%20Counter%20operations.md)
 - [Normal and power of two
-  operations](Amortized%20analysis%20of%20a%20data%20structure%20with%20normal%20and%20power-of-two%20operations.odt)
+  operations](Amortized%20analysis%20of%20a%20data%20structure%20with%20normal%20and%20power-of-two%20operations.md)
 - [Minimum heap
-  operations](Amortized%20Analysis%20of%20Min-Heap%20operations.odt)
+  operations](Amortized%20Analysis%20of%20Min-Heap%20operations.md)
 - [Queue
-  ](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.odt)[operations
+  ](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.md)[operations
   when
-  ](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.odt)[implement](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.odt)[ed](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.odt)[
+  ](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.md)[implement](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.md)[ed](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.md)[
   using two
-  stacks](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.odt)
+  stacks](Amortized%20analysis%20of%20queue%20operations%20when%20implemented%20using%20two%20stacks.md)
 - Deleting larger half -
   http://ihome.ust.hk/~zluab/teaching/comp3711h/comp3711h-t9-solutioni-q2.pdf
 - [Dynamic array
-  operations](Amortized%20analysis%20of%20the%20resizing%20operations%20on%20a%20dynamic%20table.odt)
+  operations](Amortized%20analysis%20of%20the%20resizing%20operations%20on%20a%20dynamic%20table.md)
 - Queue operations when implemented using two stacks

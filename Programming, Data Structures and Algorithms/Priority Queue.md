@@ -37,7 +37,7 @@ Performance and implementation alternatives for Priority queue
 | Insert                                                | Delete max      |         |
 | Ordered array or linked list                          | O(N)            | O(1)    |
 |  Unordered array or linked list                       | 1               | O(N)    |
-| [B](Binary%20Heap.odt)[inary heap](Binary%20Heap.odt) | O(lg N)         | O(lg N) |
+| [B](Binary%20Heap.md)[inary heap](Binary%20Heap.md) | O(lg N)         | O(lg N) |
 
 Costs of finding the largest M in a stream of N elements(M is pretty
 much smaller than N)

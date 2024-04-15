@@ -18,7 +18,7 @@ Precedence-constrained scheduling problem
 - Applications
 
   - [Finding the serializability order of
-    transactions](../Databases/Transactions.odt#Generating%20a%20serializability%20order)
+    transactions](../Databases/Transactions.md#Generating%20a%20serializability%20order)
 
 <span id="anchor"></span>Topological sort
 

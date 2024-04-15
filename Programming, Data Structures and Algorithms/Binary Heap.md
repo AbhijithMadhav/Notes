@@ -1,7 +1,7 @@
 Binary Heap
 
 - A binary heap is a data structure, a [complete binary
-  tree](Binary%20Trees.odt#Complete%20binary%20tree) in which the key
+  tree](Binary%20Trees.md#Complete%20binary%20tree) in which the key
   stored at a node satisfies a predicate(**the binary heap property**)
   with respect to the keys stored in it child nodes.
 
@@ -211,5 +211,5 @@ Will return immediately as all A\[i\] for I \> N/2 are leaf nodes
 
 Applications for binary heaps
 
-- [Heap sort](Heap%20Sort.odt)(Max heap)
-- [Priority queues](Priority%20Queue.odt)(typically min heaps)
+- [Heap sort](Heap%20Sort.md)(Max heap)
+- [Priority queues](Priority%20Queue.md)(typically min heaps)

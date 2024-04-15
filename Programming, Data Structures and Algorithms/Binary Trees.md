@@ -182,7 +182,7 @@ Types of binary trees
   [Implementation](Eclipse%20C++%20Workspace/5.84-InPreToLevel/inPreToLevel.h)
 
 - [Reconstructing binary trees from
-  tree-traversals](Reconstructing%20binary%20trees%20from%20tree-traversals.odt)
+  tree-traversals](Reconstructing%20binary%20trees%20from%20tree-traversals.md)
 
 Recursive binary tree algorithms
 

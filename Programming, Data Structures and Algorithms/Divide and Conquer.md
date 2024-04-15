@@ -5,7 +5,7 @@ Divide and Conquer
 - The sub-problems of the a problem with optimal substructure are
   typically non-overlapping.
 - If the sub-problems are overlapping, the [dynamic
-  programming](Dynamic%20programming.odt) strategy is used.
+  programming](Dynamic%20programming.md) strategy is used.
 
 Strategy
 
@@ -21,7 +21,7 @@ Strategy
 are solved in the combine stage like finding the max-crossing-sub-array
 in max-sub-array problem.
 
-[Master Theorem](Master%20Theorem.odt)
+[Master Theorem](Master%20Theorem.md)
 
 - The running time of divide and conquer algorithms can be captured by
   the recurrence

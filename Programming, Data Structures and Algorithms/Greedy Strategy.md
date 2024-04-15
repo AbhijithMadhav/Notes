@@ -51,7 +51,7 @@ per unit weight.</td>
 maximum value</td>
 </tr>
 <tr class="odd">
-<td><p><a href="Activity%20Selector.odt">Activity selection</a>/Interval
+<td><p><a href="Activity%20Selector.md">Activity selection</a>/Interval
 scheduling</p></td>
 <td><p>Select that activity which has the </p>
 <ul>
@@ -78,13 +78,13 @@ which has the largest number of activities.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="Maximize%20requests.odt">Cabs – Maximizing
+<td><a href="Maximize%20requests.md">Cabs – Maximizing
 requests</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="Minimize%20cabs.odt">Cabs – Minimizing cabs</a></td>
+<td><a href="Minimize%20cabs.md">Cabs – Minimizing cabs</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -95,10 +95,10 @@ requests</a></td>
 largest total profit</td>
 </tr>
 <tr class="even">
-<td><p><a href="Minimum%20spanning%20tree.odt#Prims%20Algorithm">Prims
-algorithm</a><a href="Minimum%20spanning%20tree.odt#Prims%20Algorithm">
+<td><p><a href="Minimum%20spanning%20tree.md#Prims%20Algorithm">Prims
+algorithm</a><a href="Minimum%20spanning%20tree.md#Prims%20Algorithm">
 for minimum </a><a
-href="Minimum%20spanning%20tree.odt#Prims%20Algorithm">spanning
+href="Minimum%20spanning%20tree.md#Prims%20Algorithm">spanning
 trees</a></p></td>
 <td>Select a vertex from the among the neighbouring ones which is at the
 least distance from the construction-in-progress MST.</td>
@@ -107,23 +107,23 @@ minimum weight.</td>
 </tr>
 <tr class="odd">
 <td><p><a
-href="../../../../tmp/Minimum%20spanning%20tree.odt#Kruskals%20Algorithm">Kruskal's
+href="../../../../tmp/Minimum%20spanning%20tree.md#Kruskals%20Algorithm">Kruskal's
 algorith</a><a
-href="../../../../tmp/Minimum%20spanning%20tree.odt#Kruskals%20Algorithm">m</a><a
-href="../../../../tmp/Minimum%20spanning%20tree.odt#Kruskals%20Algorithm">
+href="../../../../tmp/Minimum%20spanning%20tree.md#Kruskals%20Algorithm">m</a><a
+href="../../../../tmp/Minimum%20spanning%20tree.md#Kruskals%20Algorithm">
 </a><a
-href="../../../../tmp/Minimum%20spanning%20tree.odt#Kruskals%20Algorithm">for
+href="../../../../tmp/Minimum%20spanning%20tree.md#Kruskals%20Algorithm">for
 </a><a
-href="../../../../tmp/Minimum%20spanning%20tree.odt#Kruskals%20Algorithm">minimum
+href="../../../../tmp/Minimum%20spanning%20tree.md#Kruskals%20Algorithm">minimum
 spanning trees</a></p></td>
 <td>Select an edge with the least weight which does not form a cycle the
 construction-in-progress MST.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../../../../tmp/Dijkstra&#39;s%20algorithm.odt">Dijkstra's
-</a><a href="../../../../tmp/Dijkstra&#39;s%20algorithm.odt">algorithm
-</a><a href="../../../../tmp/Dijkstra&#39;s%20algorithm.odt">shortest
+<td><a href="../../../../tmp/Dijkstra&#39;s%20algorithm.md">Dijkstra's
+</a><a href="../../../../tmp/Dijkstra&#39;s%20algorithm.md">algorithm
+</a><a href="../../../../tmp/Dijkstra&#39;s%20algorithm.md">shortest
 path</a></td>
 <td>Select a vertex from the among the neighbouring ones which is at the
 least distance from the source vertex of the construction-in-progress

@@ -27,9 +27,9 @@ Types of Digraphs shortest path algorithms address
 |                                                                                                                           |                                                                                                                                                                          |                     |
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | Algorithm                                                                                                                 | Digraph with negative weighted edge                                                                                                                                      | Digraph with Cycles |
-| [Dijkstra's algorithm](Dijkstra's%20algorithm.odt)                                                                        | Finds the shortest path only if there are no negative cycles in which case it will enter into an infinite loop.                                                          | Yes                 |
-| [Topological sort based shortest-path algorithm for acyclic DAG's](Shortest-path%20algorithm%20for%20ACyclic%20DAG's.odt) | Yes                                                                                                                                                                      | No                  |
-| [Bellman-Ford algorithm](Bellman-Ford%20algorithm.odt)                                                                    | Finds the shortest path only if there are no negative cycles. If there are negative cycles, it will detect them and report the absence of a shortest-path spanning tree. | Yes                 |
+| [Dijkstra's algorithm](Dijkstra's%20algorithm.md)                                                                        | Finds the shortest path only if there are no negative cycles in which case it will enter into an infinite loop.                                                          | Yes                 |
+| [Topological sort based shortest-path algorithm for acyclic DAG's](Shortest-path%20algorithm%20for%20ACyclic%20DAG's.md) | Yes                                                                                                                                                                      | No                  |
+| [Bellman-Ford algorithm](Bellman-Ford%20algorithm.md)                                                                    | Finds the shortest path only if there are no negative cycles. If there are negative cycles, it will detect them and report the absence of a shortest-path spanning tree. | Yes                 |
 
 Properties of shortest paths
 
@@ -70,6 +70,6 @@ Analysis of different shortest-path algorithms
 |                                                                                                                                      |           |       |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------|-------|
 | Algorithm                                                                                                                            | Time      | Space |
-| [Dijkstra's algorithm](Dijkstra's%20algorithm.odt#Complexity)                                                                        | O(V lg V) | O(V)  |
-| [Topological sort based shortest-path algorithm for acyclic DAG's](Shortest-path%20algorithm%20for%20ACyclic%20DAG's.odt#Complexity) | O(E + V)  | O(V)  |
-| [Bellman-Ford algorithm](Bellman-Ford%20algorithm.odt#Complexity)                                                                    | O(VE)     | O(V)  |
+| [Dijkstra's algorithm](Dijkstra's%20algorithm.md#Complexity)                                                                        | O(V lg V) | O(V)  |
+| [Topological sort based shortest-path algorithm for acyclic DAG's](Shortest-path%20algorithm%20for%20ACyclic%20DAG's.md#Complexity) | O(E + V)  | O(V)  |
+| [Bellman-Ford algorithm](Bellman-Ford%20algorithm.md#Complexity)                                                                    | O(VE)     | O(V)  |

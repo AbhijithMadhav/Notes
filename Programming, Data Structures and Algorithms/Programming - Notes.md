@@ -1,13 +1,13 @@
 Programming
 
-- [C](C.odt)
+- [C](C.md)
 - [Parameter passing
-  ](Parameter%20passing%20-%20Evaluation%20Strategy.odt)[-
-  ](Parameter%20passing%20-%20Evaluation%20Strategy.odt)[Evaluation
-  strategy](Parameter%20passing%20-%20Evaluation%20Strategy.odt)
-- [Binding](Binding.odt)
+  ](Parameter%20passing%20-%20Evaluation%20Strategy.md)[-
+  ](Parameter%20passing%20-%20Evaluation%20Strategy.md)[Evaluation
+  strategy](Parameter%20passing%20-%20Evaluation%20Strategy.md)
+- [Binding](Binding.md)
 - [Controversy about multiple
-  inheritance](Controversy%20about%20multiple%20inheritance.odt)
+  inheritance](Controversy%20about%20multiple%20inheritance.md)
 
 Gate Questions
 
@@ -35,7 +35,7 @@ Gate Questions
   - ****G – 20****12**** – ****10, ****50, 51****
 
 - Parameter passing [-
-  ](Parameter%20passing%20-%20Evaluation%20Strategy.odt)Evaluation
+  ](Parameter%20passing%20-%20Evaluation%20Strategy.md)Evaluation
   strategy
 
   - TG – 2255 – 50, 51

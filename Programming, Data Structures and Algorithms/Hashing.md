@@ -6,7 +6,7 @@ If there were no memory limitation, then we could do any search with
 only one memory access by simply using the key as an index in a
 potentially huge array. The array would be as large as to accommodate
 all possible key values. - [Direct Address
-](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Direct%20addressing%20table.odt)[Tables](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Direct%20addressing%20table.odt)
+](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Direct%20addressing%20table.md)[Tables](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Direct%20addressing%20table.md)
 
 If there were no time limitation, then we could do a sequential search
 in a single unordered array only as big as the number of keys.
@@ -29,7 +29,7 @@ Motivation for hashing based symbol tables
 Stages in search algorithms that use hashing
 
 - **Computing the hash of a key using a **[**hash
-  function**](Hash%20Functions.odt)
+  function**](Hash%20Functions.md)
 
   - With direct addressing a key k is stored in slot k. In hashing, a
     key k is stored in h(k). h : U → { 0, 1, …, m} is the hashing
@@ -47,9 +47,9 @@ Stages in search algorithms that use hashing
 
   - There are two main methods used
 
-    - [Chaining](Collision%20resolution%20with%20chaining.odt)
+    - [Chaining](Collision%20resolution%20with%20chaining.md)
     - [Open
-      addressing](Collision%20resolution%20with%20open%20addressing.odt)
+      addressing](Collision%20resolution%20with%20open%20addressing.md)
 
 Closed vs open
 

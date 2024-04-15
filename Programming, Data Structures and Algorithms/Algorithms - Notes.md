@@ -1,6 +1,6 @@
 Algorithms
 
-- [Sorting](Sorting.md) – [**To do**](../To%20do.odt#Sorting)
+- [Sorting](Sorting.md) – [**To do**](../To%20do.md#Sorting)
 
 - Analysis of algorithms – [**To
   do**](../To%20do.md#Asymptotic%20notation)
@@ -23,7 +23,7 @@ Algorithms
   - [Undirected graphs](Undirected%20Graphs.md)
   - [Directed Graphs](Directed%20Graphs.md)
   - [Minimum spanning trees](Minimum%20spanning%20tree.md)
-  - [Sho](Shortest%20Paths.odt)[rtest Paths](Shortest%20Paths.md)
+  - [Sho](Shortest%20Paths.md)[rtest Paths](Shortest%20Paths.md)
   - [N](Network%20flow%20.md)[etwork flow
     problem](Network%20flow%20.md)
 

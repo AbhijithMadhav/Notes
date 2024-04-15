@@ -41,7 +41,7 @@ Analysis
   operation would be an unacceptable$$\Theta{(n)}$$ as L = n.
 - However an average-case bound of O(1) can be guaranteed.
 - When the hashing function, h, is chosen **randomly** from a [universal
-  collection of hash functions](Universal%20Hashing.odt) the expected
+  collection of hash functions](Universal%20Hashing.md) the expected
   length of the list that a key k hashes to,
   $$E{\lbrack n_{h{(k)}}\rbrack}$$, is equal the load factor
   $$\alpha = {n/m}$$. Thus as long as the load factor is monitored to be
@@ -49,7 +49,7 @@ Analysis
   O(1) – **Notes 21**
 - The load factor can be monitored to be a constant factor by using a
   dynamic array. The total [amortized
-  ](Amortized%20analysis%20of%20the%20resizing%20operations%20on%20a%20dynamic%20table.odt)[cost](Amortized%20analysis%20of%20the%20resizing%20operations%20on%20a%20dynamic%20table.odt)
+  ](Amortized%20analysis%20of%20the%20resizing%20operations%20on%20a%20dynamic%20table.md)[cost](Amortized%20analysis%20of%20the%20resizing%20operations%20on%20a%20dynamic%20table.md)
   including the effects of resizing for a insert and delete is still
   proportional to the **number of operations**(i.e constant per
   operation).

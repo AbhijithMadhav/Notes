@@ -27,9 +27,9 @@ Implementation
 
 - Different ways of partitioning
 
-  - [2-way partitioning](2-way%20partitioning.odt)
-  - [3-way partitioning](3-way%20partitioning.odt)
-  - [Fast 3-way partitioning](Fast%203-way%20partitioning.odt)
+  - [2-way partitioning](2-way%20partitioning.md)
+  - [3-way partitioning](3-way%20partitioning.md)
+  - [Fast 3-way partitioning](Fast%203-way%20partitioning.md)
 
 - Optimized implementation
 
@@ -97,7 +97,7 @@ Discussion
 - Unstable
 - Randomized algorithm
 - Application – [linear time
-  selection](Medians%20and%20Order%20Statistics.odt)
+  selection](Medians%20and%20Order%20Statistics.md)
 
 Why is quick-sort preferred over merge-sort even if the average number
 of compares is lesser in favour of merge-sort(¾ N lg(N) vs. 1.39 N
