@@ -3,7 +3,7 @@ Undirected Graphs - Common graph processing problems
 [Implementation of an adjacency list representation](src/ds/graphs/Graph.java)
 
 Single-source connectivity – [Implementation using
-DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/SearchDFS.java)
+DFS](src/ds/graphs/SearchDFS.java)
 
 - Is a given vertex connected to the **source vertex**?
 - How many vertices are connected to the **source vertex**?
@@ -17,7 +17,7 @@ Multiple-source connectivity
   collect the data.
 
 Single-source path – [Implementation using
-DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/PathsDFS.java)
+DFS](src/ds/graphs/PathsDFS.java)
 
 - Is there a path between a **source vertex s** and another given vertex
   v?
@@ -25,7 +25,7 @@ DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/P
 - Algorithm - Run a DFS on the source vertex and collect the data
 
 Single-source shortest path – [Implementation using
-BFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/PathsBFS.java)
+BFS](src/ds/graphs/PathsBFS.java)
 
 - Problem
 
@@ -38,11 +38,11 @@ BFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/P
   - Run a BFS on the source vertex and collect the data
 
 Connectivity problem -
-[Implementatio](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/ConnectedComponentsDFS.java)[n
+[Implementatio](src/ds/graphs/ConnectedComponentsDFS.java)[n
 using
-DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/ConnectedComponentsDFS.java)
+DFS](src/ds/graphs/ConnectedComponentsDFS.java)
 – [Implementation using
-Union-Find](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/UnionFind.java)
+Union-Find](src/ds/graphs/UnionFind.java)
 
 - Problem
 
@@ -78,15 +78,15 @@ Union-Find](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graph
     dynamic requirement.
 
 Finding cycles – [Implementation using
-DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/CycleDFS.java)
+DFS](src/ds/graphs/CycleDFS.java)
 
 - Is a given graph cyclic?
 
 **Bipartite graph** – [Implementation using
-DFS](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/BipartiteDFS.java)
+DFS](src/ds/graphs/BipartiteDFS.java)
 
 - Is the graph bipartite?
 
 **Symbol Graphs** -
-[Implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Graphs/src/StringGraph.java)
+[Implementation](src/ds/graphs/StringGraph.java)
 – Degrees of separation
