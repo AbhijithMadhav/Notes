@@ -1,6 +1,6 @@
 Undirected Graphs - Common graph processing problems
 
-[Implementation of an adjacency list representation](src/ds/graphs/Graph.java)
+[Implementation of an adjacency list representation](https://github.com/AbhijithMadhav/Data-Structures-And-Algorithms/blob/master/Data%20Structures%20and%20Algorithms/src/ds/graphs/Graph.java)
 
 Single-source connectivity – [Implementation using
 DFS](src/ds/graphs/SearchDFS.java)
