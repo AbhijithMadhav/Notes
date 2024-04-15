@@ -1,20 +1,19 @@
-Graphs
+# Graphs
 
-Sparse graph
+## Sparse graph
 
 A graph is sparse if the number of edges is within a **small** constant
 factor of the number of vertices.
 
 i.e., \|E\| = c\|V\|
 
-Dense graph
+## Dense graph
 
 A graph is dense if it has almost all the the possible edges
 
 i.e., \|E\| ~ \|V\|\|V-1\|/2
 
-Comparison of space and time complexity of basic graph operations w.r.t.
-different underlying representations
+## Comparison of space and time complexity of basic graph operations w.r.t. different underlying representations
 
 |                  |               |              |                                  |                                        |
 |------------------|---------------|--------------|----------------------------------|----------------------------------------|
@@ -24,20 +23,21 @@ different underlying representations
 | Adjacency list   | V + E         | 1            | degree(v)                        | degree(v)                              |
 | Adjacency set    | V + E         |              |                                  |                                        |
 
-When is an adjacency list suitable for representation of a graph?
+## FAQ's
+### When is an adjacency list suitable for representation of a graph?
 
 When the graph is sparse. It has a relatively small number of edges.
 Representing this graph in a V \* V matrix leads to a lot of wastage of
 space as a lot of array entires will go unmarked.
 
-When is a matrix suitable for graph representation?
+### When is a matrix suitable for graph representation?
 
 When the graph is dense. The overhead of pointers in lists of a
 adjacency list becomes very much greater than the wasted space due to
 unused entries in a matrix representation as the number of edges are
 relatively great.
 
-Graph Traversals
+## Graph Traversals
 
 - [Und](Undirected%20Graphs.md)[irected
   graphs](Undirected%20Graphs.md)
@@ -61,8 +61,6 @@ V + E, where
 
 - V is the number of visits to vertices
 - E is the number of stack(DFS) or queue(BFS) operations
-
-2238 – Q.3
 
 In any directed graph, if the out degree of each vertex is at least one,
 then there is a directed cycle. If the indegree of each vertex is
