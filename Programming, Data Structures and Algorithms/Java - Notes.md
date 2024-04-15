@@ -1,2 +1,0 @@
-- [Access Specifiers](Access%20Specifiers%20in%20Java.md)
-- [Nested Classes](Nested%20Classes.md)
