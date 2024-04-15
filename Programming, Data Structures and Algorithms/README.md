@@ -29,7 +29,7 @@ Algorithms
   upper and lower bounds
 
 [Maximum-sum
-subsequence](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Maximum-sum%20subsequence.md)
+subsequence](Maximum-sum%20subsequence.md)
 
 [Maximum-product subsequence](Maximum-product%20subsequence.md)
 
@@ -55,7 +55,7 @@ Data Structures
   - [Symbol Tabl](Symbol%20Tables.md)[es](Symbol%20Tables.md)
   - [Binary Heap](Binary%20Heap.md)
   - [Binomial
-    heap](../../../Academic/Programming,%20Data%20Structures%20and%20Algorithms/Notes/Binomial%20Heap.md)
+    heap](Binomial%20Heap.md)
   - [Fibonacci heap](Fibonacci%20Heaps.md)
   - Data structures for disjoint sets
 
