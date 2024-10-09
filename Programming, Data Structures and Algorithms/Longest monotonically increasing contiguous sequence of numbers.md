@@ -9,7 +9,7 @@ monotonically increasing **contiguous** subsequence.
 Non-memoized solution
 
 - Determine the lengths of every possible **contiguous**
-  subsequence$$\left( \frac{n{({n + 1})}}{2} \right)$$ and then find the
+  subsequence $$\left( \frac{n{({n + 1})}}{2} \right)$$ and then find the
   largest one.
 
 Problem characteristics
@@ -26,16 +26,16 @@ Does the optimization problem have an optimal substructure? - Yes
 - If $$L_{i}$$ denotes the length of the longest monotonically
   increasing contiguous subsequence **starting at index** $$i$$ in the
   given sequence, the longest monotonically increasing contiguous
-  subsequence can be described in terms of its subproblems as
-  $$\mathit{\max}{({L_{1,}L_{2,}\ldots,L_{n}})}$$, where,
-  $$L_{i} = \left\{ \begin{matrix}
+  subsequence can be described in terms of its subproblems as 
+  $$\mathit{\max}{({L_{1,}L_{2,}\ldots,L_{n}})}$$, where, 
+   $$L_{i} = \left\{ \begin{matrix}
   {{1 + L_{i + 1}},} & {\mathit{if}{a_{i} < a_{i + 1}}} \\
   1, & \mathit{otherwise}
   \end{matrix} \right.$$.
 
 Are subproblems involved in the candidate solution independent?
 
-Every candidate solution,$$\left( {1 + L_{i + 1}} \right)$$, involves
+Every candidate solution, $$\left( {1 + L_{i + 1}} \right)$$ , involves
 only one subproblem. So the question of independence does not arise.
 
 Characteristics of the subproblem space
