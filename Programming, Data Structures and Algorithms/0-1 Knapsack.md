@@ -124,4 +124,4 @@ Running time
 - Bottom up method with memoization
 
   - The running time is easy to see. There is a nested for loop which
-    results in$$T{{(n)} = \Theta}{(\mathit{cn})}$$
+    results in $$T{{(n)} = \Theta}{(\mathit{cn})}$$
