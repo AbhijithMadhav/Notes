@@ -1,18 +1,18 @@
-Longest monotonically increasing sequence of contiguous numbers
+# Longest monotonically increasing sequence of contiguous numbers
 
-Problem
+### Problem
 
 Given a sequence of numbers,
 **$$\langle{a_{1,}a_{2,}\ldots,a_{n}}\rangle$$**, find the longest
 monotonically increasing **contiguous** subsequence.
 
-Non-memoized solution
+### Non-memoized solution
 
 - Determine the lengths of every possible **contiguous**
   subsequence $$\left( \frac{n{({n + 1})}}{2} \right)$$ and then find the
   largest one.
 
-Problem characteristics
+### Problem characteristics
 
 Is this an optimization problem? - Yes
 
@@ -38,7 +38,7 @@ Are subproblems involved in the candidate solution independent?
 Every candidate solution, $$\left( {1 + L_{i + 1}} \right)$$ , involves
 only one subproblem. So the question of independence does not arise.
 
-Characteristics of the subproblem space
+### Characteristics of the subproblem space
 
 - **Overlapping subproblems?**
 
@@ -49,7 +49,7 @@ Characteristics of the subproblem space
 
   - Distinct number of subproblems = n, $$L_{1,}L_{2,}\ldots,L_{n}$$
 
-Running time
+### Running time
 
 - Non-memoized solution - $$O{(n^{3})}$$
 
@@ -59,9 +59,9 @@ Running time
 
 - Memoized solution - $$\Theta{(n)}$$
 
-  A total of $$n$$ subproblems, $$L_{1,}L_{2,}\ldots,L_{n}$$, are
+  A total of $$n$$ subproblems, $$L_{1,}L_{2,} ...,L_{n}$$ , are
   solved, each of which require one comparison when solved in the
-  correct order$$\left( {L_{n},L_{n - 1},\ldots,L_{1}} \right)$$ . This
+  correct order $$\left( {L_{n},L_{n - 1} ,...,L_{1}} \right)$$ . This
   adds up to $$\Theta{(n)}$$ comparisons. Another $$n$$ comparisons are
   required to find the length of the longest monotonically increasing
   contiguous subsequence.
