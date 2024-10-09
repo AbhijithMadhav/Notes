@@ -1,4 +1,4 @@
-Longest common subsequence
+# Longest common subsequence
 
 [Top-down
 implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Design%20of%20Algorithms/Dynamic%20programming/TDLCS.java)
@@ -6,22 +6,22 @@ implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/D
 [Bottom-up
 implementation](Algorithms,%204th%20Edition%20-%20Sedgewick,%20Wayne/Exercises/Design%20of%20Algorithms/Dynamic%20programming/BULCS.java)
 
-Subsequence
+### Subsequence
 
 A subsequence of a given sequence is just the given sequence with zero
 or more elements left out.
 
-Common subsequence
+### Common subsequence
 
 A sequence Z is a common subsequence of X and Y if Z is the subsequence
 of both X and Y.
 
-Longest common subsequence problem
+### Longest common subsequence problem
 
 Given two subsequences X and Y, find the length of the longest common
 subsequence of X and Y.
 
-Brute force method
+### Brute force method
 
 - Enumerate all the subsequences of X. X is of length m. Thus there are
   2<sup>m</sup> subsequences.
@@ -29,20 +29,20 @@ Brute force method
   keeping track of the length of the longest subsequence we find.
 - This approach required exponential time.
 
-Notation for prefix of a sequence
+### Notation for prefix of a sequence
 
 Given a sequence X = \< x<sub>1</sub>, x<sub>2</sub>, …,
 x<sub>m</sub>\>, the i'th prefix of X is X<sub>i</sub> = \<
 x<sub>1</sub>, x<sub>2</sub>, …, x<sub>i</sub>\>
 
-Problem characteristics
+### Problem characteristics
 
-Is this an optimization problem? - Yes
+**Is this an optimization problem? - Yes**
 
 There can be **possibly** 2<sup>min(m, n)</sup> common subsequences. We
 seek the longest one.
 
-Does the optimization problem have optimal-substructure? - Yes
+**Does the optimization problem have optimal-substructure? - Yes**
 
 Let X = \< x<sub>1</sub>, x<sub>2</sub>, …, x<sub>m</sub>\> and Y = \<
 y<sub>1</sub>, y<sub>2</sub>, …, y<sub>n</sub>\> be the given sequences,
@@ -71,7 +71,7 @@ find the longest among them. Each of these common subsequences are the
 optimally longest for the respective combination of positions in X and
 Y.
 
-Are the subproblems involved in a candidate solution independent? - Yes
+**Are the subproblems involved in a candidate solution independent? - Yes**
 
 Only in cases where x<sub>i</sub> != y<sub>j </sub>are there multiple
 subproblems( A pair to be precise) involved in forming a candidate
@@ -83,7 +83,7 @@ solution
 Finding the LCS or its length of any pair of subsequences will not
 affect the LCS of any other pair of subsequences.
 
-Characteristics of the subproblem space
+### Characteristics of the subproblem space
 
 - Are there overlapping subproblems? - Yes
 
@@ -108,7 +108,7 @@ Characteristics of the subproblem space
     sequences.
   - In this case a top-down approach with memoization is more efficient.
 
-Running time
+### Running time
 
 - Naive divide and conquer solution
 
